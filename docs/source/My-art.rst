@@ -106,12 +106,12 @@ Interactive Visualizations
 
 ## 2. Quarterly GDP Growth Trend
 
-{% include-markdown assets/GDP_plot.html %}
+{% include-markdown source/GDP_plot.html %}
 *Figure 2. Quarterly U.S. GDP growth, 1946–2025.*
 
 ## 3. Migrant Contribution to 2024 U.S. GDP
 
-{% include-markdown assets/pie_2024.html %}
+{% include-markdown pie_2024.html %}
 *Figure 3. 2024 U.S. GDP share by migrant origin country.*
 
 
