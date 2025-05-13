@@ -99,6 +99,22 @@ Interactive Visualizations
 
    Comparative chart of GDP contributions by migrant groups versus global GDPs.
 
+## 1. U.S. GDP Since 1947
+
+{% include-markdown assets/gdp_history.html %}
+*Figure 1. U.S. real GDP by quarter, 1947–2025.*
+
+## 2. Quarterly GDP Growth Trend
+
+{% include-markdown assets/GDP_plot.html %}
+*Figure 2. Quarterly U.S. GDP growth, 1946–2025.*
+
+## 3. Migrant Contribution to 2024 U.S. GDP
+
+{% include-markdown assets/pie_2024.html %}
+*Figure 3. 2024 U.S. GDP share by migrant origin country.*
+
+
 ---
 
 Take Action
