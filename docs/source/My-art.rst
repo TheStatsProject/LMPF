@@ -101,7 +101,7 @@ Interactive Visualizations
 
 ## 1. U.S. GDP Since 1947
 
-{% include-markdown assets/gdp_history.html %}
+{% include-markdown docs/source/gdp_history.html %}
 *Figure 1. U.S. real GDP by quarter, 1947–2025.*
 
 ## 2. Quarterly GDP Growth Trend
