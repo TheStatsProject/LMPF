@@ -18,7 +18,7 @@ A review based on U.S. Federal Reserve & Census Bureau data, plus Latino Donor C
 
 ## 1. U.S. GDP Since 1947
 
-.. raw:: html
+.. raw:: GDP_plot.html
 
     <div style="width:100%; height:400px;">
       <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
