@@ -1,98 +1,114 @@
-The Untold Truth Behind President Sheinbaum's Bold Claims
-=========================================================
+## 🔍 Economic Insights: Migrant Labor Force and GDP Contributions
 
-A review based on U.S. Federal Reserve & Census Bureau data, plus Latino Donor Collaborative analysis.
-
----
-
-> “In today’s information battlefield, clarity is your greatest weapon.” 🚀
+This section provides an in-depth analysis of U.S. labor force participation and GDP contributions by foreign-born populations, powered by data from the U.S. Census Bureau and the Federal Reserve Economic Data (FRED) API.
 
 ---
 
-## Why This Matters Now
-- **Transparency Alarm**: Social feeds overflow with spin—our analysis cuts through the noise.
-- **Power Shift**: Mexican migrant labor drove **41%** of U.S. GDP growth (2019–2022).
-- **Investor Edge**: Knowing the real numbers is the first step to trillion-dollar bets on North America.
+### 📋 Why This Analysis Matters
+- **Economic Transparency**: Offers a data-driven perspective on the role of migrant labor in the U.S. economy.
+- **Policy Implications**: Highlights the contributions of foreign-born workers to inform immigration and economic policies.
+- **Investor Insights**: Identifies key sectors and demographics driving economic growth.
 
 ---
 
-## 1. U.S. GDP Since 1947
+### 🔑 Methodology Overview
 
-.. raw:: GDP_plot.html
+#### Data Sources
+1. **Census Bureau API**: Provides population data for native and foreign-born groups.
+2. **FRED API**: Supplies GDP and labor force participation rates.
+3. **Custom Analysis**: Projects GDP contributions by nationality based on labor force participation.
 
-    <div style="width:100%; height:400px;">
-      <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
-      <div id="gdp-history" style="height:100%; width:100%;"></div>
-      <script>
-        Plotly.newPlot("gdp-history", /* data + layout loaded from gdp_history.json */);
-      </script>
-    </div>
+#### Key Variables
+- **CENSUS_KEY**: API key for accessing U.S. Census data.
+- **FRED_KEY**: API key for accessing FRED economic data.
+- **GDP_SERIES**: Real GDP series identifier (`GDPC1`).
+- **MEX_LFP_SERIE**: Labor force participation rate for Mexican-born workers (`LNU01373395`).
+- **ACS_YEARS**: List of years prioritizing the most recent available ACS data.
 
-*Figure 1. U.S. real GDP by quarter, 1947–2025.*
+#### Steps
+1. Fetch and analyze GDP data for 2024 and project it forward to 2025.
+2. Estimate labor force participation for native and foreign-born populations.
+3. Calculate GDP contributions by nationality and project future trends.
+4. Visualize results through interactive charts and tables.
 
 ---
 
-## 2. Quarterly GDP Growth Trend
+### 📊 Key Findings
 
+#### 1. Migrant Labor Force Participation
+- **Mexican-born workers**: Labor force participation rate of **{mex_lfp_rate:.2%}** for 2024.
+- **Active labor force**: Foreign-born workers contribute significantly to economic productivity.
+
+#### 2. GDP Contributions
+- **Total GDP (2024)**: USD **${GDP_2024:,.0f} billion**.
+- **Projected GDP (2025)**: USD **${GDP_2025:,.0f} billion** (assuming a growth rate of {GDP_GROWTH:.2%}).
+- **Foreign-born GDP share**: Significant contributions, with **top 15 migrant groups** highlighted below.
+
+#### 3. Top 15 Migrant Groups by GDP Contribution
+.. list-table::
+   :header-rows: 1
+
+   * - Country
+     - Active Labor Force
+     - GDP Contribution (billion USD)
+     - GDP/Worker (thousand USD)
+   * - **Mexico**
+     - {group_pop['Mexico']:,}
+     - ${group_gdp['Mexico']:,.1f}
+     - ${group_gdp_pc['Mexico']:,.1f}
+   * - **India**
+     - {group_pop['India']:,}
+     - ${group_gdp['India']:,.1f}
+     - ${group_gdp_pc['India']:,.1f}
+   * - **China**
+     - {group_pop['China']:,}
+     - ${group_gdp['China']:,.1f}
+     - ${group_gdp_pc['China']:,.1f}
+   * - … (others in the top 15)
+
+---
+
+### 📈 Interactive Visualizations
+
+#### 1. Bar Chart: Top 10 Migrant Groups by GDP Contribution
 .. raw:: html
 
-    <div style="width:100%; height:400px;">
-      <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
-      <div id="gdp-plot" style="height:100%; width:100%;"></div>
-      <script>
-        Plotly.newPlot("gdp-plot", /* data + layout loaded from GDP_plot.json */);
-      </script>
-    </div>
+   <div style="width:100%; height:400px;">
+     <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+     <div id="bar-top10" style="height:100%; width:100%;"></div>
+     <script>
+       Plotly.newPlot("bar-top10", /* data + layout loaded from bar_chart.json */);
+     </script>
+   </div>
 
-*Figure 2. Quarterly U.S. GDP growth, 1946–2025.*
-
----
-
-## 3. Migrant Contribution to 2024 U.S. GDP
-
+#### 2. Pie Chart: GDP Share by Migrant Cohort
 .. raw:: html
 
-    <div style="width:100%; height:400px;">
-      <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
-      <div id="pie-2024" style="height:100%; width:100%;"></div>
-      <script>
-        Plotly.newPlot("pie-2024", /* data + layout loaded from pie_2024.json */);
-      </script>
-    </div>
+   <div style="width:100%; height:400px;">
+     <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+     <div id="pie-2024" style="height:100%; width:100%;"></div>
+     <script>
+       Plotly.newPlot("pie-2024", /* data + layout loaded from pie_chart.json */);
+     </script>
+   </div>
 
-*Figure 3. 2024 U.S. GDP share by migrant origin country.*
+#### 3. Comparison: Migrant Groups vs. World GDPs
+.. raw:: html
 
----
-
-## 🔍 Key Sheinbaum Claims vs. Reality
-1. **20% Remittances → 80% Domestic Impact**
-   Migrants send 20% home; their **$625 billion** domestic spend supercharges U.S. consumption and taxes.
-2. **$781 B GDP → 10th-Largest “Economy”**
-   If U.S. Mexican-origin workers were a standalone nation, they’d outpace Australia.
-3. **60% Lower Crime, 20% Entrepreneurs**
-   One in five launches businesses (>$95 B revenue), while crime rates among migrants are 60% below U.S. norms.
-4. **Undocumented Taxes: $96.7 B in 2022**
-   Includes $26 B Social Security, $6 B Medicare, $1.8 B unemployment—funding key services.
-5. **Essential Industry Roles**
-   51% of dairy, 28% of healthcare aides, 25% of construction workers: migrants keep critical sectors running.
+   <div style="width:100%; height:400px;">
+     <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+     <div id="comp-gdp" style="height:100%; width:100%;"></div>
+     <script>
+       Plotly.newPlot("comp-gdp", /* data + layout loaded from comparison_chart.json */);
+     </script>
+   </div>
 
 ---
 
-## 🚀 Investor Playbook
-- **Sector Bets**: Fund high-migrant industries—agriculture, food processing, elder care.
-- **Consumer Trends**: Develop bilingual fintech, retail, and housing platforms.
-- **Startup Pipeline**: Back incubators targeting immigrant entrepreneurs (20% formation rate).
-
----
-
-### 🌍 Amplify with These Influencers
-Tag or share with top economists to go viral:
-
-- **Paul Krugman** (NYT)
-- **Stephanie Kelton** (MMT)
-- …and 28 more in our `Top 30 Global Economic Influencers <#>`_ list.
-
-> **📢 Call to Action:** Share with **#VibecessionDecoded** and push this to your feed—let’s cut through the noise together.
+### 🚀 Take Action
+- **Policy Recommendations**: Invest in sectors with high migrant labor participation (e.g., healthcare, construction).
+- **Investor Opportunities**: Develop bilingual consumer platforms to capture market share.
+- **Future Research**: Extend analysis to other demographic groups and forecast long-term trends.
 
 ---
 
