@@ -80,40 +80,62 @@ Interactive Visualizations
 
 1. **Bar Chart: Top 10 Migrant Groups by GDP Contribution**
 
-.. figure:: bar_2024.html
-   :alt: Bar chart of top migrant groups by GDP contribution
+.. raw:: html
 
-   Bar chart visualizing the GDP contribution of the top 10 migrant groups.
+   <iframe src="_static/bar_2024.html" width="800" height="600">
+      Your browser does not support iframes. Please view the visualization directly at
+      <a href="_static/bar_2024.html">this link</a>.
+   </iframe>
 
 2. **Pie Chart: GDP Share by Migrant Cohort**
 
-.. figure:: /path/to/pie_chart.png
-   :alt: Pie chart of GDP share by migrant cohort
+.. raw:: html
 
-   Pie chart showing the GDP share distribution among migrant cohorts.
+   <iframe src="_static/pie_chart.html" width="800" height="600">
+      Your browser does not support iframes. Please view the visualization directly at
+      <a href="_static/pie_chart.html">this link</a>.
+   </iframe>
 
 3. **Comparison: Migrant Groups vs. World GDPs**
 
-.. figure:: /path/to/comparison_chart.png
-   :alt: Comparison chart of migrant groups vs. world GDPs
+.. raw:: html
 
-   Comparative chart of GDP contributions by migrant groups versus global GDPs.
+   <iframe src="_static/comparison_chart.html" width="800" height="600">
+      Your browser does not support iframes. Please view the visualization directly at
+      <a href="_static/comparison_chart.html">this link</a>.
+   </iframe>
 
-## 1. U.S. GDP Since 1947
+---
 
-{% include-markdown docs/source/gdp_history.html %}
-*Figure 1. U.S. real GDP by quarter, 1947–2025.*
+Historical and Quarterly GDP Trends
+-----------------------------------
 
-## 2. Quarterly GDP Growth Trend
+**1. U.S. GDP Since 1947**
 
-{% include-markdown source/GDP_plot.html %}
-*Figure 2. Quarterly U.S. GDP growth, 1946–2025.*
+.. raw:: html
 
-## 3. Migrant Contribution to 2024 U.S. GDP
+   <iframe src="_static/gdp_history.html" width="800" height="600">
+      Your browser does not support iframes. Please view the visualization directly at
+      <a href="_static/gdp_history.html">this link</a>.
+   </iframe>
 
-{% include-markdown pie_2024.html %}
-*Figure 3. 2024 U.S. GDP share by migrant origin country.*
+**2. Quarterly GDP Growth Trend**
 
+.. raw:: html
+
+   <iframe src="_static/GDP_plot.html" width="800" height="600">
+      Your browser does not support iframes. Please view the visualization directly at
+      <a href="_static/GDP_plot.html">this link</a>.
+   </iframe>
+
+**3. Migrant Contribution to 2024 U.S. GDP**
+
+.. raw:: html
+
+   <iframe src="_static/pie_2024.html" width="800" height="600">
+      Your browser does not support iframes. Please view the visualization directly at
+      <a href="_static/pie_2024.html">this link</a>.
+   </iframe>
 
 ---
 
