@@ -13,6 +13,7 @@ Table of Contents
    :caption: Contents:
 
    blog
+   My-art
    models
    about
 
