@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'The Truth Project'
+copyright = '2025, TheOs'
+author = 'OS'
 
 release = '0.1'
 version = '0.1.0'
