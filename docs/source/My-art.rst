@@ -80,7 +80,7 @@ Interactive Visualizations
 
 1. **Bar Chart: Top 10 Migrant Groups by GDP Contribution**
 
-.. figure:: /path/to/bar_chart.png
+.. figure:: bar_2024.html
    :alt: Bar chart of top migrant groups by GDP contribution
 
    Bar chart visualizing the GDP contribution of the top 10 migrant groups.
