@@ -1,31 +1,36 @@
-## 🔍 Economic Insights: Migrant Labor Force and GDP Contributions
+Economic Insights: Migrant Labor Force and GDP Contributions
+============================================================
 
-This section provides an in-depth analysis of U.S. labor force participation and GDP contributions by foreign-born populations, powered by data from the U.S. Census Bureau and the Federal Reserve Economic Data (FRED) API.
+This section provides an in-depth analysis of U.S. labor force participation and GDP contributions by foreign-born populations, powered by data from the U.S. Census Bureau and the Federal Reserve.
 
 ---
 
-### 📋 Why This Analysis Matters
+Why This Analysis Matters
+-------------------------
 - **Economic Transparency**: Offers a data-driven perspective on the role of migrant labor in the U.S. economy.
 - **Policy Implications**: Highlights the contributions of foreign-born workers to inform immigration and economic policies.
 - **Investor Insights**: Identifies key sectors and demographics driving economic growth.
 
 ---
 
-### 🔑 Methodology Overview
+Methodology Overview
+--------------------
 
-#### Data Sources
+**Data Sources**
+
 1. **Census Bureau API**: Provides population data for native and foreign-born groups.
 2. **FRED API**: Supplies GDP and labor force participation rates.
 3. **Custom Analysis**: Projects GDP contributions by nationality based on labor force participation.
 
-#### Key Variables
+**Key Variables**
+
 - **CENSUS_KEY**: API key for accessing U.S. Census data.
 - **FRED_KEY**: API key for accessing FRED economic data.
 - **GDP_SERIES**: Real GDP series identifier (`GDPC1`).
 - **MEX_LFP_SERIE**: Labor force participation rate for Mexican-born workers (`LNU01373395`).
 - **ACS_YEARS**: List of years prioritizing the most recent available ACS data.
 
-#### Steps
+**Steps**
 1. Fetch and analyze GDP data for 2024 and project it forward to 2025.
 2. Estimate labor force participation for native and foreign-born populations.
 3. Calculate GDP contributions by nationality and project future trends.
@@ -33,18 +38,20 @@ This section provides an in-depth analysis of U.S. labor force participation and
 
 ---
 
-### 📊 Key Findings
+Key Findings
+------------
 
-#### 1. Migrant Labor Force Participation
-- **Mexican-born workers**: Labor force participation rate of **{mex_lfp_rate:.2%}** for 2024.
-- **Active labor force**: Foreign-born workers contribute significantly to economic productivity.
+1. **Migrant Labor Force Participation**
+   - **Mexican-born workers**: Labor force participation rate of **{mex_lfp_rate:.2%}** for 2024.
+   - **Active labor force**: Foreign-born workers contribute significantly to economic productivity.
 
-#### 2. GDP Contributions
-- **Total GDP (2024)**: USD **${GDP_2024:,.0f} billion**.
-- **Projected GDP (2025)**: USD **${GDP_2025:,.0f} billion** (assuming a growth rate of {GDP_GROWTH:.2%}).
-- **Foreign-born GDP share**: Significant contributions, with **top 15 migrant groups** highlighted below.
+2. **GDP Contributions**
+   - **Total GDP (2024)**: USD **${GDP_2024:,.0f} billion**.
+   - **Projected GDP (2025)**: USD **${GDP_2025:,.0f} billion** (assuming a growth rate of {GDP_GROWTH:.2%}).
+   - **Foreign-born GDP share**: Significant contributions, with **top 15 migrant groups** highlighted below.
 
-#### 3. Top 15 Migrant Groups by GDP Contribution
+3. **Top 15 Migrant Groups by GDP Contribution**
+
 .. list-table::
    :header-rows: 1
 
@@ -68,44 +75,35 @@ This section provides an in-depth analysis of U.S. labor force participation and
 
 ---
 
-### 📈 Interactive Visualizations
+Interactive Visualizations
+--------------------------
 
-#### 1. Bar Chart: Top 10 Migrant Groups by GDP Contribution
-.. raw:: html
+1. **Bar Chart: Top 10 Migrant Groups by GDP Contribution**
 
-   <div style="width:100%; height:400px;">
-     <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
-     <div id="bar-top10" style="height:100%; width:100%;"></div>
-     <script>
-       Plotly.newPlot("bar-top10", /* data + layout loaded from bar_chart.json */);
-     </script>
-   </div>
+.. figure:: /path/to/bar_chart.png
+   :alt: Bar chart of top migrant groups by GDP contribution
 
-#### 2. Pie Chart: GDP Share by Migrant Cohort
-.. raw:: html
+   Bar chart visualizing the GDP contribution of the top 10 migrant groups.
 
-   <div style="width:100%; height:400px;">
-     <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
-     <div id="pie-2024" style="height:100%; width:100%;"></div>
-     <script>
-       Plotly.newPlot("pie-2024", /* data + layout loaded from pie_chart.json */);
-     </script>
-   </div>
+2. **Pie Chart: GDP Share by Migrant Cohort**
 
-#### 3. Comparison: Migrant Groups vs. World GDPs
-.. raw:: html
+.. figure:: /path/to/pie_chart.png
+   :alt: Pie chart of GDP share by migrant cohort
 
-   <div style="width:100%; height:400px;">
-     <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
-     <div id="comp-gdp" style="height:100%; width:100%;"></div>
-     <script>
-       Plotly.newPlot("comp-gdp", /* data + layout loaded from comparison_chart.json */);
-     </script>
-   </div>
+   Pie chart showing the GDP share distribution among migrant cohorts.
+
+3. **Comparison: Migrant Groups vs. World GDPs**
+
+.. figure:: /path/to/comparison_chart.png
+   :alt: Comparison chart of migrant groups vs. world GDPs
+
+   Comparative chart of GDP contributions by migrant groups versus global GDPs.
 
 ---
 
-### 🚀 Take Action
+Take Action
+-----------
+
 - **Policy Recommendations**: Invest in sectors with high migrant labor participation (e.g., healthcare, construction).
 - **Investor Opportunities**: Develop bilingual consumer platforms to capture market share.
 - **Future Research**: Extend analysis to other demographic groups and forecast long-term trends.
