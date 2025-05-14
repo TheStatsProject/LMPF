@@ -54,6 +54,12 @@ body {
     border-bottom: 2px solid var(--rtfd-accent-color);
 }
 
+/* Logo Styling */
+img.logo {
+    width: 150px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
 /* Footer styles */
 .rst-footer {
     background-color: var(--rtfd-footer-background);
