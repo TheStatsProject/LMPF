@@ -78,34 +78,74 @@ Key Findings
 Interactive Visualizations
 --------------------------
 
+Interactive Visualizations
+--------------------------
+
 1. **Bar Chart: Top 10 Migrant Groups by GDP Contribution**
 
-.. raw:: html
+.. container:: dual-layout
 
-   <iframe src="_static/bar_2024.html" width="600" height="400">
-      Your browser does not support iframes. Please view the visualization directly at
-      <a href="_static/bar_2024.html">this link</a>.
-   </iframe>
+   .. raw:: html
+
+      <div style="display: flex;">
+          <div style="width: 50%; padding-right: 10px;">
+              <iframe src="_static/bar_2024.html" width="100%" height="400" style="border: none;">
+                  Your browser does not support iframes. Please view the visualization directly at
+                  <a href="_static/bar_2024.html">this link</a>.
+              </iframe>
+          </div>
+          <div style="width: 50%; padding-left: 10px;">
+              <p>
+                  This bar chart highlights the top 10 migrant groups contributing to the U.S. GDP. 
+                  Mexican and Indian-born workers lead the list, reflecting their strong labor force 
+                  participation in key economic sectors. Hover over the bars to see detailed values.
+              </p>
+          </div>
+      </div>
 
 2. **Pie Chart: GDP Share by Migrant Cohort**
 
-.. raw:: html
+.. container:: dual-layout
 
-   <iframe src="_static/pie_2024.html" width="400" height="400">
-      Your browser does not support iframes. Please view the visualization directly at
-      <a href="_static/pie_chart.html">this link</a>.
-   </iframe>
+   .. raw:: html
+
+      <div style="display: flex;">
+          <div style="width: 50%; padding-right: 10px;">
+              <iframe src="_static/pie_2024.html" width="100%" height="400" style="border: none;">
+                  Your browser does not support iframes. Please view the visualization directly at
+                  <a href="_static/pie_2024.html">this link</a>.
+              </iframe>
+          </div>
+          <div style="width: 50%; padding-left: 10px;">
+              <p>
+                  This pie chart illustrates the GDP share contributed by different migrant cohorts. 
+                  It provides an at-a-glance understanding of how various groups impact the economy. 
+                  Click on the chart segments to drill down into specific data points.
+              </p>
+          </div>
+      </div>
 
 3. **Comparison: Migrant Groups vs. World GDPs**
 
-.. raw:: html
+.. container:: dual-layout
 
-   <iframe src="_static/gdp_plot.html" width=400" height="600">
-      Your browser does not support iframes. Please view the visualization directly at
-      <a href="_static/comparison_chart.html">this link</a>.
-   </iframe>
+   .. raw:: html
 
----
+      <div style="display: flex;">
+          <div style="width: 50%; padding-right: 10px;">
+              <iframe src="_static/gdp_plot.html" width="100%" height="600" style="border: none;">
+                  Your browser does not support iframes. Please view the visualization directly at
+                  <a href="_static/comparison_chart.html">this link</a>.
+              </iframe>
+          </div>
+          <div style="width: 50%; padding-left: 10px;">
+              <p>
+                  This visualization compares the economic contributions of migrant groups to the GDPs of 
+                  various countries worldwide. It underscores the global significance of migrant labor forces. 
+                  Use the interactive features to explore specific countries or cohorts.
+              </p>
+          </div>
+      </div>
 
 Historical and Quarterly GDP Trends
 -----------------------------------
