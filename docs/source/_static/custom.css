@@ -1,36 +1,36 @@
 /* Define custom color variables */
 :root {
     /* Primary theme colors */
-    --rtfd-primary-background: #1b2838; /* Elegant dark slate blue */
-    --rtfd-secondary-background: #2e3b4e; /* Muted navy blue */
-    --rtfd-accent-color: #f1c40f; /* Gold accent for a touch of luxury */
-    --rtfd-link-color: #3498db; /* Bright sky blue for links */
-    --rtfd-link-hover-color: #2980b9; /* Darker blue for link hover states */
-    --rtfd-text-color: #ecf0f1; /* Light gray text for better readability */
+    --rtfd-primary-background: #051F2F; /* Rich black */
+    --rtfd-secondary-background: #01344A; /* Prussian blue */
+    --rtfd-accent-color: #BF8230; /* Bronze */
+    --rtfd-link-color: #C53636; /* Persian red */
+    --rtfd-link-hover-color: #724D27; /* Kobicha */
+    --rtfd-text-color: #F5F5F5; /* Light gray text for readability on dark backgrounds */
 
     /* Header and footer */
-    --rtfd-header-background: #34495e; /* Dark slate gray for headers */
-    --rtfd-footer-background: #34495e; /* Consistent footer background */
+    --rtfd-header-background: #01344A; /* Prussian blue for headers */
+    --rtfd-footer-background: #01344A; /* Consistent footer background */
 
     /* Sidebar */
-    --rtfd-sidebar-background: #243447; /* Deep navy for sidebar */
-    --rtfd-sidebar-text-color: #dfe6e9; /* Soft white for text */
-    --rtfd-sidebar-link-color: #f39c12; /* Vibrant orange for sidebar links */
+    --rtfd-sidebar-background: #051F2F; /* Rich black for sidebar */
+    --rtfd-sidebar-text-color: #BF8230; /* Bronze for sidebar text */
+    --rtfd-sidebar-link-color: #C53636; /* Persian red for sidebar links */
 
     /* Content area */
-    --rtfd-content-background: #ffffff; /* Clean white background for content */
-    --rtfd-content-text-color: #2c3e50; /* Dark slate text for readability */
+    --rtfd-content-background: #F5F5F5; /* Clean white background for content */
+    --rtfd-content-text-color: #051F2F; /* Rich black text for readability */
 
     /* Table and code block highlights */
-    --rtfd-table-header-color: #2e86c1; /* Vibrant blue for table headers */
-    --rtfd-table-row-hover: #f4f6f6; /* Light gray for hover effect on rows */
-    --rtfd-code-block-background: #f8f9fa; /* Soft white for code blocks */
-    --rtfd-code-block-text: #2d3436; /* Charcoal gray text for code blocks */
+    --rtfd-table-header-color: #BF8230; /* Bronze for table headers */
+    --rtfd-table-row-hover: #F2E6D8; /* Light bronze for hover effect on rows */
+    --rtfd-code-block-background: #F8F9FA; /* Soft white for code blocks */
+    --rtfd-code-block-text: #051F2F; /* Rich black text for code blocks */
 
     /* Buttons */
-    --rtfd-button-background: #27ae60; /* Modern green for buttons */
-    --rtfd-button-text: #ffffff; /* White text on buttons */
-    --rtfd-button-hover-background: #219150; /* Darker green for hover effect */
+    --rtfd-button-background: #C53636; /* Persian red for buttons */
+    --rtfd-button-text: #F5F5F5; /* White text on buttons */
+    --rtfd-button-hover-background: #724D27; /* Kobicha for hover effect */
 }
 
 /* General styles */
