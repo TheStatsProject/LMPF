@@ -75,5 +75,5 @@
 76| 
 77| ---
 78| 
-79| *All visualizations are interactive—hover, zoom, and explore trends in automation!*
+79| *All visualizations are interactive—hover, zoom, and explore trends in automation important!*
 80| 
