@@ -75,10 +75,10 @@ Methodology Overview: Measuring America's People and Economy
 
 **Steps**
 
-- 1.Fetch and analyze GDP data for 2024 and project it forward to 2025.
-- 2.Estimate labor force participation for native and foreign-born populations.
-- 3.Calculate GDP contributions by nationality and project future trends.
-- 4.Visualize results through interactive charts and tables.
+- Fetch and analyze GDP data for 2024 and project it forward to 2025, the FRED series (“Real Gross Domestic Product”) is reported in chained 2017 dollars, meaning 2017  is the reference (base) year for the inflation‐adjusted series for this article.
+- Estimate labor force participation for native and foreign-born populations.
+- Calculate GDP contributions by nationality and project future trends.
+- Visualize results through interactive charts and tables.
 
 ---
 
