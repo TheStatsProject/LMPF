@@ -14,7 +14,7 @@ Why This Analysis Matters
 ---
 
 Methodology Overview
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 **Data Sources**
 
@@ -39,7 +39,7 @@ Methodology Overview
 ---
 
 Key Findings
-------------
+~~~~~~~~~~~~
 
 1. **Migrant Labor Force Participation**
    - **Mexican-born workers**: Labor force participation rate of **{mex_lfp_rate:.2%}** for 2024.
@@ -76,10 +76,7 @@ Key Findings
 ---
 
 Interactive Visualizations
---------------------------
-
-Interactive Visualizations
---------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. **Bar Chart: Top 10 Migrant Groups by GDP Contribution**
 
@@ -125,62 +122,10 @@ Interactive Visualizations
           </div>
       </div>
 
-3. **Comparison: Migrant Groups vs. World GDPs**
-
-.. container:: dual-layout
-
-   .. raw:: html
-
-      <div style="display: flex;">
-          <div style="width: 50%; padding-right: 10px;">
-              <iframe src="_static/gdp_plot.html" width="100%" height="600" style="border: none;">
-                  Your browser does not support iframes. Please view the visualization directly at
-                  <a href="_static/comparison_chart.html">this link</a>.
-              </iframe>
-          </div>
-          <div style="width: 50%; padding-left: 10px;">
-              <p>
-                  This visualization compares the economic contributions of migrant groups to the GDPs of 
-                  various countries worldwide. It underscores the global significance of migrant labor forces. 
-                  Use the interactive features to explore specific countries or cohorts.
-              </p>
-          </div>
-      </div>
-
-Historical and Quarterly GDP Trends
------------------------------------
-
-**1. U.S. GDP Since 1947**
-
-.. raw:: html
-
-   <iframe src="_static/gdp_plot.html" width="600" height="400">
-      Your browser does not support iframes. Please view the visualization directly at
-      <a href="_static/gdp_history.html">this link</a>.
-   </iframe>
-
-**2. Quarterly GDP Growth Trend**
-
-.. raw:: html
-
-   <iframe src="_static/GDP_plot.html" width="400" height="400">
-      Your browser does not support iframes. Please view the visualization directly at
-      <a href="_static/GDP_plot.html">this link</a>.
-   </iframe>
-
-**3. Migrant Contribution to 2024 U.S. GDP**
-
-.. raw:: html
-
-   <iframe src="_static/pie_2024.html" width="700" height="500">
-      Your browser does not support iframes. Please view the visualization directly at
-      <a href="_static/pie_2024.html">this link</a>.
-   </iframe>
-
 ---
 
 Take Action
------------
+~~~~~~~~~~~
 
 - **Policy Recommendations**: Invest in sectors with high migrant labor participation (e.g., healthcare, construction).
 - **Investor Opportunities**: Develop bilingual consumer platforms to capture market share.
