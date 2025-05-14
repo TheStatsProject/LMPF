@@ -19,22 +19,23 @@ Why This Analysis Matters
 
 ---
 
-Methodology Overview
+Methodology Overview: Measuring America's People and Economy
 ~~~~~~~~~~~~~~~~~~~~
 
 **Data Sources**
 
-1. **Census Bureau API**: Provides population data for native and foreign-born groups.
-2. **FRED API**: Supplies GDP and labor force participation rates.
-3. **Custom Analysis**: Projects GDP contributions by nationality based on labor force participation.
+1. **U.S. Census Bureau**: Provides population data for native and foreign-born groups.
+2. **FRED ST Louis **: Supplies GDP and labor force participation rates.
+3. **Custom Analysis**: Estimates GDP contributions by nationality based on labor force participation rates and official population statistics.
 
 **Key Variables**
 
-- **CENSUS_KEY**: API key for accessing U.S. Census data.
-- **FRED_KEY**: API key for accessing FRED economic data.
 - **GDP_SERIES**: Real GDP series identifier (`GDPC1`).
 - **MEX_LFP_SERIE**: Labor force participation rate for Mexican-born workers (`LNU01373395`).
 - **ACS_YEARS**: List of years prioritizing the most recent available ACS data.
+- **NATIVE_VAR**: Census variable for the number of native-born individuals in the U.S.
+- **NFOREIGN_TOTAL**: Total number of foreign-born residents in the U.S. (all countries combined).
+- **Ncountry_vars**: Dictionary mapping of countries to specific ACS variable codes.
 
 **Steps**
 1. Fetch and analyze GDP data for 2024 and project it forward to 2025.
