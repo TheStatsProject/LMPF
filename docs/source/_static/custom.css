@@ -1,36 +1,36 @@
 /* Define custom color variables */
 :root {
     /* Primary theme colors */
-    --rtfd-primary-background: #051F2F; /* Rich black */
-    --rtfd-secondary-background: #01344A; /* Prussian blue */
-    --rtfd-accent-color: #BF8230; /* Bronze */
+    --rtfd-primary-background: #000E1A; /* Rich black */
+    --rtfd-secondary-background: #004663; /* Indigo dye */
+    --rtfd-accent-color: #BF8130; /* Bronze */
     --rtfd-link-color: #C53636; /* Persian red */
-    --rtfd-link-hover-color: #724D27; /* Kobicha */
+    --rtfd-link-hover-color: #39B9A0; /* Keppel */
     --rtfd-text-color: #F5F5F5; /* Light gray text for readability on dark backgrounds */
 
     /* Header and footer */
-    --rtfd-header-background: #01344A; /* Prussian blue for headers */
-    --rtfd-footer-background: #01344A; /* Consistent footer background */
+    --rtfd-header-background: #004663; /* Indigo dye for headers */
+    --rtfd-footer-background: #004663; /* Consistent footer background */
 
     /* Sidebar */
-    --rtfd-sidebar-background: #051F2F; /* Rich black for sidebar */
-    --rtfd-sidebar-text-color: #BF8230; /* Bronze for sidebar text */
+    --rtfd-sidebar-background: #000E1A; /* Rich black for sidebar */
+    --rtfd-sidebar-text-color: #BF8130; /* Bronze for sidebar text */
     --rtfd-sidebar-link-color: #C53636; /* Persian red for sidebar links */
 
     /* Content area */
     --rtfd-content-background: #F5F5F5; /* Clean white background for content */
-    --rtfd-content-text-color: #051F2F; /* Rich black text for readability */
+    --rtfd-content-text-color: #000E1A; /* Rich black text for readability */
 
     /* Table and code block highlights */
-    --rtfd-table-header-color: #BF8230; /* Bronze for table headers */
+    --rtfd-table-header-color: #BF8130; /* Bronze for table headers */
     --rtfd-table-row-hover: #F2E6D8; /* Light bronze for hover effect on rows */
     --rtfd-code-block-background: #F8F9FA; /* Soft white for code blocks */
-    --rtfd-code-block-text: #051F2F; /* Rich black text for code blocks */
+    --rtfd-code-block-text: #000E1A; /* Rich black text for code blocks */
 
     /* Buttons */
     --rtfd-button-background: #C53636; /* Persian red for buttons */
     --rtfd-button-text: #F5F5F5; /* White text on buttons */
-    --rtfd-button-hover-background: #724D27; /* Kobicha for hover effect */
+    --rtfd-button-hover-background: #39B9A0; /* Keppel for hover effect */
 }
 
 /* General styles */
