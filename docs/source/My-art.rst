@@ -48,13 +48,13 @@ Methodology Overview: Measuring America's People and Economy
    *Rethinking the Benefits of Immigration: Theory and Evidence from the U.S.*  
    **Author(s):** Gianmarco I.P. Ottaviano and Giovanni Peri `NATIONAL BUREAU OF ECONOMIC RESEARCH Working Paper No. 11672 <https://www.nber.org/system/files/working_papers/w11672/w11672.pdf?utm_source=chatgpt.com>`
 
-   This paper is another good reference for understanding the meaning of the calculations performed in this article. It develops a two-sector macroeconomic model where natives and immigrants are imperfect substitutes. It then uses data from the Census/American Community Survey—extremely similar to the way we constructed the database—to empirically estimate the contribution each worker makes to GDP.
+   This work is another good reference for understanding the meaning of the calculations performed in this article. It develops a two-sector macroeconomic model where natives and immigrants are imperfect substitutes. It then uses data from the Census/American Community Survey—extremely similar to the way we constructed the database—to empirically estimate the contribution each worker makes to GDP.
 
 3. **Advanced/Specialized Level**  
    *Immigration and Economic Growth*  
    **Author:** George J. Borjas `NATIONAL BUREAU OF ECONOMIC RESEARCH Working Paper 25836 <https://www.nber.org/system/files/working_papers/w25836/w25836.pdf?utm_source=chatgpt.com>`
 
-   This paper provides a rigorous macro- and micro-level framework that links immigration inflows to changes in GDP growth rates and labor productivity, in close agreement with GDP projections for 2025 and GDP per worker that we estimated. It uses a formal model where :math:`GDP = f(K, L)`. to be linear-homogeneous. This allows for the decomposition of output per worker according to the proportion of native-born and immigrant workers, thereby making it possible to more accurately measure the sensitivity of the effects on GDP of an increase or decrease in immigrants.
+   This analysis provides a rigorous macro- and micro-level framework that links immigration inflows to changes in GDP growth rates and labor productivity, in close agreement with GDP projections for 2025 and GDP per worker that we estimated. It uses a formal model where :math:`GDP = f(K, L)`. to be linear-homogeneous. This allows for the decomposition of output per worker according to the proportion of native-born and immigrant workers, thereby making it possible to more accurately measure the sensitivity of the effects on GDP of an increase or decrease in immigrants.
 
 
 **Data Sources**
@@ -82,8 +82,10 @@ Methodology Overview: Measuring America's People and Economy
 
 ---
 
-Key Findings
+Key Findings: Migrant Myths vs. Reality
 -------------------------
+
+As we mentioned, we will analyze the statements made by President Claudia Sheinbaum through a report published on the Mexican government's official website, which you can consult `here <https://www.gob.mx/presidencia/prensa/las-y-los-migrantes-contribuyen-a-la-economia-de-estados-unidos-presidenta-claudia-sheinbaum-en-2024-aportaron-al-pib-781-mil-mdd>`. Based on that report, we have found the following:
 
 1. **Migrant Labor Force Participation**
    - **Mexican-born workers**: Labor force participation rate of **{mex_lfp_rate:.2%}** for 2024.
