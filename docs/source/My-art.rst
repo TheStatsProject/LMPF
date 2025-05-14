@@ -13,6 +13,7 @@ This is a fact-based analysis, based solely on official U.S. government sources.
 
 Why This Analysis Matters
 -------------------------
+
 **Economic Transparency** 
 
 - Offers a data-driven perspective on the role of migrant labor of Migrants in the U.S. economy.
@@ -37,6 +38,8 @@ Methodology Overview: Measuring America's People and Economy
 -------------------------
 
 **Recommended Readings**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 1. **Introductory/Basic Level**  
    *Introduction to the Economics of Immigration in OECD Countries*  
@@ -58,12 +61,16 @@ Methodology Overview: Measuring America's People and Economy
 
 
 **Data Sources**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 1. **U.S. Census Bureau**: Provides population data for native and foreign-born groups.
 2. **FRED ST Louis**: Supplies GDP and labor force participation rates.
 3. **Custom Analysis**: Estimates GDP contributions by nationality based on labor force participation rates and official population statistics.
 
 **Key Variables**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 - **GDP_SERIES**: Real GDP series identifier (`GDPC1`).
 - **MEX_LFP_SERIE**: Labor force participation rate for Mexican-born workers (`LNU01373395`).
@@ -74,6 +81,8 @@ Methodology Overview: Measuring America's People and Economy
 
 
 **Steps**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 - Fetch and analyze GDP data for 2024 and project it forward to 2025, the FRED series (“Real Gross Domestic Product”) is reported in chained 2017 dollars, meaning 2017  is the reference (base) year for the inflation‐adjusted series for this article.
 - Estimate labor force participation for native and foreign-born populations.
