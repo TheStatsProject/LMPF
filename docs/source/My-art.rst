@@ -1,8 +1,7 @@
 "Economic Insights: The Untold Story of Mexican Migrant Labor and Their Transformative Impact on U.S. GDP—Unpacking President Sheinbaum's Bold Assertions"
 ============================================================
 
-In a time when misinformation spreads faster than facts, separating myth from reality has never been more crucial. Following President Claudia Sheinbaum's recent `comments <https://www.gob.mx/presidencia/prensa/las-y-los-migrantes-contribuyen-a-la-economia-de-estados-unidos-presidenta-claudia-sheinbaum-en-2024-aportaron-al-pib-781-mil-mdd>`_
- on employment, migration, foreign trade, and economic history, a vital question resurfaces:
+In a time when misinformation spreads faster than facts, separating myth from reality has never been more crucial. Following President Claudia Sheinbaum's recent `comments <https://www.gob.mx/presidencia/prensa/las-y-los-migrantes-contribuyen-a-la-economia-de-estados-unidos-presidenta-claudia-sheinbaum-en-2024-aportaron-al-pib-781-mil-mdd>`_ on employment, migration, foreign trade, and economic history, a vital question resurfaces:
 
 What is the true economic impact of Mexican immigrants in the United States?
 
