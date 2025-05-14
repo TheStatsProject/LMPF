@@ -100,7 +100,7 @@ Interactive Visualizations
 
 .. raw:: html
 
-   <iframe src="_static/gdp_plot.html" width=4800" height="600">
+   <iframe src="_static/gdp_plot.html" width=400" height="600">
       Your browser does not support iframes. Please view the visualization directly at
       <a href="_static/comparison_chart.html">this link</a>.
    </iframe>
@@ -114,7 +114,7 @@ Historical and Quarterly GDP Trends
 
 .. raw:: html
 
-   <iframe src="_static/gdp_history.html" width="800" height="600">
+   <iframe src="_static/gdp_plot.html" width="600" height="400">
       Your browser does not support iframes. Please view the visualization directly at
       <a href="_static/gdp_history.html">this link</a>.
    </iframe>
@@ -123,7 +123,7 @@ Historical and Quarterly GDP Trends
 
 .. raw:: html
 
-   <iframe src="_static/GDP_plot.html" width="800" height="600">
+   <iframe src="_static/GDP_plot.html" width="400" height="400">
       Your browser does not support iframes. Please view the visualization directly at
       <a href="_static/GDP_plot.html">this link</a>.
    </iframe>
@@ -132,7 +132,7 @@ Historical and Quarterly GDP Trends
 
 .. raw:: html
 
-   <iframe src="_static/pie_2024.html" width="800" height="600">
+   <iframe src="_static/pie_2024.html" width="700" height="500">
       Your browser does not support iframes. Please view the visualization directly at
       <a href="_static/pie_2024.html">this link</a>.
    </iframe>
