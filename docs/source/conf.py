@@ -4,7 +4,7 @@
 
 project = 'The Truth Project'
 copyright = '2025, TheOs'
-author = 'OS'
+author = 'THEOS'
 
 release = '0.1'
 version = '0.1.0'
@@ -37,3 +37,6 @@ epub_show_urls = 'footnote'
 #charge html
 
 html_static_path = ['_static']
+html_css_files = [
+    'custom.css',
+]
