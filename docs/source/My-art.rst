@@ -25,7 +25,7 @@ Methodology Overview: Measuring America's People and Economy
 **Data Sources**
 
 1. **U.S. Census Bureau**: Provides population data for native and foreign-born groups.
-2. **FRED ST Louis **: Supplies GDP and labor force participation rates.
+2. **FRED ST Louis**: Supplies GDP and labor force participation rates.
 3. **Custom Analysis**: Estimates GDP contributions by nationality based on labor force participation rates and official population statistics.
 
 **Key Variables**
