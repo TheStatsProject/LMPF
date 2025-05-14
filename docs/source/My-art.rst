@@ -13,9 +13,17 @@ This is a fact-based analysis, based solely on official U.S. government sources.
 
 Why This Analysis Matters
 -------------------------
-- **Economic Transparency**: Offers a data-driven perspective on the role of migrant labor of Mexican Miigrants in the U.S. economy.
-- **Policy Implications**: Highlights the contributions of foreign-born workers to inform immigration and economic policies.
-- **Investor Insights**: Identifies key sectors and demographics driving economic growth.
+**Economic Transparency** 
+
+- Offers a data-driven perspective on the role of migrant labor of Mexican Miigrants in the U.S. economy.
+
+**Policy Implications**
+
+- Highlights the contributions of foreign-born workers to inform immigration and economic policies.
+
+**Investor Insights**
+
+- Identifies key sectors and demographics driving economic growth.
 
 ---
 
