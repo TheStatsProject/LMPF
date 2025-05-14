@@ -82,7 +82,7 @@ Interactive Visualizations
 
 .. raw:: html
 
-   <iframe src="_static/bar_2024.html" width="800" height="600">
+   <iframe src="_static/bar_2024.html" width="600" height="400">
       Your browser does not support iframes. Please view the visualization directly at
       <a href="_static/bar_2024.html">this link</a>.
    </iframe>
@@ -91,7 +91,7 @@ Interactive Visualizations
 
 .. raw:: html
 
-   <iframe src="_static/pie_2024.html" width="800" height="600">
+   <iframe src="_static/pie_2024.html" width="400" height="400">
       Your browser does not support iframes. Please view the visualization directly at
       <a href="_static/pie_chart.html">this link</a>.
    </iframe>
@@ -100,7 +100,7 @@ Interactive Visualizations
 
 .. raw:: html
 
-   <iframe src="_static/gdp_plot.html" width="800" height="600">
+   <iframe src="_static/gdp_plot.html" width=4800" height="600">
       Your browser does not support iframes. Please view the visualization directly at
       <a href="_static/comparison_chart.html">this link</a>.
    </iframe>
