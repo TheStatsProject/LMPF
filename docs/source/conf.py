@@ -42,6 +42,23 @@ html_css_files = [
 ]
 
 #logo and favicon
+# Logo and Favicon Configuration
+# Path to the logo image
+html_logo = "_static/logo.png"
+
+# Path to static files (ensure the logo and favicon reside here)
+html_static_path = ['_static']
+
+# Path to the favicon image
+html_favicon = "_static/favicon.ico"
+
+# Note: To adjust the size of the logo, use the 'custom.css' file in the '_static' directory.
+# Example CSS for logo size adjustment:
+# img.logo {
+#     width: 150px; /* Set desired width */
+#     height: auto; /* Maintain aspect ratio */
+# }
+
 html_logo = "_static/logo.png"
 html_static_path = ['_static']
 html_favicon = "_static/favicon.ico"
