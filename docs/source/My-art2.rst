@@ -19,7 +19,7 @@ Why Automation Matters
 ---
 
 Key Focus Areas
----------------
+~~~~~~~~~~~~~~~
 
 **Impact on Employment**
 
@@ -36,7 +36,7 @@ Key Focus Areas
 ---
 
 Key Findings
-------------
+~~~~~~~~~~~~
 
 1. **Automation's Share in GDP Growth**
    - **2025 Projections**: Automation is expected to contribute **{automation_gdp_growth:.2%}** of global GDP growth.
@@ -49,7 +49,7 @@ Key Findings
 ---
 
 Interactive Visualizations
---------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. **Line Chart: Automation's Contribution to GDP Over Time**
 
@@ -72,7 +72,7 @@ Interactive Visualizations
 ---
 
 Policy Recommendations
------------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 - **Invest in Reskilling Programs**: Governments and organizations must prioritize educational initiatives.
 - **Support High-Tech Startups**: Economic policies should encourage innovation in AI and robotics.
