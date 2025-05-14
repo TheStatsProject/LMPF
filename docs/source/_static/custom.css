@@ -1,81 +1,111 @@
 /* Define custom color variables */
 :root {
     /* Primary theme colors */
-    --rtfd-primary-background: #283593; /* Dark blue */
-    --rtfd-secondary-background: #3949ab; /* Medium blue */
-    --rtfd-accent-color: #ffca28; /* Yellow accent */
-    --rtfd-text-color: #ffffff; /* White text for dark backgrounds */
+    --rtfd-primary-background: #1b2838; /* Elegant dark slate blue */
+    --rtfd-secondary-background: #2e3b4e; /* Muted navy blue */
+    --rtfd-accent-color: #f1c40f; /* Gold accent for a touch of luxury */
+    --rtfd-link-color: #3498db; /* Bright sky blue for links */
+    --rtfd-link-hover-color: #2980b9; /* Darker blue for link hover states */
+    --rtfd-text-color: #ecf0f1; /* Light gray text for better readability */
 
     /* Header and footer */
-    --rtfd-header-background: #1a237e; /* Darker blue for headers */
-    --rtfd-footer-background: #1a237e; /* Consistent footer background */
+    --rtfd-header-background: #34495e; /* Dark slate gray for headers */
+    --rtfd-footer-background: #34495e; /* Consistent footer background */
 
     /* Sidebar */
-    --rtfd-sidebar-background: #303f9f; /* Sidebar background */
-    --rtfd-sidebar-text-color: #e8eaf6; /* Light gray text */
-    --rtfd-sidebar-link-color: #ffcc80; /* Sidebar link color */
+    --rtfd-sidebar-background: #243447; /* Deep navy for sidebar */
+    --rtfd-sidebar-text-color: #dfe6e9; /* Soft white for text */
+    --rtfd-sidebar-link-color: #f39c12; /* Vibrant orange for sidebar links */
 
     /* Content area */
-    --rtfd-content-background: #ffffff; /* White background for main content */
-    --rtfd-content-text-color: #1c2421; /* Dark text for readability */
+    --rtfd-content-background: #ffffff; /* Clean white background for content */
+    --rtfd-content-text-color: #2c3e50; /* Dark slate text for readability */
 
     /* Table and code block highlights */
-    --rtfd-table-header-color: #3949ab; /* Table header background */
-    --rtfd-code-block-background: #f5f5f5; /* Light gray for code blocks */
-    --rtfd-code-block-text: #37474f; /* Dark text in code blocks */
+    --rtfd-table-header-color: #2e86c1; /* Vibrant blue for table headers */
+    --rtfd-table-row-hover: #f4f6f6; /* Light gray for hover effect on rows */
+    --rtfd-code-block-background: #f8f9fa; /* Soft white for code blocks */
+    --rtfd-code-block-text: #2d3436; /* Charcoal gray text for code blocks */
+
+    /* Buttons */
+    --rtfd-button-background: #27ae60; /* Modern green for buttons */
+    --rtfd-button-text: #ffffff; /* White text on buttons */
+    --rtfd-button-hover-background: #219150; /* Darker green for hover effect */
 }
 
 /* General styles */
 body {
     background-color: var(--rtfd-primary-background);
     color: var(--rtfd-text-color);
-    font-family: "Arial", sans-serif;
+    font-family: "Segoe UI", "Arial", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header styles */
 .rst-header {
     background-color: var(--rtfd-header-background);
     color: var(--rtfd-text-color);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 2px solid var(--rtfd-accent-color);
 }
 
 /* Footer styles */
 .rst-footer {
     background-color: var(--rtfd-footer-background);
     color: var(--rtfd-text-color);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+    border-top: 2px solid var(--rtfd-accent-color);
 }
 
 /* Sidebar styles */
 .rst-sidebar {
     background-color: var(--rtfd-sidebar-background);
     color: var(--rtfd-sidebar-text-color);
+    padding: 20px;
+    border-right: 2px solid var(--rtfd-secondary-background);
 }
 
 .rst-sidebar a {
     color: var(--rtfd-sidebar-link-color);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .rst-sidebar a:hover {
     text-decoration: underline;
+    color: var(--rtfd-accent-color);
 }
 
 /* Main content area */
 .rst-content {
     background-color: var(--rtfd-content-background);
     color: var(--rtfd-content-text-color);
-    padding: 20px;
-    border-radius: 8px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
 }
 
 /* Table styles */
 table {
     border-collapse: collapse;
     width: 100%;
+    margin: 20px 0;
 }
 
 table th {
     background-color: var(--rtfd-table-header-color);
     color: var(--rtfd-text-color);
     padding: 10px;
+    text-align: left;
 }
 
 table td {
@@ -83,21 +113,51 @@ table td {
     padding: 8px;
 }
 
+table tr:hover {
+    background-color: var(--rtfd-table-row-hover);
+}
+
 /* Code blocks */
 div.highlight pre {
     background-color: var(--rtfd-code-block-background);
     color: var(--rtfd-code-block-text);
-    padding: 10px;
+    padding: 15px;
     border-radius: 5px;
     overflow-x: auto;
+    font-family: "Courier New", monospace;
+    font-size: 0.9em;
 }
 
 /* Links */
 a {
     color: var(--rtfd-link-color);
+    text-decoration: none;
+    font-weight: 500;
 }
 
 a:hover {
     text-decoration: underline;
-    color: #ff5722; /* Slightly darker hover color */
+    color: var(--rtfd-link-hover-color);
+}
+
+/* Buttons */
+button {
+    background-color: var(--rtfd-button-background);
+    color: var(--rtfd-button-text);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: var(--rtfd-button-hover-background);
+}
+
+/* Add smooth transitions for hover effects */
+a, button, .rst-sidebar a:hover, table tr:hover {
+    transition: all 0.3s ease-in-out;
 }
