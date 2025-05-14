@@ -36,6 +36,27 @@ Why This Analysis Matters
 Methodology Overview: Measuring America's People and Economy
 -------------------------
 
+**Recommended Readings**
+
+1. **Introductory/Basic Level**  
+   *Introduction to the Economics of Immigration in OECD Countries*  
+   **Author(s):** OECD Team  
+
+   This paper analyzes the impact of migration on the labor market and GDP in OECD countries. It explains in a simple way how to measure the contribution of immigrants to aggregate output, focusing on employment share rather than total population. Despite being a 2018 paper, it is a starting point for understanding the calculations developed.
+
+2. **Intermediate/Medium Level**  
+   *Rethinking the Benefits of Immigration: Theory and Evidence from the U.S.*  
+   **Authors:** Gianmarco I.P. Ottaviano and Giovanni Peri  
+
+   This paper is another good reference for understanding the meaning of the calculations performed in this article. It develops a two-sector macroeconomic model where natives and immigrants are imperfect substitutes. It then uses data from the Census/American Community Survey—extremely similar to the way we constructed the database—to empirically estimate the contribution each worker makes to GDP.
+
+3. **Advanced/Specialized Level**  
+   *Immigration and Economic Growth*  
+   **Author:** George J. Borjas  
+
+   This paper provides a rigorous macro- and micro-level framework that links immigration inflows to changes in GDP growth rates and labor productivity, in close agreement with GDP projections for 2025 and GDP per worker that we estimated. It uses a formal model where :math:`GDP = f(K, L)`. to be linear-homogeneous. This allows for the decomposition of output per worker according to the proportion of native-born and immigrant workers, thereby making it possible to more accurately measure the sensitivity of the effects on GDP of an increase or decrease in immigrants.
+
+
 **Data Sources**
 
 1. **U.S. Census Bureau**: Provides population data for native and foreign-born groups.
@@ -52,10 +73,10 @@ Methodology Overview: Measuring America's People and Economy
 - **Ncountry_vars**: Dictionary mapping of countries to specific ACS variable codes.
 
 **Steps**
-1. Fetch and analyze GDP data for 2024 and project it forward to 2025.
-2. Estimate labor force participation for native and foreign-born populations.
-3. Calculate GDP contributions by nationality and project future trends.
-4. Visualize results through interactive charts and tables.
+- 1. Fetch and analyze GDP data for 2024 and project it forward to 2025.
+- 2. Estimate labor force participation for native and foreign-born populations.
+- 3. Calculate GDP contributions by nationality and project future trends.
+- 4. Visualize results through interactive charts and tables.
 
 ---
 
