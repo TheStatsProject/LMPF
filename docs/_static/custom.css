@@ -1,0 +1,104 @@
+/* Define custom color variables */
+:root {
+    /* Primary theme colors */
+    --rtfd-primary-background: #283593; /* Dark blue */
+    --rtfd-secondary-background: #3949ab; /* Medium blue */
+    --rtfd-accent-color: #ffca28; /* Yellow accent */
+    --rtfd-link-color: #ff7043; /* Orange links */
+    --rtfd-text-color: #ffffff; /* White text for dark backgrounds */
+
+    /* Header and footer */
+    --rtfd-header-background: #1a237e; /* Darker blue for headers */
+    --rtfd-footer-background: #1a237e; /* Consistent footer background */
+
+    /* Sidebar */
+    --rtfd-sidebar-background: #303f9f; /* Sidebar background */
+    --rtfd-sidebar-text-color: #e8eaf6; /* Light gray text */
+    --rtfd-sidebar-link-color: #ffcc80; /* Sidebar link color */
+
+    /* Content area */
+    --rtfd-content-background: #ffffff; /* White background for main content */
+    --rtfd-content-text-color: #212121; /* Dark text for readability */
+
+    /* Table and code block highlights */
+    --rtfd-table-header-color: #3949ab; /* Table header background */
+    --rtfd-code-block-background: #f5f5f5; /* Light gray for code blocks */
+    --rtfd-code-block-text: #37474f; /* Dark text in code blocks */
+}
+
+/* General styles */
+body {
+    background-color: var(--rtfd-primary-background);
+    color: var(--rtfd-text-color);
+    font-family: "Arial", sans-serif;
+}
+
+/* Header styles */
+.rst-header {
+    background-color: var(--rtfd-header-background);
+    color: var(--rtfd-text-color);
+}
+
+/* Footer styles */
+.rst-footer {
+    background-color: var(--rtfd-footer-background);
+    color: var(--rtfd-text-color);
+}
+
+/* Sidebar styles */
+.rst-sidebar {
+    background-color: var(--rtfd-sidebar-background);
+    color: var(--rtfd-sidebar-text-color);
+}
+
+.rst-sidebar a {
+    color: var(--rtfd-sidebar-link-color);
+}
+
+.rst-sidebar a:hover {
+    text-decoration: underline;
+}
+
+/* Main content area */
+.rst-content {
+    background-color: var(--rtfd-content-background);
+    color: var(--rtfd-content-text-color);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th {
+    background-color: var(--rtfd-table-header-color);
+    color: var(--rtfd-text-color);
+    padding: 10px;
+}
+
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Code blocks */
+div.highlight pre {
+    background-color: var(--rtfd-code-block-background);
+    color: var(--rtfd-code-block-text);
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+/* Links */
+a {
+    color: var(--rtfd-link-color);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff5722; /* Slightly darker hover color */
+}
