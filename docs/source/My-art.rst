@@ -20,7 +20,7 @@ Why This Analysis Matters
 ---
 
 Methodology Overview: Measuring America's People and Economy
-~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 **Data Sources**
 
