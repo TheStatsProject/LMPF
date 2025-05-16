@@ -17,7 +17,7 @@ Why This Analysis Matters
 **Economic Transparency** 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Offers a data-driven perspective on the role of migrant labor of Migrants in the U.S. economy.
+- Offers a data-driven perspective on the role of migrant labor in the U.S. economy.
 - Highlights the importance of using data and science to debunk myths and misconceptions surrounding immigration.
 - Facilitates informed discussions among policymakers, researchers, and the general public by presenting unbiased and factual insights.
 
