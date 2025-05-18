@@ -130,7 +130,7 @@ Base just in this 3 assumtions the mexican government published a report! We nee
 
 .. math::
 
-     \right \frac{11,710,000 Mexican-born residents}{34,914,895 U.S. population} \left * $22.671 trillion USD
+     \right\frac{11,710,000 Mexican-born residents}{34,914,895 U.S. population}\left * $22.671 trillion USD
 
 
 This is an inline equation: :math:`\frac{a}{b}`.
