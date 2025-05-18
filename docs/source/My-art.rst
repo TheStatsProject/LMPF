@@ -123,14 +123,14 @@ Myths or Reality?
 The he argument of the Mexican government is based on the following calculation:
 
 A. **Assumption 1**: Mexican-born residents - MBR - (ACS 2022):  11,710,000 people
-B. **Assumption 2**: U.S. real GDP (2023, chained 2017): $22.671 trillion
+B. **Assumption 2**: U.S. real GDP (2023, chained 2017): $22.671 Trillion USD (T-USD)
 C. **Assumption 3**: Total U.S. population -TUP- (2023): 334,914,895 residents
 
 Base just in this 3 assumtions, the Mexican government dares to make the following calculation that we present below:
 
 .. math::
 
-     ( \frac{11,710,000 MBR}{34,914,895 TUP} ) * $22.671 T-USD = 0.793 T-USD = $781 B-USD
+     ( \frac{11,710,000 MBR}{34,914,895 TUP} ) * $22.671 T-USD = 0.793 T-USD = $781 Billion USD - (B-USD)
 
 The result is 781 Billion USD ... itself is revelated revelated and as stated in the statement issued by the Mexican government. However, this is a MYTH. To perform these measurements, based on the three articles discussed at the beginning of this article, there is a way to address this scientific problem, and that is through measurement by GDP per person employed (at constant prices).
 
@@ -138,9 +138,9 @@ Even official institutions such as the World Bank and the OECD use "GDP per pers
 
 And first one ...  why not use GDP per capita?
 
-***Reason 1***: GDP per capita divides the economic pie equally among everyone, pretending that each citizen has an equal share. In reality, the gap between the rich and the rest can be enormous; this measure hides those differences and obscures the real economic problems.
+**Reason 1**: GDP per capita divides the economic pie equally among everyone, pretending that each citizen has an equal share. In reality, the gap between the rich and the rest can be enormous; this measure hides those differences and obscures the real economic problems.
 
-***Reason 2***: It includes the unemployed and is distorted by demographics. GDP per capita includes everyone: children, retirees, and non-working people. This means that countries with young populations, aging societies, or high unemployment appear less productive than they actually are. Only GDP per worker shows how much each active taxpayer actually generates.
+**Reason 2**: It includes the unemployed and is distorted by demographics. GDP per capita includes everyone: children, retirees, and non-working people. This means that countries with young populations, aging societies, or high unemployment appear less productive than they actually are. Only GDP per worker shows how much each active taxpayer actually generates.
 
 So next time you see that official number, remember: if you want to measure real economic power, don’t fall for the myth. Follow the GDP per person employed¡ For this calculation, we will update all the data, making extrapolations and refining the data. To begin, we have adjusted the data by adding the following values ​​to the data provided by the report.For this calculation, we will update all the data, making extrapolations and refining the data. To begin, we have adjusted the data by adding the following values ​​to the data provided by the report.
 
@@ -165,8 +165,15 @@ This is a displayed the next calc for get the Assumption 6: :math:`Mexican-born 
 
 Assum 6 is as follows:
 
-F. **Assumption 5**: Total U.S. labor force: 7,330,460 people
+F. **Assumption 5**: Mexican-born in LPC: 7,330,460 people
 
+
+Base in alll asummptions we get the next adjust calc abour the contribution of GDP of the labor force of USA from  Mexican-born residents, for know that we build the next equation:
+
+
+.. math::
+
+ (\frac{7,330,460 Mexican-born in LPC}{209,656,724 Total U.S. labor force}) * 100 = 3.49 %
 
 
 This is an inline equation: :math:`\frac{a}{b}`.
