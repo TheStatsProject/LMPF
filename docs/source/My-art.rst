@@ -130,9 +130,9 @@ Base just in this 3 assumtions the mexican government published a report! We nee
 
 .. math::
 
-     \right( \frac{11,710,000 Mexican-born residents}{34,914,895 Total U.S. population} \left) * $22.671 Trillion USD = 0.793 T Trillion USD = $781 Billion USD
+     ( \frac{11,710,000 Mexican-born residents}{34,914,895 Total U.S. population} ) * $22.671 Trillion USD = 0.793 T Trillion USD = $781 Billion USD
 
-The result is XXX, itself is revelated revelated and as stated in the statement issued by the Mexican government. However, this is a MYTH. To perform these measurements, based on the three articles discussed at the beginning of this article, there is a way to address this scientific problem, and that is through measurement by GDP per person employed (at constant prices).
+The result is 781 Billion USD ... itself is revelated revelated and as stated in the statement issued by the Mexican government. However, this is a MYTH. To perform these measurements, based on the three articles discussed at the beginning of this article, there is a way to address this scientific problem, and that is through measurement by GDP per person employed (at constant prices).
 
 Even official institutions such as the World Bank and the OECD use "GDP per person employed at constant prices for a specific year" as a measure of labor productivity, reflecting output per worker rather than averaging the total population, which is what GDP per capita does.
 
