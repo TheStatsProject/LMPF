@@ -120,7 +120,19 @@ S tatement 1 . **Migrant Labor Force Participation**
 
 Myths or Reality?
 
-The answer to this question is very easy, it is obviously a myth, the argument of the Mexican government is based on the following calculation:
+The he argument of the Mexican government is based on the following calculation:
+
+A. **Assumption 1 **: Mexican-born residents (ACS 2022):  11,710,000 people
+B. **Assumption 2 **: U.S. real GDP (2023, chained 2017): $22.671 trillion
+C. **Assumption 3 **: U.S. population (2023): 334,914,895 residents
+
+Base just in this 3 assumtions the mexican government published a report! We need to be serious on this kind of thins bro! Using only these three incipient data and from the different bases and years, the Mexican government dares to make the following calculation that we present below:
+
+.. math::
+
+   \begin{align}
+\frac{a}{b}
+   \end{align}
 
 
 ---
