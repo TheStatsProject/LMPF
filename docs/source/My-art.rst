@@ -151,9 +151,11 @@ Based on that and the data provided by the FRED we have estimated the labor forc
 A. **Assumption 1**: Mexican-born residents (ACS 2022):  11,710,000 people
 B. **Assumption 2**: U.S. real GDP (2023, chained 2017): $22.671 trillion
 C. **Assumption 3**: Total U.S. population (2023): 334,914,895 residents
-D. **Assumption 1**: Labor force rate (FRED 2023): 62.3 %
+D. **Assumption 4**: Labor force rate (FRED 2023): 62.3 %
+E. **Assumption 5**: otal U.S. labor force: ?
+F. **Assumption 6**: Mexican-born in LPC (labor‐force count): ?
 
-This is a displayed the next calc:
+This is a displayed the next calc for get the Assumption 5:
 
 .. math1 ::
 
