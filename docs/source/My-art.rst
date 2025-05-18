@@ -97,39 +97,24 @@ Methodology Overview: Measuring America's People and Economy
 Key Findings: Migrant Myths vs. Reality
 -------------------------
 
-As we mentioned, we will analyze the statements made by President Claudia Sheinbaum through a report published on the Mexican government's official website, which you can consult `here <https://www.gob.mx/presidencia/prensa/las-y-los-migrantes-contribuyen-a-la-economia-de-estados-unidos-presidenta-claudia-sheinbaum-en-2024-aportaron-al-pib-781-mil-mdd>`_. Based on that report, we have found the following:
+As we mentioned, we will analyze the statements made by President Claudia Sheinbaum through a report published on the Mexican government's official website, which you can consult `here <https://www.gob.mx/presidencia/prensa/las-y-los-migrantes-contribuyen-a-la-economia-de-estados-unidos-presidenta-claudia-sheinbaum-en-2024-aportaron-al-pib-781-mil-mdd>`_. 
+
+Let there be no misunderstanding about the purpose of this analysis, which is to show the general public the importance of science and the real data offered by the entities responsible for providing it. In an era of misinformation, clarity in calculations is essential, as you will see in the following points. There is a huge distortion between the official media and reality,
+
+Based on that report, we have found the following:
 
 1. **Migrant Labor Force Participation**
-   - **Mexican-born workers**: Labor force participation rate of **{mex_lfp_rate:.2%}** for 2024.
-   - **Active labor force**: Foreign-born workers contribute significantly to economic productivity.
+   - In 2024, Mexicans born in the U.S. contributed $781 billion to the Gross Domestic Product (GDP), meaning that if they were an independent country, they would currently be the tenth largest economy in the world; while forecasts indicate that the Latino community could occupy third place in two or three years.
 
-2. **GDP Contributions**
-   - **Total GDP (2024)**: USD **${GDP_2024:,.0f} billion**.
-   - **Projected GDP (2025)**: USD **${GDP_2025:,.0f} billion** (assuming a growth rate of {GDP_GROWTH:.2%}).
-   - **Foreign-born GDP share**: Significant contributions, with **top 15 migrant groups** highlighted below.
+2. **Contributions**
+   - In 2022, undocumented immigrants paid nearly $100 billion in taxes, including $25.7 billion to Social Security; $6.4 billion to Medicare; and $1.8 billion to unemployment insurance.
+   - They complement the U.S. workforce in essential industries, as their workforce represents 51 percent of dairy farms and meat processing; 20 percent of manufacturing and agriculture; 15 percent of education and healthcare; 28 percent of healthcare assistants; and 25 percent of construction workers. and 54.3 percent of agricultural sorters.
 
-3. **Top 15 Migrant Groups by GDP Contribution**
+3. **Security**
+   - Immigrants have 60 percent less crime, and the states along the border with Mexico are safer and healthier compared to the northern border of the United States.
 
-.. list-table::
-   :header-rows: 1
-
-   * - Country
-     - Active Labor Force
-     - GDP Contribution (billion USD)
-     - GDP/Worker (thousand USD)
-   * - **Mexico**
-     - {group_pop['Mexico']:,}
-     - ${group_gdp['Mexico']:,.1f}
-     - ${group_gdp_pc['Mexico']:,.1f}
-   * - **India**
-     - {group_pop['India']:,}
-     - ${group_gdp['India']:,.1f}
-     - ${group_gdp_pc['India']:,.1f}
-   * - **China**
-     - {group_pop['China']:,}
-     - ${group_gdp['China']:,.1f}
-     - ${group_gdp_pc['China']:,.1f}
-   * - … (others in the top 15)
+4. **Invesment and Entrepreneurship**
+   - In 2021, one in five immigrants was an entrepreneur, generating $95.6 billion.
 
 ---
 
