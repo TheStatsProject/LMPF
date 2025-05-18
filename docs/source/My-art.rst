@@ -114,7 +114,7 @@ Let there be no misunderstanding about the purpose of this analysis, which is to
 
 Here is some raw and crude information to help you understand this reality. Let's begin...
 
-S tatement 1 . **Migrant Labor Force Participation**
+Statement 1 . **Migrant Labor Force Participation**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
  - In 2024, Mexicans born in the U.S. contributed $781 billion to the Gross Domestic Product (GDP), meaning that if they were an independent country, they would currently be the tenth largest economy in the world; while forecasts indicate that the Latino community could occupy third place in two or three years.
 
