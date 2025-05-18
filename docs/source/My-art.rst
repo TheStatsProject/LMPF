@@ -131,7 +131,7 @@ Base just in this 3 assumtions the mexican government published a report! We nee
 .. math::
 
    \begin{align}
-\frac{a}{b}
+\fracc{a}{b}
    \end{align}
 
 
