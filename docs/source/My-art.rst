@@ -142,7 +142,9 @@ And first one ...  why not use GDP per capita?
 
 ***Reason 2***: It includes the unemployed and is distorted by demographics. GDP per capita includes everyone: children, retirees, and non-working people. This means that countries with young populations, aging societies, or high unemployment appear less productive than they actually are. Only GDP per worker shows how much each active taxpayer actually generates.
 
-So next time you see that official number, remember: if you want to measure real economic power, don’t fall for the myth. Follow the world’s top economists—look at GDP per person employed ¡
+So next time you see that official number, remember: if you want to measure real economic power, don’t fall for the myth. Follow the GDP per person employed¡
+
+
 
 This is an inline equation: :math:`\frac{a}{b}`.
 
