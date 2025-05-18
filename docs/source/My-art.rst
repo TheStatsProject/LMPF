@@ -130,7 +130,7 @@ Base just in this 3 assumtions, the Mexican government dares to make the followi
 
 .. math::
 
-     ( \frac{11,710,000 MBR}{34,914,895 TUP} ) * $22.671 T USD = 0.793 T USD = $781 B USD
+     ( \frac{11,710,000 MBR}{34,914,895 TUP} ) * $22.671 T-USD = 0.793 T-USD = $781 B-USD
 
 The result is 781 Billion USD ... itself is revelated revelated and as stated in the statement issued by the Mexican government. However, this is a MYTH. To perform these measurements, based on the three articles discussed at the beginning of this article, there is a way to address this scientific problem, and that is through measurement by GDP per person employed (at constant prices).
 
@@ -155,21 +155,13 @@ D. **Assumption 4**: Labor force rate (FRED 2023): 62.6 %
 E. **Assumption 5**: Total U.S. labor force: ?
 F. **Assumption 6**: Mexican-born in LPC (labor‐force count): ?
 
-This is a displayed the next calc for get the Assumption 5:
-
-.. math1 ::
-
-Total U.S. labor force: = 334,914,895 Total U.S. population * 62.6 % Labor force rate = 209,656,724 people
+This is a displayed the next calc for get the Assumption 5: :math:`Total U.S. labor force: = 334,914,895 Total U.S. population * 62.6 % Labor force rate = 209,656,724 people`.
 
 Assum 5 is as follows:
 
 E. **Assumption 5**: Total U.S. labor force: 209,656,724 people
 
-This is a displayed the next calc for get the Assumption 6:
-
-.. math1 ::
-
-Mexican-born in LPC: = 11,710,000 Mexican-born residents * 62.6 % Labor force rate = 7,330,460 people
+This is a displayed the next calc for get the Assumption 6: :math:`Mexican-born in LPC: = 11,710,000 Mexican-born residents * 62.6 % Labor force rate = 7,330,460 people`.
 
 Assum 6 is as follows:
 
