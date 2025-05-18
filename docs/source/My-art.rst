@@ -128,8 +128,13 @@ C. **Assumption 3 **: U.S. population (2023): 334,914,895 residents
 
 Base just in this 3 assumtions the mexican government published a report! We need to be serious on this kind of thins bro! Using only these three incipient data and from the different bases and years, the Mexican government dares to make the following calculation that we present below:
 
-.. math::`\fracc{a}{b}´
+This is an inline equation: :math:`\frac{a}{b}`.
 
+This is a displayed equation:
+
+.. math::
+
+   \frac{a}{b}
 
 ---
 
