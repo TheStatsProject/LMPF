@@ -122,15 +122,15 @@ Myths or Reality?
 
 The he argument of the Mexican government is based on the following calculation:
 
-A. **Assumption 1**: Mexican-born residents (ACS 2022):  11,710,000 people
+A. **Assumption 1**: Mexican-born residents - MBR - (ACS 2022):  11,710,000 people
 B. **Assumption 2**: U.S. real GDP (2023, chained 2017): $22.671 trillion
-C. **Assumption 3**: Total U.S. population (2023): 334,914,895 residents
+C. **Assumption 3**: Total U.S. population -TUP- (2023): 334,914,895 residents
 
 Base just in this 3 assumtions, the Mexican government dares to make the following calculation that we present below:
 
 .. math::
 
-     ( \frac{11,710,000 Mexican-born residents}{34,914,895 Total U.S. population} ) * $22.671 T USD = 0.793 T USD = $781 B USD
+     ( \frac{11,710,000 MBR}{34,914,895 TUP} ) * $22.671 T USD = 0.793 T USD = $781 B USD
 
 The result is 781 Billion USD ... itself is revelated revelated and as stated in the statement issued by the Mexican government. However, this is a MYTH. To perform these measurements, based on the three articles discussed at the beginning of this article, there is a way to address this scientific problem, and that is through measurement by GDP per person employed (at constant prices).
 
