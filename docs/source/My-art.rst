@@ -116,7 +116,7 @@ Here is some raw and crude information to help you understand this reality. Let'
 
 S tatement 1 . **Migrant Labor Force Participation**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
- - In 2022, undocumented immigrants paid nearly $100 billion in taxes, including $25.7 billion to Social Security; $6.4 billion to Medicare; and $1.8 billion to unemployment insurance.
+ - In 2024, Mexicans born in the U.S. contributed $781 billion to the Gross Domestic Product (GDP), meaning that if they were an independent country, they would currently be the tenth largest economy in the world; while forecasts indicate that the Latino community could occupy third place in two or three years.
 
 Myths or Reality?
 
