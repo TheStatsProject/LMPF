@@ -126,7 +126,7 @@ A. **Assumption 1**: Mexican-born residents (ACS 2022):  11,710,000 people
 B. **Assumption 2**: U.S. real GDP (2023, chained 2017): $22.671 trillion
 C. **Assumption 3**: Total U.S. population (2023): 334,914,895 residents
 
-Base just in this 3 assumtions the mexican government published a report! We need to be serious on this kind of thins bro! Using only these three incipient data and from the different bases and years, the Mexican government dares to make the following calculation that we present below:
+Base just in this 3 assumtions, the Mexican government dares to make the following calculation that we present below:
 
 .. math::
 
@@ -142,8 +142,20 @@ And first one ...  why not use GDP per capita?
 
 ***Reason 2***: It includes the unemployed and is distorted by demographics. GDP per capita includes everyone: children, retirees, and non-working people. This means that countries with young populations, aging societies, or high unemployment appear less productive than they actually are. Only GDP per worker shows how much each active taxpayer actually generates.
 
-So next time you see that official number, remember: if you want to measure real economic power, don’t fall for the myth. Follow the GDP per person employed¡
+So next time you see that official number, remember: if you want to measure real economic power, don’t fall for the myth. Follow the GDP per person employed¡ For this calculation, we will update all the data, making extrapolations and refining the data. To begin, we have adjusted the data by adding the following values ​​to the data provided by the report.For this calculation, we will update all the data, making extrapolations and refining the data. To begin, we have adjusted the data by adding the following values ​​to the data provided by the report.
 
+For this calculation, we'll update all the data, making extrapolations and refining them. To begin, we've adjusted the data by adding the following values ​​to the data provided in the report. Understanding that for this we need to calculate the labor force, it's important to calculate it. Unfortunately, and until we can obtain official data, even the Bureau in charge of accounting for the country's population movements doesn't have a clear idea of ​​the magnitude of the wave of immigrants in the country, and they even admit it, the quote adds. Based on that and the data provided by the FRED we have estimated the labor force rate as follows, looking for our most avid readers such as national fiscal and banking institutions and serious economic institutions to make their calculations and also those who read us from the comfort of the office, but enough enough returning to the adjustments, we consider the lack of data on the labor force rate by country of origin in the resident population of the United States we will use the general estimate offered by the FRED, with it and the previous elements, the assumptions are as follows:
+
+A. **Assumption 1**: Mexican-born residents (ACS 2022):  11,710,000 people
+B. **Assumption 2**: U.S. real GDP (2023, chained 2017): $22.671 trillion
+C. **Assumption 3**: Total U.S. population (2023): 334,914,895 residents
+A. **Assumption 1**: Labor force rate (FRED 2023): 62.3 %
+
+This is a displayed the next calc:
+
+.. math1 ::
+
+ \frac{a}{b} 
 
 
 This is an inline equation: :math:`\frac{a}{b}`.
