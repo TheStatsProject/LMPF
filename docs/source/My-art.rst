@@ -99,8 +99,6 @@ Key Findings: Migrant Myths vs. Reality
 
 As we mentioned, we will analyze the statements made by President Claudia Sheinbaum through a report published on the Mexican government's official website, which you can consult `here <https://www.gob.mx/presidencia/prensa/las-y-los-migrantes-contribuyen-a-la-economia-de-estados-unidos-presidenta-claudia-sheinbaum-en-2024-aportaron-al-pib-781-mil-mdd>`_. 
 
-Let there be no misunderstanding about the purpose of this analysis, which is to show the general public the importance of science and the real data offered by the entities responsible for providing it. In an era of misinformation, clarity in calculations is essential, as you will see in the following points. There is a huge distortion between the official media and reality,
-
 Based on that report, we have found the following:
 
 1. **Migrant Labor Force Participation**
@@ -123,6 +121,19 @@ Based on that report, we have found the following:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    - In 2021, one in five immigrants was an entrepreneur, generating $95.6 billion.
+
+Let there be no misunderstanding about the purpose of this analysis, which is to show the general public the importance of science and the real data offered by the entities responsible for providing it. In an era of misinformation, clarity in calculations is essential, as you will see in the following points. There is a huge distortion between the official media and reality,
+
+Here is some raw and crude information to help you understand this reality. Let's begin...
+
+S tatement 1 . **Migrant Labor Force Participation**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ - In 2022, undocumented immigrants paid nearly $100 billion in taxes, including $25.7 billion to Social Security; $6.4 billion to Medicare; and $1.8 billion to unemployment insurance.
+
+Myths or Reality?
+
+The answer to this question is very easy, it is obviously a myth, the argument of the Mexican government is based on the following calculation:
+
 
 ---
 
