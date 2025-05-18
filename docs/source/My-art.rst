@@ -149,11 +149,11 @@ For this calculation, we'll update all the data, making extrapolations and refin
 Based on that and the data provided by the FRED we have estimated the labor force rate as follows, looking for our most avid readers such as national fiscal and banking institutions and serious economic institutions to make their calculations and also those who read us from the comfort of the office, but enough enough returning to the adjustments, we consider the lack of data on the labor force rate by country of origin in the resident population of the United States we will use the general estimate offered by the FRED, with it and the previous elements, the assumptions are as follows:
 
 A. **Assumption 1**: Mexican-born residents (ACS 2022):  11,710,000 people
-B. **Assumption 2**: U.S. real GDP (2023, chained 2017): $22.671 trillion
+B. **Assumption 2**: U.S. real GDP (2023, chained 2017): $22.671 Trillion USD
 C. **Assumption 3**: Total U.S. population (2023): 334,914,895 residents
 D. **Assumption 4**: Labor force rate (FRED 2023): 62.6 %
 E. **Assumption 5**: Total U.S. labor force: ?
-F. **Assumption 6**: Mexican-born in LPC (labor‐force count): ?
+F. **Assumption 6**: Mexican-born LFC (labor‐force count): ?
 
 This is a displayed the next calc for get the Assumption 5: :math:`Total U.S. labor force: = 334,914,895 Total U.S. population * 62.6 % Labor force rate = 209,656,724 people`.
 
@@ -161,20 +161,26 @@ Assum 5 is as follows:
 
 E. **Assumption 5**: Total U.S. labor force: 209,656,724 people
 
-This is a displayed the next calc for get the Assumption 6: :math:`Mexican-born in LPC: = 11,710,000 Mexican-born residents * 62.6 % Labor force rate = 7,330,460 people`.
+This is a displayed the next calc for get the Assumption 6: :math:`Mexican-born LFC: = 11,710,000 Mexican-born residents * 62.6 % Labor force rate = 7,330,460 people`.
 
 Assum 6 is as follows:
 
-F. **Assumption 5**: Mexican-born in LPC: 7,330,460 people
+F. **Assumption 6**: Mexican-born LFC: 7,330,460 people
 
-
-Base in alll asummptions we get the next adjust calc abour the contribution of GDP of the labor force of USA from  Mexican-born residents, for know that we build the next equation:
+Base in alll asummptions we get the next adjust calc about the contribution of GDP of the labor force of USA from  Mexican-born residents, for know that we build the next equation:
 
 
 .. math::
 
- (\frac{7,330,460 Mexican-born in LPC}{209,656,724 Total U.S. labor force}) * 100 = 3.49 %
+ (\frac{7,330,460 Mexican-born in LFC}{209,656,724 Total U.S. labor force}) * 100 = 3.49 %
 
+With all this ingredients we could calculate the contribution of GDP from Mexican-born LFC
+
+G. **Contribution of GDP from Mexican-born LFC: ?
+
+Allocated GDP = 4.65% × $22.671 T ≈ $1.055 T
+
+This is a displayed the next calc for get the Assumption 7: :math:`3.49 % * $22.671-T-USD = 791 B`.
 
 This is an inline equation: :math:`\frac{a}{b}`.
 
