@@ -149,7 +149,7 @@ For this calculation, we'll update all the data, making extrapolations and refin
 A. **Assumption 1**: Mexican-born residents (ACS 2022):  11,710,000 people
 B. **Assumption 2**: U.S. real GDP (2023, chained 2017): $22.671 trillion
 C. **Assumption 3**: Total U.S. population (2023): 334,914,895 residents
-A. **Assumption 1**: Labor force rate (FRED 2023): 62.3 %
+D. **Assumption 1**: Labor force rate (FRED 2023): 62.3 %
 
 This is a displayed the next calc:
 
