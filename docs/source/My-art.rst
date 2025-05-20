@@ -178,7 +178,7 @@ Assum 4 is as follows:
 
 .. raw:: html
 
-    <iframe src="_static/employment_ratio_timeseries_2007_2025.html" width="700" height="400"></iframe>
+    <iframe src="_static/employment_ratio_timeseries_2007_2025.html" width="600" height="400"></iframe>
 
 
 Assum 6 is as follows:
