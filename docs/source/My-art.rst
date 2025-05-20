@@ -148,20 +148,41 @@ For this calculation, we'll update all the data, making extrapolations and refin
 
 Based on that and the data provided by the FRED we have estimated the labor force rate as follows, looking for our most avid readers such as national fiscal and banking institutions and serious economic institutions to make their calculations and also those who read us from the comfort of the office, but enough enough returning to the adjustments, we consider the lack of data on the labor force rate by country of origin in the resident population of the United States we will use the general estimate offered by the FRED, with it and the previous elements, the assumptions are as follows:
 
-A. **Assumption 1**: Mexican-born residents (ACS 2022):  11,710,000 people
-B. **Assumption 2**: U.S. real GDP (2023, chained 2017): $22.671 Trillion USD
-C. **Assumption 3**: Total U.S. population (2023): 334,914,895 residents
-D. **Assumption 4**: Labor force rate (FRED 2023): 62.6 %
-E. **Assumption 5**: Total U.S. labor force: ?
-F. **Assumption 6**: Mexican-born LFC (labor‐force count): ?
+For get the datasets for make the calcs we build this dataset base on this variables:
 
-This is a displayed the next calc for get the Assumption 5: :math:`Total U.S. labor force = 334,914,895 Total U.S. population * 62.6 % Labor force rate = 209,656,724 people`.
+
++-------------------+------------------+-------------------------------------------------------+---------------+
+| Data Source       | Variable Code    | Description                                           | Unit          |
++===================+==================+=======================================================+===============+
+| Census.gov ACS    | B05002_002E      | Native-born population                                | Count         |
++-------------------+------------------+-------------------------------------------------------+---------------+
+| Census.gov ACS    | B05006_xxxE      | Foreign-born population by country of birth           | Count         |
++-------------------+------------------+-------------------------------------------------------+---------------+
+| FRED              | CE16OV           | Civilian Employment Level                             | Thousands     |
++-------------------+------------------+-------------------------------------------------------+---------------+
+| FRED              | CNP16OV          | Civilian Noninstitutional Population (16+)            | Thousands     |
++-------------------+------------------+-------------------------------------------------------+---------------+
+| FRED              | GDPC1            | Real Gross Domestic Product (chained 2017 dollars)    | Billions USD  |
++-------------------+------------------+-------------------------------------------------------+---------------+
+
+
+With this information we amplify the assumptions made by the Mexican government and will add additional elements to refine this analysis. Then this follo like follows:
+
+A. **Assumption 1**: Foreing-born residents.
+B. **Assumption 2**: U.S. real GDP.
+C. **Assumption 3**: Total U.S. population (TUSP).
+D. **Assumption 4**: Total U.S. labor force (TUSLF).
+E. **Assumption 5**: EMP Ratio
+F. **Assumption 6**: Foreing-born LFC.
+
+This is a displayed the next calc for get the Assumption 5: :math:`EMP Ratio = \frac{Total U.S. population}{Total U.S. labor force}`.
 
 Assum 5 is as follows:
 
-E. **Assumption 5**: Total U.S. labor force: 209,656,724 people
+.. raw:: html
 
-This is a displayed the next calc for get the Assumption 6: :math:`Mexican-born LFC = 11,710,000 Mexican-born residents * 62.6 % Labor force rate = 7,330,460 people`.
+    <iframe src="employment_ratio_timeseries_2007_2025.html" width="700" height="500"></iframe>
+
 
 Assum 6 is as follows:
 
