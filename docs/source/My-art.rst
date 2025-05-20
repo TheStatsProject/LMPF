@@ -166,22 +166,19 @@ For get the datasets for make the calcs we build this dataset base on this varia
 +-------------------+------------------+-------------------------------------------------------+---------------+
 
 
-With this information we amplify the assumptions made by the Mexican government and will add additional elements to refine this analysis. Then this follo like follows:
+With this information we amplify the assumptions made by the Mexican government and will add additional elements to refine this analys adding as follow:
 
-A. **Assumption 1**: Foreing-born residents.
-B. **Assumption 2**: U.S. real GDP.
-C. **Assumption 3**: Total U.S. population (TUSP).
-D. **Assumption 4**: Total U.S. labor force (TUSLF).
-E. **Assumption 5**: EMP Ratio
+D. **Assumption 4**: EMP Ratio
+E. **Assumption 5**: Total U.S. labor force (TUSLF).
 F. **Assumption 6**: Foreing-born LFC.
 
-This is a displayed the next calc for get the Assumption 5: :math:`EMP Ratio = \frac{Total U.S. population}{Total U.S. labor force}`.
+This is a displayed the next calc for get the Assumption 4: :math:`EMP Ratio = \frac{Total U.S. population}{Total U.S. labor force}`.
 
-Assum 5 is as follows:
+Assum 4 is as follows:
 
 .. raw:: html
 
-    <iframe src="employment_ratio_timeseries_2007_2025.html" width="700" height="500"></iframe>
+    <iframe src="_static/employment_ratio_timeseries_2007_2025.html" width="700" height="500"></iframe>
 
 
 Assum 6 is as follows:
