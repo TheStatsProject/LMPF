@@ -203,6 +203,8 @@ To calculate it and taking into account all the assumptions, it is as follows:
 
 With all this Assumptions and recalibrate the datasets base from `U.S. Census Bureau <https://www.census.gov/>`_ and the `Federal Reserve's FRED <https://fred.stlouisfed.org>`_ database we get the next results:
 
+.. raw:: html
+
     <iframe src="_static/gdp_employment_table_sorted_foreignonly_2024.html" width="600" height="400"></iframe>
 
 
