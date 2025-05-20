@@ -169,37 +169,41 @@ For get the datasets for make the calcs we build this dataset base on this varia
 With this information we amplify the assumptions made by the Mexican government and will add additional elements to refine this analys adding as follow:
 
 D. **Assumption 4**: EMP Ratio
-E. **Assumption 5**: Total U.S. labor force (TUSLF).
-F. **Assumption 6**: Foreing-born LFC.
+
 
 This is a displayed the next calc for get the Assumption 4: :math:`EMP Ratio = \frac{Total U.S. population}{Total U.S. labor force}`.
 
-Assum 4 is as follows:
+Assum Assumption 4 is as follows:
 
 .. raw:: html
 
     <iframe src="_static/employment_ratio_timeseries_2007_2025.html" width="600" height="400"></iframe>
 
+By obtaining the EMP ratio, we can calculate, based on this estimator, the number of people by origin group within the United States that are part of the country's workforce. To do this, the following general formula will be used.
 
-Assum 6 is as follows:
 
-F. **Assumption 6**: Mexican-born LFC: 7,330,460 people
+E. **Assumption 6**: Foreing-group LFC 
 
-Base in alll asummptions we get the next adjust calc about the contribution of GDP of the labor force of USA from  Mexican-born residents, for know that we build the next equation:
-
+Base in alll asummptions we get the next adjust calc of the labor force of USA, for know that we build the next equation:
 
 .. math::
 
- (\frac{7,330,460 Mexican-born in LFC}{209,656,724 Total U.S. labor force}) * 100 = 3.49 %
+ (X Foreing-group group) * EMP_RATIO = Foreing-group LFC
+
 
 With all this ingredients we could calculate the contribution of GDP from Mexican-born LFC
 
-G. **Contribution of GDP from Mexican-born LFC: ?
+G. **Contribution of GDP from Foreing-group LFC
 
-Allocated GDP = 4.65% × $22.671 T ≈ $1.055 T
+To calculate it and taking into account all the assumptions, it is as follows:
 
-This is a displayed the next calc for get the Assumption 7: :math:`3.49 % * $22.671-T-USD = 791 B`.
+.. math::
 
+ (\frac{X Foreing-group in LFC}{Total U.S. labor force}) * 100 = Contribution of GDP from Foreing-group LFC %
+
+With all this Assumptions and recalibrate the datasets base from `U.S. Census Bureau <https://www.census.gov/>`_ and the `Federal Reserve's FRED <https://fred.stlouisfed.org>`_ database we get the next results:
+
+    <iframe src="_static/gdp_employment_table_sorted_foreignonly_2024.html" width="600" height="400"></iframe>
 
 
 
