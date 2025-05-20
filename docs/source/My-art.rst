@@ -193,7 +193,7 @@ Base in alll asummptions we get the next adjust calc of the labor force of USA, 
 
 With all this ingredients we could calculate the contribution of GDP from Mexican-born LFC
 
-G. **Contribution of GDP from Foreing-group LFC
+F. **Contribution of GDP from Foreing-group LFC**
 
 To calculate it and taking into account all the assumptions, it is as follows:
 
