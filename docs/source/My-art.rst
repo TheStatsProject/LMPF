@@ -207,7 +207,7 @@ What remains to be clarified at this point is to contrast the contributions made
       <div style="flex:1; min-width:350px; max-width: 49%;">
         <iframe src="_static/mexican_foreign_born_gdp_vs_oecd.html" width="100%" height="400" frameborder="0"></iframe>
         <div style="text-align:center; margin-top: 6px; font-weight: bold;">
-          Figure 1: US Real GDP, 2009–2025
+          Mexican Foreign-born GDP Contribution Compared to Top 15 OECD Countries (USD Billions)
         </div>
         <div style="font-size:90%; text-align:center; color:#555;">
           This interactive graph shows the real GDP of the United States over time, in trillions of dollars.
