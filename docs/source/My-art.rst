@@ -153,7 +153,7 @@ For get the datasets for make the calcs we build this dataset base on this varia
 
 .. raw:: html
 
-    <iframe src="_static/summary_table_census_fred.html" width="500" height="400"></iframe>
+    <iframe src="_static/summary_table_census_fred.html" width="600" height="400"></iframe>
 
 
 With this information we amplify the assumptions made by the Mexican government and will add additional elements to refine this analys adding as follow:
@@ -195,7 +195,7 @@ With all this Assumptions and recalibrate the datasets base from `U.S. Census Bu
 
 .. raw:: html
 
-    <iframe src="_static/gdp_employment_table_sorted_foreignonly_2024.html" width="600" height="400"></iframe>
+    <iframe src="_static/gdp_employment_table_sorted_foreignonly_2024.html" width="650" height="430"></iframe>
 
 As we can see in the table ¨GDP & Employment Table by Foreign-Born Group (Excludes Native, 2024)¨ the calculation issued by the Mexican authority has a quite important variation since when considering the total population, as we have mentioned before, it generates distortions that distance us from reality, according to these results the statement of Mexicans born in the U.S. contributed $781 billion to the Gross Domestic Product (GDP) since their real contribution is ****$953.3 billion to the Gross Domestic Product (GDP)****
 
