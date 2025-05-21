@@ -212,9 +212,6 @@ What remains to be clarified at this point is to contrast the contributions made
         <div style="text-align:center; margin-top: 6px; font-weight: bold;">
           Mexican Foreign-born GDP Contribution Compared to Top 15 OECD Countries (USD Billions)
         </div>
-        <div style="font-size:90%; text-align:center; color:#555;">
-          This interactive graph shows the real GDP of the United States over time, in trillions of dollars.
-        </div>
       </div>
       <div style="flex:1; min-width:322px; max-width: 36.8%;">
         <iframe src="_static/mexican_foreign_born_vs_major_economies.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs Major Economies">
@@ -223,14 +220,16 @@ What remains to be clarified at this point is to contrast the contributions made
         <div style="text-align:center; margin-top: 6px; font-weight: bold;">
           Mexican Foreign-born GDP Contribution Compared to Major World Economies (USD Billions)
         </div>
-        <div style="font-size:90%; text-align:center; color:#555;">
-          This chart illustrates the employment-to-population ratio in percentage, from 2007 to 2025.
-        </div>
       </div>
     </div>
 
 
 This is an inline equation: :math:`\frac{a}{b}`.
+
+
+        <div style="font-size:90%; text-align:center; color:#555;">
+          This interactive graph shows the real GDP of the United States over time, in trillions of dollars.
+        </div>
 
 This is a displayed equation:
 
