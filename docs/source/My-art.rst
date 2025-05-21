@@ -252,7 +252,7 @@ Pero vamos, no podemos terminar esta afirmación sin agregar que México no es e
 
 .. raw:: html
 
-    <iframe src="_static/gdp_top10_foreign_contributors_2024.html" width="650" height="430"></iframe>
+    <iframe src="_static/gdp_top10_foreign_contributors_2024.html" width="650" height="500"></iframe>
 
 ---
 
