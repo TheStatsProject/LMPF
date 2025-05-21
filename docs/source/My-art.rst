@@ -205,7 +205,7 @@ What remains to be clarified at this point is to contrast the contributions made
 
     <div style="display: flex; justify-content: space-between; gap: 22px;">
       <div style="flex:1; min-width:322px; max-width: 36.8%;">
-        <iframe src="_static/mexican_foreign_born_gdp_vs_oecd_updated.html" width="100%" height="368" frameborder="0"></iframe>
+        <iframe src="_static/mexican_foreign_born_gdp_vs_oecd.html" width="100%" height="368" frameborder="0"></iframe>
         <div style="text-align:center; margin-top: 6px; font-weight: bold;">
           Mexican Foreign-born GDP Contribution Compared to Top 15 OECD Countries (USD Billions)
         </div>
@@ -214,7 +214,7 @@ What remains to be clarified at this point is to contrast the contributions made
         </div>
       </div>
       <div style="flex:1; min-width:322px; max-width: 36.8%;">
-        <iframe src="_static/mexican_foreign_born_vs_major_economies_updated.html" width="100%" height="368" frameborder="0"></iframe>
+        <iframe src="_static/mexican_foreign_born_vs_major_economies.html" width="100%" height="368" frameborder="0"></iframe>
         <div style="text-align:center; margin-top: 6px; font-weight: bold;">
           Mexican Foreign-born GDP Contribution Compared to Major World Economies (USD Billions)
         </div>
