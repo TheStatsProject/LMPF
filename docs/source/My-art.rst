@@ -199,7 +199,7 @@ With all this Assumptions and recalibrate the datasets base from `U.S. Census Bu
 
 As we can see in the table ¨GDP & Employment Table by Foreign-Born Group (Excludes Native, 2024)¨ the calculation issued by the Mexican authority has a quite important variation since when considering the total population, as we have mentioned before, it generates distortions that distance us from reality, according to these results the statement of Mexicans born in the U.S. contributed $781 billion to the Gross Domestic Product (GDP) since their real contribution is ****$953.3 billion to the Gross Domestic Product (GDP)****
 
-What remains to be clarified at this point is to contrast the contributions made by the Mexico foreign origin born group. According to the statement (which stated that the 781 billion USD is not accurate information), ****the contribution that this group makes to the US GDP is equivalent, compared to the member economies of the OECD, to the tenth largest economy in the world****. Unfortunately, as we can see here, ****this is also unverifiable****, since considering their own (implausible) statements, the size of the contribution of 781 billion USD would ****actually be equivalent to the fourteenth largest economy in the world****. If we included Russia and China in this analysis, ****the position would move to the seventeenth largest economy****, as can be seen in the following graph.
+What remains to be clarified at this point is to contrast the contributions made by the Mexico foreign origin born group. According to the statement (which stated that the 781 billion USD is not accurate information), ****the contribution that this group makes to the US GDP is equivalent, compared to the member economies of the OECD, to the tenth largest economy in the world****. Unfortunately, as we can see here, ****this is also unverifiable****, since considering their own (implausible) statements, the size of the contribution of 781 billion USD would ****actually be equivalent to the fifteenth largest economy in the world****. If we included Russia and China in this analysis, ****the position would move to the eighteenth largest economy****, as can be seen in the following graph.
 
 
 .. raw:: html
@@ -222,6 +222,34 @@ What remains to be clarified at this point is to contrast the contributions made
         </div>
       </div>
     </div>
+
+As we can see, even considering the contributions discussed in the official report, the reality is that according to their data, the contribution of the Mexican foreign origin group would not be the 11th largest economy but the 15th among the OECD members and 18th if we consider the major economies. But referring to the data that we have been able to collect and develop, the reality is that the contribution, as we mentioned, is **** 953.3 Billion USD****, so with that level of contribution, compared to the OECD member countries, it would place the ****Mexican foreign origin group**** as the fourteenth largest economy and if we talk about the largest economies ****the group occupy the seventeenth place**** as can be seen in the following graphs:
+
+
+.. raw:: html
+
+    <div style="display: flex; justify-content: space-between; gap: 22px;">
+      <div style="flex:1; min-width:322px; max-width: 36.8%;">
+        <iframe src="_static/mexican_foreign_born_gdp_vs_oecd_updated.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs OECD Countries">
+          Your browser does not support iframes. View the chart <a href="_static/mexican_foreign_born_gdp_vs_oecd_updated.html">here</a>.
+        </iframe>
+        <div style="text-align:center; margin-top: 6px; font-weight: bold;">
+          Mexican Foreign-born GDP Contribution Compared to Top 15 OECD Countries (USD Billions)
+        </div>
+      </div>
+      <div style="flex:1; min-width:322px; max-width: 36.8%;">
+        <iframe src="_static/mexican_foreign_born_vs_major_economies_updated.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs Major Economies">
+          Your browser does not support iframes. View the chart <a href="_static/mexican_foreign_born_vs_major_economies_updated.html">here</a>.
+        </iframe>
+        <div style="text-align:center; margin-top: 6px; font-weight: bold;">
+          Mexican Foreign-born GDP Contribution Compared to Major World Economies (USD Billions)
+        </div>
+      </div>
+    </div>
+
+
+
+
 
 
 This is an inline equation: :math:`\frac{a}{b}`.
