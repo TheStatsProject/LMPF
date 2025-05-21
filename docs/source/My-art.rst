@@ -153,7 +153,7 @@ For get the datasets for make the calcs we build this dataset base on this varia
 
 .. raw:: html
 
-    <iframe src="_static/summary_table_census_fred.html" width="600" height="400"></iframe>
+    <iframe src="_static/summary_table_census_fred.html" width="650" height="430"></iframe>
 
 
 With this information we amplify the assumptions made by the Mexican government and will add additional elements to refine this analys adding as follow:
@@ -161,13 +161,13 @@ With this information we amplify the assumptions made by the Mexican government 
 D. **Assumption 4**: EMP Ratio
 
 
-This is a displayed the next calc for get the Assumption 4: :math:`EMP Ratio = \frac{Total U.S. population}{Total U.S. labor force}`.
+This is a displayed the next calc for get the Assumption 4: :math:`EMP-Ratio = \frac{Total U.S. population}{Total U.S. labor force}`.
 
 Assum Assumption 4 is as follows:
 
 .. raw:: html
 
-    <iframe src="_static/employment_ratio_timeseries_2007_2025.html" width="700" height="400"></iframe>
+    <iframe src="_static/employment_ratio_timeseries_2007_2025.html" width="650" height="430"></iframe>
 
 By obtaining the EMP ratio, we can calculate, based on this estimator, the number of people by origin group within the United States that are part of the country's workforce. To do this, the following general formula will be used.
 
@@ -199,12 +199,30 @@ With all this Assumptions and recalibrate the datasets base from `U.S. Census Bu
 
 As we can see in the table ¨GDP & Employment Table by Foreign-Born Group (Excludes Native, 2024)¨ the calculation issued by the Mexican authority has a quite important variation since when considering the total population, as we have mentioned before, it generates distortions that distance us from reality, according to these results the statement of Mexicans born in the U.S. contributed $781 billion to the Gross Domestic Product (GDP) since their real contribution is ****$953.3 billion to the Gross Domestic Product (GDP)****
 
+What remains to be clarified at this point is to contrast the contributions made by the Mexico foreign origin born group. According to the statement (which stated that the 781 billion USD is not accurate information), the contribution that this group makes to the US GDP is equivalent, compared to the member economies of the OECD, to the tenth largest economy in the world. Unfortunately, as we can see here, this is also unverifiable, since considering their own (implausible) statements, the size of the contribution of 781 billion USD would actually be equivalent to the fourteenth largest economy in the world. If we included Russia and China in this analysis, the position would move to the seventeenth largest economy, as can be seen in the following graph.
 
+.. raw:: html
 
-
-
-
-
+    <div style="display: flex; justify-content: space-between; gap: 24px;">
+      <div style="flex:1; min-width:350px; max-width: 49%;">
+        <iframe src="_static/mexican_foreign_born_gdp_vs_oecd.html" width="100%" height="400" frameborder="0"></iframe>
+        <div style="text-align:center; margin-top: 6px; font-weight: bold;">
+          Figure 1: US Real GDP, 2009–2025
+        </div>
+        <div style="font-size:90%; text-align:center; color:#555;">
+          This interactive graph shows the real GDP of the United States over time, in trillions of dollars.
+        </div>
+      </div>
+      <div style="flex:1; min-width:350px; max-width: 49%;">
+        <iframe src="_static/mexican_foreign_born_vs_major_economies.html" width="100%" height="400" frameborder="0"></iframe>
+        <div style="text-align:center; margin-top: 6px; font-weight: bold;">
+          Figure 2: Employment Ratio, 2007–2025
+        </div>
+        <div style="font-size:90%; text-align:center; color:#555;">
+          This chart illustrates the employment-to-population ratio in percentage, from 2007 to 2025.
+        </div>
+      </div>
+    </div>
 
 
 
