@@ -201,34 +201,12 @@ As we can see in the table ¨GDP & Employment Table by Foreign-Born Group (Exclu
 
 What remains to be clarified at this point is to contrast the contributions made by the Mexico foreign origin born group. According to the statement (which stated that the 781 billion USD is not accurate information), the contribution that this group makes to the US GDP is equivalent, compared to the member economies of the OECD, to the tenth largest economy in the world. Unfortunately, as we can see here, this is also unverifiable, since considering their own (implausible) statements, the size of the contribution of 781 billion USD would actually be equivalent to the fourteenth largest economy in the world. If we included Russia and China in this analysis, the position would move to the seventeenth largest economy, as can be seen in the following graph.
 
-.. raw:: html
-
-    <div style="display: flex; justify-content: space-between; gap: 22px;">
-      <div style="flex:1; min-width:322px; max-width: 36.8%;">
-        <iframe src="_static/mexican_foreign_born_gdp_vs_oecd.html" width="100%" height="368" frameborder="0"></iframe>
-        <div style="text-align:center; margin-top: 6px; font-weight: bold;">
-          Mexican Foreign-born GDP Contribution Compared to Top 15 OECD Countries (USD Billions)
-        </div>
-        <div style="font-size:90%; text-align:center; color:#555;">
-          This interactive graph shows the real GDP of the United States over time, in trillions of dollars.
-        </div>
-      </div>
-      <div style="flex:1; min-width:322px; max-width: 36.8%;">
-        <iframe src="_static/mexican_foreign_born_vs_major_economies.html" width="100%" height="368" frameborder="0"></iframe>
-        <div style="text-align:center; margin-top: 6px; font-weight: bold;">
-          Mexican Foreign-born GDP Contribution Compared to Major World Economies (USD Billions)
-        </div>
-        <div style="font-size:90%; text-align:center; color:#555;">
-          This chart illustrates the employment-to-population ratio in percentage, from 2007 to 2025.
-        </div>
-      </div>
-    </div>
 
 .. raw:: html
 
     <div style="display: flex; justify-content: space-between; gap: 22px;">
       <div style="flex:1; min-width:322px; max-width: 36.8%;">
-        <iframe src="_static/mexican_foreign_born_gdp_vs_oecd_updated.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs OECD Countries">
+        <iframe src="_static/mexican_foreign_born_gdp_vs_oecd.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs OECD Countries">
           Your browser does not support iframes. View the chart <a href="_static/mexican_foreign_born_gdp_vs_oecd_updated.html">here</a>.
         </iframe>
         <div style="text-align:center; margin-top: 6px; font-weight: bold;">
@@ -239,7 +217,7 @@ What remains to be clarified at this point is to contrast the contributions made
         </div>
       </div>
       <div style="flex:1; min-width:322px; max-width: 36.8%;">
-        <iframe src="_static/mexican_foreign_born_vs_major_economies_updated.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs Major Economies">
+        <iframe src="_static/mexican_foreign_born_vs_major_economies.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs Major Economies">
           Your browser does not support iframes. View the chart <a href="_static/mexican_foreign_born_vs_major_economies_updated.html">here</a>.
         </iframe>
         <div style="text-align:center; margin-top: 6px; font-weight: bold;">
