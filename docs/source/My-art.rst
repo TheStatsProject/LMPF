@@ -223,6 +223,7 @@ What remains to be clarified at this point is to contrast the contributions made
       </div>
     </div>
 
+
 As we can see, even considering the contributions discussed in the official report, the reality is that according to their data, the contribution of the Mexican foreign origin group would not be the 11th largest economy but the 15th among the OECD members and 18th if we consider the major economies. But referring to the data that we have been able to collect and develop, the reality is that the contribution, as we mentioned, is **** 953.3 Billion USD****, so with that level of contribution, compared to the OECD member countries, it would place the ****Mexican foreign origin group**** as the fourteenth largest economy and if we talk about the largest economies ****the group occupy the seventeenth place**** as can be seen in the following graphs:
 
 
