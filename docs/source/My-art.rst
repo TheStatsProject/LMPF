@@ -136,7 +136,7 @@ The result is 781 Billion USD ... itself is revelated revelated and as stated in
 
 Even official institutions such as the World Bank and the OECD use "GDP per person employed at constant prices for a specific year" as a measure of labor productivity, reflecting output per worker rather than averaging the total population, which is what GDP per capita does.
 
-And first one ...  why not use GDP per capita?
+****And first one ...  why not use GDP per capita?****
 
 **Reason 1**: GDP per capita divides the economic pie equally among everyone, pretending that each citizen has an equal share. In reality, the gap between the rich and the rest can be enormous; this measure hides those differences and obscures the real economic problems.
 
