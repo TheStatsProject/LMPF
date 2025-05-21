@@ -153,7 +153,7 @@ For get the datasets for make the calcs we build this dataset base on this varia
 
 .. raw:: html
 
-    <iframe src="_static/summary_table_census_fred.html" width="650" height="430"></iframe>
+    <iframe src="_static/summary_table_census_fred.html" width="650" height="350"></iframe>
 
 
 With this information we amplify the assumptions made by the Mexican government and will add additional elements to refine this analys adding as follow:
