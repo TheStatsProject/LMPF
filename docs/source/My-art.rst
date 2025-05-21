@@ -216,7 +216,7 @@ What remains to be clarified at this point is to contrast the contributions made
       <div style="flex:1; min-width:322px; max-width: 36.8%;">
         <iframe src="_static/mexican_foreign_born_vs_major_economies.html" width="100%" height="368" frameborder="0"></iframe>
         <div style="text-align:center; margin-top: 6px; font-weight: bold;">
-          Figure 2: Employment Ratio, 2007–2025
+          Mexican Foreign-born GDP Contribution Compared to Major World Economies (USD Billions)
         </div>
         <div style="font-size:90%; text-align:center; color:#555;">
           This chart illustrates the employment-to-population ratio in percentage, from 2007 to 2025.
