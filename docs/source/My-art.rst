@@ -151,19 +151,9 @@ Based on that and the data provided by the FRED we have estimated the labor forc
 For get the datasets for make the calcs we build this dataset base on this variables:
 
 
-+-------------------+------------------+-------------------------------------------------------+---------------+
-| Data Source       | Variable Code    | Description                                           | Unit          |
-+===================+==================+=======================================================+===============+
-| Census.gov ACS    | B05002_002E      | Native-born population                                | Count         |
-+-------------------+------------------+-------------------------------------------------------+---------------+
-| Census.gov ACS    | B05006_xxxE      | Foreign-born population by country of birth           | Count         |
-+-------------------+------------------+-------------------------------------------------------+---------------+
-| FRED              | CE16OV           | Civilian Employment Level                             | Thousands     |
-+-------------------+------------------+-------------------------------------------------------+---------------+
-| FRED              | CNP16OV          | Civilian Noninstitutional Population (16+)            | Thousands     |
-+-------------------+------------------+-------------------------------------------------------+---------------+
-| FRED              | GDPC1            | Real Gross Domestic Product (chained 2017 dollars)    | Billions USD  |
-+-------------------+------------------+-------------------------------------------------------+---------------+
+.. raw:: html
+
+    <iframe src="_static/summary_table_census_fred.html" width="600" height="400"></iframe>
 
 
 With this information we amplify the assumptions made by the Mexican government and will add additional elements to refine this analys adding as follow:
