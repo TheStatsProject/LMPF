@@ -248,7 +248,7 @@ As we can see, even considering the contributions discussed in the official repo
       </div>
     </div>
 
-Pero vamos, no podemos terminar esta afirmación sin agregar que México no es el único que aporta al PIB de USA, aquí se presenta el top de Foreing origins groups que más aportaron en el 2024:
+But let's not finish this statement without adding that Mexico isn't the only one contributing to the US GDP. Here are the top foreign origin groups that contributed the most in 2024:
 
 .. raw:: html
 
