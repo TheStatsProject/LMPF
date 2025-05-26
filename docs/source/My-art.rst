@@ -130,7 +130,7 @@ Base just in this 3 assumtions, the Mexican government dares to make the followi
 
 .. math::
 
-     ( \frac{11,710,000 MBR}{34,914,895 TUP} ) * $22.671 T-USD = 0.793 T-USD = $781 Billion USD
+     ( \frac{11,710,000 MBR}{34,914,895 TUP} ) * $22.671 T-USD = $7603 Billion USD
 
 The result is 781 Billion USD ... itself is revelated revelated and as stated in the statement issued by the Mexican government. However, this is a MYTH. To perform these measurements, based on the three articles discussed at the beginning of this article, there is a way to address this scientific problem, and that is through measurement by GDP per person employed (at constant prices).
 
