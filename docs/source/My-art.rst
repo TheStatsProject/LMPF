@@ -265,7 +265,7 @@ Statement 2 . **Contributions**
 
 ****Myths or Reality?****
 
-
+In order to address these assertions about the contributions of "undocumented" people, understood as those stays not authorized by the state. The way in which these details are obtained is even more confusing, given that even within the same statistical analysis groups of the census boreau, they agree on the difficulty of obtaining precise data on this point. However, we attempt to obtain more credible statistics based on the information available at the time of this analysis.
 
 This is an inline equation: :math:`\frac{a}{b}`.
 
