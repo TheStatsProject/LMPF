@@ -281,7 +281,7 @@ To answer the concerns that arise it is necessary to divide the problem into som
 .. raw:: html
 
     <div style="text-align:center;">
-        <iframe src="_static/bar_employed_unauthorized_by_country_2022.html" width="650" height="500" title="Top 10 Foreign-Born Groups by U.S. GDP Contribution (2024)"></iframe>
+        <iframe src="_static/pie_top10_countries_share.html" width="650" height="500" title="Top 10 Foreign-Born Groups by U.S. GDP Contribution (2024)"></iframe>
         <div style="font-size: 90%; margin-top: 8px; color: #555;">
             Top 10 Foreign-Born Groups by U.S. GDP Contribution (2024)
         </div>
