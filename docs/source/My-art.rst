@@ -271,14 +271,21 @@ To answer the concerns that arise it is necessary to divide the problem into som
 
 .. raw:: html
 
-    <iframe src="_static/gdp_top10_foreign_contributors_2024.html" width="650" height="500"></iframe>
-
-
+    <div style="text-align:center;">
+        <iframe src="_static/employed_unauthorized_population_2009_2024.html" width="650" height="500" title="Top 10 Foreign-Born Groups by U.S. GDP Contribution (2024)"></iframe>
+        <div style="font-size: 90%; margin-top: 8px; color: #555;">
+            Top 10 Foreign-Born Groups by U.S. GDP Contribution (2024)
+        </div>
+    </div>
 
 .. raw:: html
 
-    <iframe src="_static/gdp_top10_foreign_contributors_2024.html" width="650" height="500"></iframe>
-
+    <div style="text-align:center;">
+        <iframe src="_static/bar_employed_unauthorized_by_country_2022.html" width="650" height="500" title="Top 10 Foreign-Born Groups by U.S. GDP Contribution (2024)"></iframe>
+        <div style="font-size: 90%; margin-top: 8px; color: #555;">
+            Top 10 Foreign-Born Groups by U.S. GDP Contribution (2024)
+        </div>
+    </div>
 
 
 
