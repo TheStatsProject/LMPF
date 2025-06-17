@@ -354,6 +354,154 @@ Interactive Visualizations
 
 ---
 
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/summary_table_census_fred.html"
+                title="Summary Table: Census and FRED"
+                style="width: 100%; height: 340px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/summary_table_census_fred.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*This table provides a unified summary of key variables from the U.S. Census and FRED, forming the baseline for all following calculations.*
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/employment_ratio_timeseries_2007_2025.html"
+                title="Employment Ratio Timeseries 2007-2025"
+                style="width: 100%; height: 430px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/employment_ratio_timeseries_2007_2025.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*The employment ratio has fluctuated over time, impacting GDP calculations by group. Recent years show stronger labor force participation among foreign-born populations.*
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/gdp_employment_table_sorted_foreignonly_2024.html"
+                title="GDP & Employment Table by Foreign-Born Group (2024)"
+                style="width: 100%; height: 430px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/gdp_employment_table_sorted_foreignonly_2024.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*Refined calculations reveal the GDP contribution of Mexican-born and other foreign-born groups, correcting common misconceptions in public discourse.*
+
+.. raw:: html
+
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 22px;">
+      <div style="flex:1; min-width:322px; max-width: 48%;">
+        <iframe src="_static/mexican_foreign_born_gdp_vs_oecd_updated.html"
+                title="Mexican Foreign-born GDP vs OECD Countries"
+                style="width: 100%; height: 368px; border: none;">
+          Your browser does not support iframes. View the chart
+          <a href="_static/mexican_foreign_born_gdp_vs_oecd_updated.html">here</a>.
+        </iframe>
+        <div style="text-align:center; margin-top: 6px; font-weight: bold;">
+          Mexican Foreign-born GDP Contribution Compared to Top 15 OECD Countries (USD Billions)
+        </div>
+      </div>
+      <div style="flex:1; min-width:322px; max-width: 48%;">
+        <iframe src="_static/mexican_foreign_born_vs_major_economies_updated.html"
+                title="Mexican Foreign-born GDP vs Major Economies"
+                style="width: 100%; height: 368px; border: none;">
+          Your browser does not support iframes. View the chart
+          <a href="_static/mexican_foreign_born_vs_major_economies_updated.html">here</a>.
+        </iframe>
+        <div style="text-align:center; margin-top: 6px; font-weight: bold;">
+          Mexican Foreign-born GDP Contribution Compared to Major World Economies (USD Billions)
+        </div>
+      </div>
+    </div>
+
+**Key Takeaway:**  
+*Mexican foreign-born GDP contributions are significant, rivaling mid-sized OECD economies and far exceeding some official estimates.*
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/gdp_top10_foreign_contributors_2024.html"
+                title="Top 10 Foreign-born Groups by U.S. GDP Contribution (2024)"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/gdp_top10_foreign_contributors_2024.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*The top ten foreign-born groups, led by Mexican and Indian cohorts, are essential drivers of U.S. GDP growth.*
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/employed_unauthorized_population_2009_2024.html"
+                title="Employed Unauthorized Population 2009-2024"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/employed_unauthorized_population_2009_2024.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*Unauthorized immigrant employment fluctuates with economic cycles but consistently supports key U.S. sectors.*
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/pie_top10_countries_share.html"
+                title="Top 10 Foreign-born Groups GDP Share"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/pie_top10_countries_share.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*This pie chart highlights the proportional GDP share of the largest migrant cohorts in the U.S. economy.*
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/bar_2024.html"
+                title="Bar Chart: Top 10 Migrant Groups by GDP Contribution"
+                style="width: 100%; height: 400px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/bar_2024.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*Mexican and Indian-born workers lead the top 10, reflecting strong labor force participation in key U.S. sectors.*
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/pie_2024.html"
+                title="Pie Chart: GDP Share by Migrant Cohort"
+                style="width: 100%; height: 400px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/pie_2024.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*The GDP share by migrant cohort provides a clear snapshot of each group’s impact.*
+
+---
+
+*All charts are live embeds—hover, zoom, and explore the data yourself!*
+
+
 Take Action
 ~~~~~~~~~~~
 
