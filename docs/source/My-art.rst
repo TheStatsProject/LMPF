@@ -609,9 +609,6 @@ Interactive Visualizations
         </iframe>
     </div>
 
-.. raw:: html
-
-    <img src="_static/logo.png" alt="Logo" style="display: block; margin-left: auto; margin-right: auto; max-width: 200px;">
 
 .. raw:: html
 
