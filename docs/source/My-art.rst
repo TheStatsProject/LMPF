@@ -177,7 +177,17 @@ Assum Assumption 4 is as follows:
 
 .. raw:: html
 
-    <iframe src="_static/employment_ratio_timeseries_2007_2025.html" width="650" height="430"></iframe>
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/employment_ratio_timeseries_2007_2025.html"
+                title="Employment Ratio Timeseries 2007-2025"
+                style="width: 100%; height: 430px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/employment_ratio_timeseries_2007_2025.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*The employment ratio has fluctuated over time, impacting GDP calculations by group. Recent years show stronger labor force participation among foreign-born populations.*
 
 By obtaining the EMP ratio, we can calculate, based on this estimator, the number of people by origin group within the United States that are part of the country's workforce. To do this, the following general formula will be used.
 
@@ -205,7 +215,17 @@ With all this Assumptions and recalibrate the datasets base from `U.S. Census Bu
 
 .. raw:: html
 
-    <iframe src="_static/gdp_employment_table_sorted_foreignonly_2024.html" width="650" height="430"></iframe>
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/gdp_employment_table_sorted_foreignonly_2024.html"
+                title="GDP & Employment Table by Foreign-Born Group (2024)"
+                style="width: 100%; height: 430px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/gdp_employment_table_sorted_foreignonly_2024.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*Refined calculations reveal the GDP contribution of Mexican-born and other foreign-born groups, correcting common misconceptions in public discourse.*
 
 As we can see in the table ¨GDP & Employment Table by Foreign-Born Group (Excludes Native, 2024)¨ the calculation issued by the Mexican authority has a quite important variation since when considering the total population, as we have mentioned before, it generates distortions that distance us from reality, according to these results the statement of Mexicans born in the U.S. contributed $781 billion to the Gross Domestic Product (GDP) since their real contribution is ****$953.3 billion to the Gross Domestic Product (GDP)****
 
@@ -367,33 +387,9 @@ Interactive Visualizations
 
 
 
-.. raw:: html
 
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/employment_ratio_timeseries_2007_2025.html"
-                title="Employment Ratio Timeseries 2007-2025"
-                style="width: 100%; height: 430px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/employment_ratio_timeseries_2007_2025.html">this link</a>.
-        </iframe>
-    </div>
 
-**Key Takeaway:**  
-*The employment ratio has fluctuated over time, impacting GDP calculations by group. Recent years show stronger labor force participation among foreign-born populations.*
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/gdp_employment_table_sorted_foreignonly_2024.html"
-                title="GDP & Employment Table by Foreign-Born Group (2024)"
-                style="width: 100%; height: 430px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/gdp_employment_table_sorted_foreignonly_2024.html">this link</a>.
-        </iframe>
-    </div>
-
-**Key Takeaway:**  
-*Refined calculations reveal the GDP contribution of Mexican-born and other foreign-born groups, correcting common misconceptions in public discourse.*
 
 .. raw:: html
 
