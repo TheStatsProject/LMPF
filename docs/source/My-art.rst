@@ -384,43 +384,6 @@ Interactive Visualizations
 
 ---
 
-
-
-
-
-
-
-
-.. raw:: html
-
-    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 22px;">
-      <div style="flex:1; min-width:322px; max-width: 48%;">
-        <iframe src="_static/mexican_foreign_born_gdp_vs_oecd_updated.html"
-                title="Mexican Foreign-born GDP vs OECD Countries"
-                style="width: 100%; height: 368px; border: none;">
-          Your browser does not support iframes. View the chart
-          <a href="_static/mexican_foreign_born_gdp_vs_oecd_updated.html">here</a>.
-        </iframe>
-        <div style="text-align:center; margin-top: 6px; font-weight: bold;">
-          Mexican Foreign-born GDP Contribution Compared to Top 15 OECD Countries (USD Billions)
-        </div>
-      </div>
-      <div style="flex:1; min-width:322px; max-width: 48%;">
-        <iframe src="_static/mexican_foreign_born_vs_major_economies_updated.html"
-                title="Mexican Foreign-born GDP vs Major Economies"
-                style="width: 100%; height: 368px; border: none;">
-          Your browser does not support iframes. View the chart
-          <a href="_static/mexican_foreign_born_vs_major_economies_updated.html">here</a>.
-        </iframe>
-        <div style="text-align:center; margin-top: 6px; font-weight: bold;">
-          Mexican Foreign-born GDP Contribution Compared to Major World Economies (USD Billions)
-        </div>
-      </div>
-    </div>
-
-**Key Takeaway:**  
-*Mexican foreign-born GDP contributions are significant, rivaling mid-sized OECD economies and far exceeding some official estimates.*
-
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
