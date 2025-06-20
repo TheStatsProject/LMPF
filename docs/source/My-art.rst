@@ -456,6 +456,295 @@ Interactive Visualizations
 **Key Takeaway:**  
 *The GDP share by migrant cohort provides a clear snapshot of each group’s impact.*
 
+
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/GDP_plot.html"
+                title="GDP Plot"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/GDP_plot.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/bar_2024.html"
+                title="Bar Chart 2024"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/bar_2024.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/bar_employed_unauthorized_by_country_2022.html"
+                title="Employed Unauthorized by Country 2022"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/bar_employed_unauthorized_by_country_2022.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/bar_gdp_contribution_unauthorized_2022.html"
+                title="GDP Contribution Unauthorized 2022"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/bar_gdp_contribution_unauthorized_2022.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/country_unauth_tax_contributions_2022.html"
+                title="Country Unauthorized Tax Contributions 2022"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/country_unauth_tax_contributions_2022.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <link rel="stylesheet" href="_static/custom.css">
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/employed_unauthorized_population_2009_2024.html"
+                title="Employed Unauthorized Population 2009-2024"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/employed_unauthorized_population_2009_2024.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/employment_ratio_timeseries_2007_2025.html"
+                title="Employment Ratio Timeseries 2007-2025"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/employment_ratio_timeseries_2007_2025.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <link rel="icon" href="_static/favicon.ico" type="image/x-icon">
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/federal_tax_and_payroll_rates_2009_2024.html"
+                title="Federal Tax and Payroll Rates 2009-2024"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/federal_tax_and_payroll_rates_2009_2024.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/foreignborn_contributions_2022_millions.html"
+                title="Foreign Born Contributions 2022 (Millions)"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/foreignborn_contributions_2022_millions.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/foreignborn_program_contributions_2022.html"
+                title="Foreign Born Program Contributions 2022"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/foreignborn_program_contributions_2022.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/gdp_employment_table_sorted_foreignonly_2024.html"
+                title="GDP Employment Table (Foreign Only) 2024"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/gdp_employment_table_sorted_foreignonly_2024.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/gdp_history.html"
+                title="GDP History"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/gdp_history.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/gdp_top10_foreign_contributors_2024.html"
+                title="GDP Top 10 Foreign Contributors 2024"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/gdp_top10_foreign_contributors_2024.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <img src="_static/logo.png" alt="Logo" style="display: block; margin-left: auto; margin-right: auto; max-width: 200px;">
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/mexican_foreign_born_gdp_vs_oecd.html"
+                title="Mexican Foreign Born GDP vs OECD"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/mexican_foreign_born_gdp_vs_oecd.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/mexican_foreign_born_gdp_vs_oecd_updated.html"
+                title="Mexican Foreign Born GDP vs OECD (Updated)"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/mexican_foreign_born_gdp_vs_oecd_updated.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/mexican_foreign_born_vs_major_economies.html"
+                title="Mexican Foreign Born vs Major Economies"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/mexican_foreign_born_vs_major_economies.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/mexican_foreign_born_vs_major_economies_updated.html"
+                title="Mexican Foreign Born vs Major Economies (Updated)"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/mexican_foreign_born_vs_major_economies_updated.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/pie_2024.html"
+                title="Pie Chart 2024"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/pie_2024.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/pie_top10_countries_2022.html"
+                title="Pie Top 10 Countries 2022"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/pie_top10_countries_2022.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/pie_top10_countries_share.html"
+                title="Pie Top 10 Countries Share"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/pie_top10_countries_share.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/summary_table_census_fred.html"
+                title="Summary Table Census FRED"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/summary_table_census_fred.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/unauth_tax_contributions_2009_2024.html"
+                title="Unauthorized Tax Contributions 2009-2024"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/unauth_tax_contributions_2009_2024.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/unauthorized_population_2009_2024.html"
+                title="Unauthorized Population 2009-2024"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/unauthorized_population_2009_2024.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/unauthorized_program_contributions_2022.html"
+                title="Unauthorized Program Contributions 2022"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/unauthorized_program_contributions_2022.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/unauthorized_program_contributions_2022_millions.html"
+                title="Unauthorized Program Contributions 2022 (Millions)"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/unauthorized_program_contributions_2022_millions.html">this link</a>.
+        </iframe>
+    </div>
+
 ---
 
 *All charts are live embeds—hover, zoom, and explore the data yourself!*
