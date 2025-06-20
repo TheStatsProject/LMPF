@@ -271,18 +271,32 @@ As we can see, even considering the contributions discussed in the official repo
       <div style="flex:1; min-width:322px; max-width: 36.8%;">
         <iframe src="_static/mexican_foreign_born_vs_major_economies_updated.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs Major Economies">
           Your browser does not support iframes. View the chart <a href="_static/mexican_foreign_born_vs_major_economies_updated.html">here</a>.
-        </iframe>
+          </iframe>
         <div style="text-align:center; margin-top: 6px; font-weight: bold;">
           Mexican Foreign-born GDP Contribution Compared to Major World Economies (USD Billions)
         </div>
       </div>
     </div>
 
+**Key Takeaway:**  
+*Mexican foreign-born GDP contributions are significant, rivaling mid-sized OECD economies and far exceeding some official estimates.*
+
+
 But let's not finish this statement without adding that Mexico isn't the only one contributing to the US GDP. Here are the top foreign origin groups that contributed the most in 2024:
 
 .. raw:: html
 
-    <iframe src="_static/gdp_top10_foreign_contributors_2024.html" width="650" height="500"></iframe>
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/gdp_top10_foreign_contributors_2024.html"
+                title="Top 10 Foreign-born Groups by U.S. GDP Contribution (2024)"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/gdp_top10_foreign_contributors_2024.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*The top ten foreign-born groups, led by Mexican and Indian cohorts, are essential drivers of U.S. GDP growth.*
 
 ---
 
@@ -384,19 +398,7 @@ Interactive Visualizations
 
 ---
 
-.. raw:: html
 
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/gdp_top10_foreign_contributors_2024.html"
-                title="Top 10 Foreign-born Groups by U.S. GDP Contribution (2024)"
-                style="width: 100%; height: 500px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/gdp_top10_foreign_contributors_2024.html">this link</a>.
-        </iframe>
-    </div>
-
-**Key Takeaway:**  
-*The top ten foreign-born groups, led by Mexican and Indian cohorts, are essential drivers of U.S. GDP growth.*
 
 .. raw:: html
 
