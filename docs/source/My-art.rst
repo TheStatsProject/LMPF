@@ -398,7 +398,10 @@ Interactive Visualizations
 
 ---
 
+.. raw:: html
 
+    <link rel="stylesheet" href="_static/custom.css">
+    <link rel="icon" href="_static/favicon.ico" type="image/x-icon">
 
 .. raw:: html
 
@@ -456,8 +459,6 @@ Interactive Visualizations
 **Key Takeaway:**  
 *The GDP share by migrant cohort provides a clear snapshot of each group’s impact.*
 
-
-
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
@@ -469,16 +470,8 @@ Interactive Visualizations
         </iframe>
     </div>
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/bar_2024.html"
-                title="Bar Chart 2024"
-                style="width: 100%; height: 500px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/bar_2024.html">this link</a>.
-        </iframe>
-    </div>
+**Key Takeaway:**  
+*GDP trends highlight the sustained economic impact of immigrant labor over time.*
 
 .. raw:: html
 
@@ -491,6 +484,9 @@ Interactive Visualizations
         </iframe>
     </div>
 
+**Key Takeaway:**  
+*Unauthorized employment is concentrated among specific national groups, emphasizing their workforce importance.*
+
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
@@ -501,6 +497,9 @@ Interactive Visualizations
             <a href="_static/bar_gdp_contribution_unauthorized_2022.html">this link</a>.
         </iframe>
     </div>
+
+**Key Takeaway:**  
+*Unauthorized immigrants make significant contributions to U.S. GDP, particularly in labor-intensive sectors.*
 
 .. raw:: html
 
@@ -513,20 +512,8 @@ Interactive Visualizations
         </iframe>
     </div>
 
-.. raw:: html
-
-    <link rel="stylesheet" href="_static/custom.css">
-
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/employed_unauthorized_population_2009_2024.html"
-                title="Employed Unauthorized Population 2009-2024"
-                style="width: 100%; height: 500px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/employed_unauthorized_population_2009_2024.html">this link</a>.
-        </iframe>
-    </div>
+**Key Takeaway:**  
+*Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.*
 
 .. raw:: html
 
@@ -539,9 +526,8 @@ Interactive Visualizations
         </iframe>
     </div>
 
-.. raw:: html
-
-    <link rel="icon" href="_static/favicon.ico" type="image/x-icon">
+**Key Takeaway:**  
+*Employment ratios among immigrants track broader labor market trends but remain resilient over time.*
 
 .. raw:: html
 
@@ -554,6 +540,9 @@ Interactive Visualizations
         </iframe>
     </div>
 
+**Key Takeaway:**  
+*Immigrants contribute to federal taxes and payroll at rates similar to native-born workers.*
+
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
@@ -564,6 +553,9 @@ Interactive Visualizations
             <a href="_static/foreignborn_contributions_2022_millions.html">this link</a>.
         </iframe>
     </div>
+
+**Key Takeaway:**  
+*Foreign-born workers collectively contribute billions to the U.S. economy each year.*
 
 .. raw:: html
 
@@ -576,6 +568,9 @@ Interactive Visualizations
         </iframe>
     </div>
 
+**Key Takeaway:**  
+*Immigrants support vital federal and state programs through their taxes and labor.*
+
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
@@ -586,6 +581,9 @@ Interactive Visualizations
             <a href="_static/gdp_employment_table_sorted_foreignonly_2024.html">this link</a>.
         </iframe>
     </div>
+
+**Key Takeaway:**  
+*Foreign-born workers are crucial contributors to both GDP and employment rates in the U.S.*
 
 .. raw:: html
 
@@ -598,6 +596,9 @@ Interactive Visualizations
         </iframe>
     </div>
 
+**Key Takeaway:**  
+*Historical GDP figures show the steady role of immigrants in driving economic growth.*
+
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
@@ -609,6 +610,8 @@ Interactive Visualizations
         </iframe>
     </div>
 
+**Key Takeaway:**  
+*The top 10 foreign-born groups account for a substantial share of total GDP.*
 
 .. raw:: html
 
@@ -621,6 +624,9 @@ Interactive Visualizations
         </iframe>
     </div>
 
+**Key Takeaway:**  
+*Mexican-born workers in the U.S. outpace many OECD countries in GDP contribution.*
+
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
@@ -631,6 +637,9 @@ Interactive Visualizations
             <a href="_static/mexican_foreign_born_gdp_vs_oecd_updated.html">this link</a>.
         </iframe>
     </div>
+
+**Key Takeaway:**  
+*Updated data confirms the exceptional economic footprint of Mexican migrants.*
 
 .. raw:: html
 
@@ -643,6 +652,9 @@ Interactive Visualizations
         </iframe>
     </div>
 
+**Key Takeaway:**  
+*Mexican migrants’ GDP rivals that of entire national economies.*
+
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
@@ -653,6 +665,9 @@ Interactive Visualizations
             <a href="_static/mexican_foreign_born_vs_major_economies_updated.html">this link</a>.
         </iframe>
     </div>
+
+**Key Takeaway:**  
+*Recent data further emphasizes the scale of Mexican immigrants’ economic impact.*
 
 .. raw:: html
 
@@ -665,6 +680,9 @@ Interactive Visualizations
         </iframe>
     </div>
 
+**Key Takeaway:**  
+*Sector-wide contributions by migrant groups are clearly visible in this breakdown.*
+
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
@@ -676,16 +694,8 @@ Interactive Visualizations
         </iframe>
     </div>
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/pie_top10_countries_share.html"
-                title="Pie Top 10 Countries Share"
-                style="width: 100%; height: 500px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/pie_top10_countries_share.html">this link</a>.
-        </iframe>
-    </div>
+**Key Takeaway:**  
+*The top 10 countries of origin dominate the foreign-born population landscape.*
 
 .. raw:: html
 
@@ -698,6 +708,9 @@ Interactive Visualizations
         </iframe>
     </div>
 
+**Key Takeaway:**  
+*Summary statistics provide essential context for interpreting the data visualizations.*
+
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
@@ -708,6 +721,9 @@ Interactive Visualizations
             <a href="_static/unauth_tax_contributions_2009_2024.html">this link</a>.
         </iframe>
     </div>
+
+**Key Takeaway:**  
+*Unauthorized immigrants have maintained steady tax contributions over the years.*
 
 .. raw:: html
 
@@ -720,6 +736,9 @@ Interactive Visualizations
         </iframe>
     </div>
 
+**Key Takeaway:**  
+*Trends in unauthorized population reflect policy and economic changes.*
+
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
@@ -731,6 +750,9 @@ Interactive Visualizations
         </iframe>
     </div>
 
+**Key Takeaway:**  
+*Even unauthorized immigrants significantly support public programs.*
+
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
@@ -741,6 +763,10 @@ Interactive Visualizations
             <a href="_static/unauthorized_program_contributions_2022_millions.html">this link</a>.
         </iframe>
     </div>
+
+**Key Takeaway:**  
+*Unauthorized immigrants’ program contributions are substantial in dollar terms.*
+
 
 ---
 
