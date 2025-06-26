@@ -315,12 +315,17 @@ To answer the concerns that arise it is necessary to divide the problem into som
 
 .. raw:: html
 
-    <div style="text-align:center;">
-        <iframe src="_static/employed_unauthorized_population_2009_2024.html" width="650" height="500" title="Top 10 Foreign-Born Groups by U.S. GDP Contribution (2024)"></iframe>
-        <div style="font-size: 90%; margin-top: 8px; color: #555;">
-            Top 10 Foreign-Born Groups by U.S. GDP Contribution (2024)
-        </div>
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/employed_unauthorized_population_2009_2024.html"
+                title="Employed Unauthorized Population 2009-2024"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/employed_unauthorized_population_2009_2024.html">this link</a>.
+        </iframe>
     </div>
+
+**Key Takeaway:**  
+*Unauthorized immigrant employment fluctuates with economic cycles but consistently supports key U.S. sectors.*
 
 One of the interesting things about this research is that after 2017, unauthorized immigration to the United States not only decreased, but actually plummeted. Some point to President Obama's strictly defined deportation priorities and the increased border patrols; others, to the devastating COVID-19 lockdowns. Whatever the cause, migration ground to a halt, only to resurge strongly in 2022 and continue to increase as the economic crises related to the halting of economic dynamism in Latin American countries, the Middle East, and most of the world due to lockdown measures had repercussions worldwide.
 
@@ -402,24 +407,9 @@ Interactive Visualizations
 
 ---
 
-.. raw:: html
 
-    <link rel="stylesheet" href="_static/custom.css">
-    <link rel="icon" href="_static/favicon.ico" type="image/x-icon">
 
-.. raw:: html
 
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/employed_unauthorized_population_2009_2024.html"
-                title="Employed Unauthorized Population 2009-2024"
-                style="width: 100%; height: 500px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/employed_unauthorized_population_2009_2024.html">this link</a>.
-        </iframe>
-    </div>
-
-**Key Takeaway:**  
-*Unauthorized immigrant employment fluctuates with economic cycles but consistently supports key U.S. sectors.*
 
 .. raw:: html
 
