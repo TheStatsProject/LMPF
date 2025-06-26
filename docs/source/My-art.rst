@@ -309,7 +309,7 @@ Statement 2 . **Contributions**
 
 ****Myths or Reality?****
 
-In order to address these assertions about the contributions of "undocumented" people, understood as those stays not authorized by the state. The way in which these details are obtained is even more confusing, given that even within the same statistical analysis groups of the census boreau, they agree on the difficulty of obtaining precise data on this point. However, we attempt to obtain more credible statistics based on the information available at the time of this analysis.
+In order to address these assertions about the contributions of "undocumented" people, understood as those stays not authorized by the state are employed. The way in which these details are obtained is even more confusing, given that even within the same statistical analysis groups of the census boreau, they agree on the difficulty of obtaining precise data on this point. However, we attempt to obtain more credible statistics based on the information available at the time of this analysis.
 
 To answer the concerns that arise it is necessary to divide the problem into some parts more accessible to the calculation, so first of all we are going to quantify the number of unauthorized persons and for this what was collected is based on the information provided by the `Office of Homeland Security Statistics <https://ohss.dhs.gov/>`_ office that collects statistical information on this subject and in whose reports you can find the most precise information, in this sense we interpolate some extraneous data and based on the results, Below is the estimated number of these unauthorized persons and how many are employed, based on the employment rates and GDP per capita estimated for the years that have been presented above, as follows:
 
@@ -327,9 +327,11 @@ To answer the concerns that arise it is necessary to divide the problem into som
 **Key Takeaway:**  
 *Unauthorized immigrant employment fluctuates with economic cycles but consistently supports key U.S. sectors.*
 
-One of the interesting things about this research is that after 2017, unauthorized immigration to the United States not only decreased, but actually plummeted. Some point to President Obama's strictly defined deportation priorities and the increased border patrols; others, to the devastating COVID-19 lockdowns. Whatever the cause, migration ground to a halt, only to resurge strongly in 2021 and continue to increase as the economic crises related to the halting of economic dynamism in Latin American countries, the Middle East, and most of the world due to lockdown measures had repercussions worldwide.
+Based on the data already collected in point 1 and the data on unauthorized individuals in the United States, we will calculate the number of unauthorized employees. Based on the same methodology used to calculate the contribution of citizens of Mexican parents, we need to do the same and determine how many unauthorized individuals are of Mexican origin, as shown in the following graph. Similar to the trends in unauthorized immigration, one of the interesting aspects of this research is that, after 2017, unauthorized immigration to the United States not only decreased, but actually plummeted, as shown in the graph.
 
-From 2021, migrant caravans the size of small cities will once again make the news, but they are now a reality in the Americas. These aren't just statistics on a spreadsheet; they're humanity in motion, a living barometer of the geopolitical distortions and economic inequality created by the impact of the disruption of many production lines and value chains destroyed during this process.
+Some point to President Obama's strict deportation priorities and increased border patrols; others, to the devastating COVID-19 lockdowns. Whatever the cause, migration came to a complete halt, only to resurface strongly in 2021 and continue to increase as economic crises related to the disruption of economic dynamism in Latin American countries, the Middle East, and most of the world due to lockdown measures had global repercussions.
+
+Starting in 2021, migrant caravans the size of small cities will once again make the news, but now they are a reality in the Americas. They are not just statistics on a spreadsheet; they are humanity in motion, a living barometer of the geopolitical distortions and economic inequality created by the impact of the disruption of many production lines and value chains destroyed during this process.
 
 .. raw:: html
 
@@ -343,6 +345,39 @@ From 2021, migrant caravans the size of small cities will once again make the ne
 To contrast the report and the comments from the Mexican government, it is necessary to compare the proportion of unauthorized Mexicans in the United States: 4 out of 10 unauthorized immigrants in the United States are Mexican citizens. This is not hyperbole that might astonish any economist; it is proof of an unbreakable bond between the United States and Mexico, that we need to study mor deeply.
 
 And the story doesn't end there. Migrants from Guatemala, El Salvador, and Honduras, driven by violence, climate disasters, and extreme poverty, are arriving en masse, turning a regional tragedy into a continental movement. Even China has quietly claimed its share of this migration pie, representing approximately 2% of the unauthorized population, reminding us that the current global economic distortions spare no one.
+
+Based on publicly available databases and based on the unequivocal assumption that American employees pay their taxes directly, we compiled the evolution of tax collection as a percentage of GDP, resulting in the following:
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/federal_tax_and_payroll_rates_2009_2024.html"
+                title="Federal Tax and Payroll Rates 2009-2024"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/federal_tax_and_payroll_rates_2009_2024.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*Immigrants contribute to federal taxes and payroll at rates similar to native-born workers.*
+
+Once the data on contributions made by American workers and citizens is obtained, the level of contributions from unauthorized workers living in the United States is estimated. The calculation is significant. Even unauthorized Mexican immigrant workers contribute a little over $107 million to the treasury, a similar amount to the amount mentioned in the report.
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/country_unauth_tax_contributions_2022.html"
+                title="Country Unauthorized Tax Contributions 2022"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/country_unauth_tax_contributions_2022.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.*
+
 
 This is an inline equation: :math:`\frac{a}{b}`.
 
@@ -496,19 +531,7 @@ Interactive Visualizations
 **Key Takeaway:**  
 *Unauthorized immigrants make significant contributions to U.S. GDP, particularly in labor-intensive sectors.*
 
-.. raw:: html
 
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/country_unauth_tax_contributions_2022.html"
-                title="Country Unauthorized Tax Contributions 2022"
-                style="width: 100%; height: 500px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/country_unauth_tax_contributions_2022.html">this link</a>.
-        </iframe>
-    </div>
-
-**Key Takeaway:**  
-*Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.*
 
 .. raw:: html
 
@@ -524,19 +547,7 @@ Interactive Visualizations
 **Key Takeaway:**  
 *Employment ratios among immigrants track broader labor market trends but remain resilient over time.*
 
-.. raw:: html
 
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/federal_tax_and_payroll_rates_2009_2024.html"
-                title="Federal Tax and Payroll Rates 2009-2024"
-                style="width: 100%; height: 500px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/federal_tax_and_payroll_rates_2009_2024.html">this link</a>.
-        </iframe>
-    </div>
-
-**Key Takeaway:**  
-*Immigrants contribute to federal taxes and payroll at rates similar to native-born workers.*
 
 .. raw:: html
 
