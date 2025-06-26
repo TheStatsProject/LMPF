@@ -378,6 +378,7 @@ Based on publicly available databases and based on the unequivocal assumption th
 
 
 Once the data on contributions made by American workers and citizens is obtained, the level of contributions from unauthorized workers living in the United States is estimated. The calculation is significant. Even unauthorized Mexican immigrant workers contribute a little over $107 million to the treasury, a similar amount to the amount mentioned in the report.
+---
 
 
 .. raw:: html
@@ -393,6 +394,7 @@ Once the data on contributions made by American workers and citizens is obtained
 
 **Key Takeaway:**  
 *Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.*
+---
 
 
 
