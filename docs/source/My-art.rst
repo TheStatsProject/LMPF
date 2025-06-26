@@ -788,4 +788,4 @@ Take Action
 
 ---
 
-*All charts are live embeds—hover, zoom, and explore the data yourself!*
+*All charts are live embeds—hover, zoom, and explore the data yourself!*.
