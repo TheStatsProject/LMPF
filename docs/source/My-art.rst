@@ -322,6 +322,10 @@ To answer the concerns that arise it is necessary to divide the problem into som
         </div>
     </div>
 
+One of the interesting things about this research is that after 2017, unauthorized immigration to the United States not only decreased, but actually plummeted. Some point to President Obama's strictly defined deportation priorities and the increased border patrols; others, to the devastating COVID-19 lockdowns. Whatever the cause, migration ground to a halt, only to resurge strongly in 2022 and continue to increase as the economic crises related to the halting of economic dynamism in Latin American countries, the Middle East, and most of the world due to lockdown measures had repercussions worldwide.
+
+By 2024, migrant caravans the size of small cities will once again make the news, but they are now a reality in the Americas. These aren't just statistics on a spreadsheet; they're humanity in motion, a living barometer of the geopolitical distortions and economic inequality created by the impact of the disruption of many production lines and value chains destroyed during this process.
+
 .. raw:: html
 
     <div style="text-align:center;">
