@@ -340,7 +340,7 @@ From 2021, migrant caravans the size of small cities will once again make the ne
         </div>
     </div>
 
-To contrast the report and the comments from the Mexican government, it is necessary to compare the proportion of unauthorized Mexicans in the United States: 4 out of 10 unauthorized immigrants in the United States are Mexican citizens. This is not hyperbole that might astonish any economist; it is proof of an unbreakable bond between the United States and Mexico, one that no border wall can break.
+To contrast the report and the comments from the Mexican government, it is necessary to compare the proportion of unauthorized Mexicans in the United States: 4 out of 10 unauthorized immigrants in the United States are Mexican citizens. This is not hyperbole that might astonish any economist; it is proof of an unbreakable bond between the United States and Mexico, that we need to study mor deeply.
 
 And the story doesn't end there. Migrants from Guatemala, El Salvador, and Honduras, driven by violence, climate disasters, and extreme poverty, are arriving en masse, turning a regional tragedy into a continental movement. Even China has quietly claimed its share of this migration pie, representing approximately 2% of the unauthorized population, reminding us that the current global economic distortions spare no one.
 
