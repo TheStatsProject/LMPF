@@ -344,6 +344,20 @@ Starting in 2021, migrant caravans the size of small cities will once again make
 
 To contrast the report and the comments from the Mexican government, it is necessary to compare the proportion of unauthorized Mexicans in the United States: 4 out of 10 unauthorized immigrants in the United States are Mexican citizens. This is not hyperbole that might astonish any economist; it is proof of an unbreakable bond between the United States and Mexico, that we need to study mor deeply.
 
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/bar_employed_unauthorized_by_country_2022.html"
+                title="Employed Unauthorized by Country 2022"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/bar_employed_unauthorized_by_country_2022.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*Unauthorized employment is concentrated among specific national groups, emphasizing their workforce importance.*
+
 And the story doesn't end there. Migrants from Guatemala, El Salvador, and Honduras, driven by violence, climate disasters, and extreme poverty, are arriving en masse, turning a regional tragedy into a continental movement. Even China has quietly claimed its share of this migration pie, representing approximately 2% of the unauthorized population, reminding us that the current global economic distortions spare no one.
 
 Based on publicly available databases and based on the unequivocal assumption that American employees pay their taxes directly, we compiled the evolution of tax collection as a percentage of GDP, resulting in the following:
@@ -362,7 +376,9 @@ Based on publicly available databases and based on the unequivocal assumption th
 **Key Takeaway:**  
 *Immigrants contribute to federal taxes and payroll at rates similar to native-born workers.*
 
+
 Once the data on contributions made by American workers and citizens is obtained, the level of contributions from unauthorized workers living in the United States is estimated. The calculation is significant. Even unauthorized Mexican immigrant workers contribute a little over $107 million to the treasury, a similar amount to the amount mentioned in the report.
+
 
 .. raw:: html
 
@@ -437,77 +453,6 @@ Interactive Visualizations
 
 
 
-
-
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/pie_top10_countries_share.html"
-                title="Top 10 Foreign-born Groups GDP Share"
-                style="width: 100%; height: 500px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/pie_top10_countries_share.html">this link</a>.
-        </iframe>
-    </div>
-
-**Key Takeaway:**  
-*This pie chart highlights the proportional GDP share of the largest migrant cohorts in the U.S. economy.*
-
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/bar_2024.html"
-                title="Bar Chart: Top 10 Migrant Groups by GDP Contribution"
-                style="width: 100%; height: 400px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/bar_2024.html">this link</a>.
-        </iframe>
-    </div>
-
-**Key Takeaway:**  
-*Mexican and Indian-born workers lead the top 10, reflecting strong labor force participation in key U.S. sectors.*
-
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/pie_2024.html"
-                title="Pie Chart: GDP Share by Migrant Cohort"
-                style="width: 100%; height: 400px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/pie_2024.html">this link</a>.
-        </iframe>
-    </div>
-
-**Key Takeaway:**  
-*The GDP share by migrant cohort provides a clear snapshot of each group’s impact.*
-
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/GDP_plot.html"
-                title="GDP Plot"
-                style="width: 100%; height: 500px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/GDP_plot.html">this link</a>.
-        </iframe>
-    </div>
-
-**Key Takeaway:**  
-*GDP trends highlight the sustained economic impact of immigrant labor over time.*
-
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/bar_employed_unauthorized_by_country_2022.html"
-                title="Employed Unauthorized by Country 2022"
-                style="width: 100%; height: 500px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/bar_employed_unauthorized_by_country_2022.html">this link</a>.
-        </iframe>
-    </div>
-
-**Key Takeaway:**  
-*Unauthorized employment is concentrated among specific national groups, emphasizing their workforce importance.*
 
 .. raw:: html
 
