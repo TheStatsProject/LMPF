@@ -378,14 +378,6 @@ Once the data on contributions made by American workers and citizens is obtained
 **Key Takeaway:**  
 *Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.*
 
-
-This is an inline equation: :math:`\frac{a}{b}`.
-
-
-        <div style="font-size:90%; text-align:center; color:#555;">
-          This interactive graph shows the real GDP of the United States over time, in trillions of dollars.
-        </div>
-
 This is a displayed equation:
 
 .. math::
