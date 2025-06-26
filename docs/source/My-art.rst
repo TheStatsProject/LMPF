@@ -377,7 +377,24 @@ Based on publicly available databases and based on the unequivocal assumption th
 *Immigrants contribute to federal taxes and payroll at rates similar to native-born workers.*
 
 
-Once the data on contributions made by American workers and citizens is obtained, the level of contributions from unauthorized workers living in the United States is estimated. The calculation is significant. Even unauthorized Mexican immigrant workers contribute a little over $107 million to the treasury, a similar amount to the amount mentioned in the report.
+Once the data on contributions made by American workers and citizens is obtained, the level of contributions from unauthorized workers living in the United States is estimated. The calculation is significant. 
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/bar_gdp_contribution_unauthorized_2022.html"
+                title="GDP Contribution by Unauthorized Immigrants, 2022"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/bar_gdp_contribution_unauthorized_2022.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*Unauthorized immigrants make significant contributions to the U.S. GDP, underscoring their vital role in the economy.*
+
+
+Even unauthorized Mexican immigrant workers contribute a little over $107 million to the treasury, a similar amount to the amount mentioned in the report.
 
 
 
