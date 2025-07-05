@@ -434,30 +434,20 @@ Something interesting first hand that we can highlight is that the 3 industries 
 
 .. raw:: html
 
-    <div style="width: 100%; max-width: 800px; margin: auto; margin-bottom: 32px;">
-        <h2 style="text-align:center; margin-top: 0;">Native Employed by Industry (2022)</h2>
+    <div style="width: 100%; max-width: 800px; margin: auto;">
         <iframe 
             src="_static/employed_by_industry_native_2022_pie.html"
             title="Native Employed by Industry 2022"
-            style="
-                width: 100%;
-                min-width: 320px;
-                height: 0;
-                padding-bottom: 62.5%;
-                aspect-ratio: 16/10;
-                border: none;
-                display: block;
-            "
+            style="width: 100%; min-width: 320px; height: 500px; border: none; display: block;"
             allowfullscreen
             loading="lazy">
             Your browser does not support iframes. Please view the visualization directly at
             <a href="_static/employed_by_industry_native_2022_pie.html">this link</a>.
         </iframe>
-        <p style="text-align:center; font-size:1.06em; color: #444;">
-            <b>Key Takeaway:</b><br>
-            The distribution of native-born employment across industries in 2022.
-        </p>
     </div>
+
+**Key Takeaway:**  
+*The distribution of native-born employment across industries in 2022.*
 
 
 Based on the distribution resulting from population data and estimates of foreigners born from Mexico, and unauthorized immigrants from Mexico, we have obtained the following results.
