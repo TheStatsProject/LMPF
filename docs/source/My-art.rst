@@ -393,7 +393,7 @@ From this contribution of the country's tax collection rates, we obtain the foll
 *Unauthorized immigrants make significant contributions to the U.S. GDP, underscoring their vital role in the economy.*
 
 
-Even unauthorized Mexican immigrant workers contribute a little over $107 billion to the treasury, a similar amount to the amount mentioned in the report. However, the proportions reported by the Mexican government are unverifiable based on the data, as the contribution to Social Security ****is just over $52 billion, $12 billion to Medicare, and just over $42 billion to income tax—figures quite different from those determined in the official report.****
+Even unauthorized Mexican immigrant workers contribute a little over $107 billion to the treasury, a similar amount to the amount mentioned in the report. However, the proportions reported by the Mexican government are unverifiable based on the data, as the contribution to Social Security ****is just over $52 billion, $12 billion to Medicare, and just over $42 billion to income tax figures quite different from those determined in the official report.****
 
 
 .. raw:: html
@@ -411,19 +411,27 @@ Even unauthorized Mexican immigrant workers contribute a little over $107 billio
 *Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.*
 
 
+Another element to check is the contribution of unauthorized workers to the country's industries. To do this, we must estimate the distribution of employees by each industry in the economy for natives and foreign-born workers, which is as follows:
+
 .. raw:: html
 
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/bar_employed_unauthorized_by_country_2022.html"
-                title="Country Unauthorized Tax Contributions 2022"
-                style="width: 100%; height: 500px; border: none;">
+    <div style="width: 100%; max-width: 900px; margin: auto; margin-bottom: 32px;">
+        <h2 style="text-align:center; margin-top: 0;">Industry Distribution by Origin Group (2022)</h2>
+        <iframe src="_static/industry_distribution_by_origin_2022.html"
+                title="Industry Distribution by Origin Group 2022"
+                style="width: 100%; height: 540px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/bar_employed_unauthorized_by_country_2022.html">this link</a>.
+            <a href="_static/industry_distribution_by_origin_2022.html">this link</a>.
         </iframe>
+        <p style="text-align:center; font-size:1.06em; color: #444;">
+            <b>Key Takeaway:</b><br>
+            Compares the industry employment distributions of native-born, Mexican-born, and unauthorized Mexican workers in 2022.
+        </p>
     </div>
 
-**Key Takeaway:**  
-*Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.*
+
+Something interesting first hand that we can highlight is that the 3 industries where natives are employed the most is other services except public administration is the industry where native citizens are most concentrated with a concentration of 12.9% of the total native employed population followed by the information sector with 8.9% and Transportation and warehousing, and utilitiesindustry with 8.6% which shows that the services sector, as well as information development and mobility are the sixth where there is a greater native participation while for foreign born the main industry where the majority of the employed population participates is manufacturing with a participation of 15.4%, construction with 12.3% and Professional, scientific, and management, and administrative and waste management services with 9.6%, interesting results since it is normally thought that the foreign born population is dedicated only to the agricultural and construction sectors, however the agricultural sector (8.7%) is the fourth activity where more are employed, a fact that eliminates the myth that their main activity is the primary sector.
+
 
 .. raw:: html
 
@@ -473,21 +481,7 @@ Even unauthorized Mexican immigrant workers contribute a little over $107 billio
         </p>
     </div>
 
-.. raw:: html
 
-    <div style="width: 100%; max-width: 900px; margin: auto; margin-bottom: 32px;">
-        <h2 style="text-align:center; margin-top: 0;">Industry Distribution by Origin Group (2022)</h2>
-        <iframe src="_static/industry_distribution_by_origin_2022.html"
-                title="Industry Distribution by Origin Group 2022"
-                style="width: 100%; height: 540px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/industry_distribution_by_origin_2022.html">this link</a>.
-        </iframe>
-        <p style="text-align:center; font-size:1.06em; color: #444;">
-            <b>Key Takeaway:</b><br>
-            Compares the industry employment distributions of native-born, Mexican-born, and unauthorized Mexican workers in 2022.
-        </p>
-    </div>
 
 
 
