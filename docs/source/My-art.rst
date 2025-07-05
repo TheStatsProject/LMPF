@@ -427,6 +427,69 @@ Even unauthorized Mexican immigrant workers contribute a little over $107 millio
 **Key Takeaway:**  
 *Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.*
 
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto; margin-bottom: 32px;">
+        <h2 style="text-align:center; margin-top: 0;">Native Employed by Industry (2022)</h2>
+        <iframe src="_static/employed_by_industry_native_2022_pie.html"
+                title="Native Employed by Industry 2022"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/employed_by_industry_native_2022_pie.html">this link</a>.
+        </iframe>
+        <p style="text-align:center; font-size:1.06em; color: #444;">
+            <b>Key Takeaway:</b><br>
+            The distribution of native-born employment across industries in 2022.
+        </p>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto; margin-bottom: 32px;">
+        <h2 style="text-align:center; margin-top: 0;">Mexican-born Employed by Industry (2022)</h2>
+        <iframe src="_static/employed_by_industry_mexico_2022_pie.html"
+                title="Mexican-born Employed by Industry 2022"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/employed_by_industry_mexico_2022_pie.html">this link</a>.
+        </iframe>
+        <p style="text-align:center; font-size:1.06em; color: #444;">
+            <b>Key Takeaway:</b><br>
+            Highlights the concentration of Mexican-born workers across U.S. industries in 2022.
+        </p>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto; margin-bottom: 32px;">
+        <h2 style="text-align:center; margin-top: 0;">Unauthorized Mexican Employed by Industry (2022)</h2>
+        <iframe src="_static/employed_by_industry_mexico_unauthorized_2022_pie.html"
+                title="Unauthorized Mexican Employed by Industry 2022"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/employed_by_industry_mexico_unauthorized_2022_pie.html">this link</a>.
+        </iframe>
+        <p style="text-align:center; font-size:1.06em; color: #444;">
+            <b>Key Takeaway:</b><br>
+            Visualizes the occupational distribution of unauthorized Mexican immigrants in the U.S. workforce for 2022.
+        </p>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 900px; margin: auto; margin-bottom: 32px;">
+        <h2 style="text-align:center; margin-top: 0;">Industry Distribution by Origin Group (2022)</h2>
+        <iframe src="_static/industry_distribution_by_origin_2022.html"
+                title="Industry Distribution by Origin Group 2022"
+                style="width: 100%; height: 540px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/industry_distribution_by_origin_2022.html">this link</a>.
+        </iframe>
+        <p style="text-align:center; font-size:1.06em; color: #444;">
+            <b>Key Takeaway:</b><br>
+            Compares the industry employment distributions of native-born, Mexican-born, and unauthorized Mexican workers in 2022.
+        </p>
+    </div>
 
 
 
