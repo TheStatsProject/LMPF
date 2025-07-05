@@ -584,6 +584,35 @@ This is a displayed equation:
         </p>
     </div>
 
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto; margin-bottom: 32px;">
+        <h2 style="text-align:center; margin-top: 0;">Native Employed by Industry (2022)</h2>
+        <div style="position: relative; width: 100%; aspect-ratio: 16/10; min-height: 400px;">
+            <iframe 
+                src="_static/employed_by_industry_native_2022_pie.html"
+                title="Native Employed by Industry 2022"
+                style="
+                    position: absolute;
+                    inset: 0;
+                    width: 100%;
+                    height: 100%;
+                    border: none;
+                    display: block;
+                    min-height: 400px;
+                "
+                allowfullscreen
+                loading="lazy">
+                Your browser does not support iframes. Please view the visualization directly at
+                <a href="_static/employed_by_industry_native_2022_pie.html">this link</a>.
+            </iframe>
+        </div>
+        <p style="text-align:center; font-size:1.06em; color: #444;">
+            <b>Key Takeaway:</b><br>
+            The distribution of native-born employment across industries in 2022.
+        </p>
+    </div>
+
 Interactive Visualizations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
