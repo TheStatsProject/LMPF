@@ -436,9 +436,20 @@ Something interesting first hand that we can highlight is that the 3 industries 
 
     <div style="width: 100%; max-width: 800px; margin: auto; margin-bottom: 32px;">
         <h2 style="text-align:center; margin-top: 0;">Native Employed by Industry (2022)</h2>
-        <iframe src="_static/employed_by_industry_native_2022_pie.html"
-                title="Native Employed by Industry 2022"
-                style="width: 100%; height: 500px; border: none;">
+        <iframe 
+            src="_static/employed_by_industry_native_2022_pie.html"
+            title="Native Employed by Industry 2022"
+            style="
+                width: 100%;
+                min-width: 320px;
+                height: 0;
+                padding-bottom: 62.5%;
+                aspect-ratio: 16/10;
+                border: none;
+                display: block;
+            "
+            allowfullscreen
+            loading="lazy">
             Your browser does not support iframes. Please view the visualization directly at
             <a href="_static/employed_by_industry_native_2022_pie.html">this link</a>.
         </iframe>
