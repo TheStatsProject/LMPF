@@ -376,8 +376,7 @@ Based on publicly available databases and based on the unequivocal assumption th
 **Key Takeaway:**  
 *Immigrants contribute to federal taxes and payroll at rates similar to native-born workers.*
 
-
-Once the data on contributions made by American workers and citizens is obtained, the level of contributions from unauthorized workers living in the United States is estimated. The calculation is significant. 
+From this contribution of the country's tax collection rates, we obtain the following distribution of the contributions that unauthorized employees generate as taxes. Once the data on contributions made by American workers and citizens is obtained, the level of contributions from unauthorized workers living in the United States is estimated. The calculation is significant. 
 
 .. raw:: html
 
@@ -394,8 +393,7 @@ Once the data on contributions made by American workers and citizens is obtained
 *Unauthorized immigrants make significant contributions to the U.S. GDP, underscoring their vital role in the economy.*
 
 
-Even unauthorized Mexican immigrant workers contribute a little over $107 million to the treasury, a similar amount to the amount mentioned in the report.
-
+Even unauthorized Mexican immigrant workers contribute a little over $107 billion to the treasury, a similar amount to the amount mentioned in the report. However, the proportions reported by the Mexican government are unverifiable based on the data, as the contribution to Social Security ****is just over $52 billion, $12 billion to Medicare, and just over $42 billion to income tax—figures quite different from those determined in the official report.****
 
 
 .. raw:: html
