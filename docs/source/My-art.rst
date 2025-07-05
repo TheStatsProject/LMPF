@@ -430,8 +430,7 @@ Another element to check is the contribution of unauthorized workers to the coun
     </div>
 
 
-Something interesting first hand that we can highlight is that the 3 industries where natives are employed the most is other services except public administration is the industry where native citizens are most concentrated with a concentration of 12.9% of the total native employed population followed by the information sector with 8.9% and Transportation and warehousing, and utilitiesindustry with 8.6% which shows that the services sector, as well as information development and mobility are the sixth where there is a greater native participation while for foreign born the main industry where the majority of the employed population participates is manufacturing with a participation of 15.4%, construction with 12.3% and Professional, scientific, and management, and administrative and waste management services with 9.6%, interesting results since it is normally thought that the foreign born population is dedicated only to the agricultural and construction sectors, however the agricultural sector (8.7%) is the fourth activity where more are employed, a fact that eliminates the myth that their main activity is the primary sector.
-
+Something interesting first hand that we can highlight is that the 3 industries where natives are employed the most is other services except public administration is the industry where native citizens are most concentrated with a concentration of 12.9% of the total native employed population followed by the information sector with 8.9% and Transportation and warehousing, and utilitiesindustry with 8.6% which shows that the services sector, as well as information development and mobility are the sixth where there is a greater native participation while for foreign born the main industry where the majority of the employed population participates is manufacturing with a participation of 15.4%, construction with 12.3% and Professional, scientific, and management, and administrative and waste management services with 9.6%, interesting results since it is normally thought that the foreign born population is dedicated only to the agricultural and construction sectors, however the agricultural sector (8.7%) is the fourth activity where more are employed, a fact that eliminates the myth that their main activity is the primary sector. Below is the distribution of native workers across sectors of the economy:
 
 .. raw:: html
 
@@ -448,6 +447,10 @@ Something interesting first hand that we can highlight is that the 3 industries 
             The distribution of native-born employment across industries in 2022.
         </p>
     </div>
+
+
+Based on the distribution resulting from population data and estimates of foreigners born from Mexico, and unauthorized immigrants from Mexico, we have obtained the following results.
+
 
 .. raw:: html
 
