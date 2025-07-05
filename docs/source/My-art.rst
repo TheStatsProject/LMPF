@@ -413,6 +413,21 @@ Even unauthorized Mexican immigrant workers contribute a little over $107 millio
 *Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.*
 
 
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/bar_employed_unauthorized_by_country_2022.html"
+                title="Country Unauthorized Tax Contributions 2022"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/bar_employed_unauthorized_by_country_2022.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.*
+
+
 
 
 This is a displayed equation:
