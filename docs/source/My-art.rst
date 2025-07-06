@@ -660,6 +660,34 @@ Interactive Visualizations
           </div>
       </div>
 
+
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 700px; margin: auto; margin-bottom: 32px;">
+        <h2 style="text-align:center; margin-top: 0;">Mexican-born Employed by Industry (2022)</h2>
+        <div style="position: relative; width: 100%; height: 0; padding-bottom: 85%; min-height: 600px; max-width: 700px;">
+            <iframe 
+                src="_static/employed_by_industry_mexico_2022_pie.html"
+                title="Mexican-born Employed by Industry 2022"
+                style="
+                    position: absolute;
+                    top: 0; left: 0; width: 100%; height: 100%;
+                    border: none; display: block; background: #fff;
+                    min-height: 600px; max-width: 700px;
+                "
+                allowfullscreen
+                loading="lazy">
+                Your browser does not support iframes. Please view the visualization directly at
+                <a href="_static/employed_by_industry_mexico_2022_pie.html">this link</a>.
+            </iframe>
+        </div>
+        <p style="text-align:center; font-size:1.06em; color: #444;">
+            <b>Key Takeaway:</b><br>
+            Highlights the concentration of Mexican-born workers across U.S. industries in 2022.
+        </p>
+    </div>
+
 ---
 
 
