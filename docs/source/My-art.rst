@@ -436,13 +436,13 @@ Something interesting first hand that we can highlight is that the 3 industries 
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
         <iframe 
-            src="_static/employed_by_industry_mexico_unauthorized_2022_pie.html"
+            src="_static/employed_by_industry_native_2022_polar.html"
             title="Native Employed by Industry 2022"
             style="width: 100%; min-width: 320px; height: 500px; border: none; display: block;"
             allowfullscreen
             loading="lazy">
             Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/employed_by_industry_mexico_unauthorized_2022_pie.html">this link</a>.
+            <a href="_static/employed_by_industry_native_2022_polar.html">this link</a>.
         </iframe>
     </div>
 
