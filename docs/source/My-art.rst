@@ -590,7 +590,7 @@ This is a displayed equation:
         <h2 style="text-align:center; margin-top: 0;">Native Employed by Industry (2022)</h2>
         <div style="position: relative; width: 100%; aspect-ratio: 16/10; min-height: 400px;">
             <iframe 
-                src="_static/employed_by_industry_native_2022_pie.html"
+                src="_static/employed_by_industry_native_2022_polar.html"
                 title="Native Employed by Industry 2022"
                 style="
                     position: absolute;
@@ -604,7 +604,7 @@ This is a displayed equation:
                 allowfullscreen
                 loading="lazy">
                 Your browser does not support iframes. Please view the visualization directly at
-                <a href="_static/employed_by_industry_native_2022_pie.html">this link</a>.
+                <a href="_static/employed_by_industry_native_2022_polar.html">this link</a>.
             </iframe>
         </div>
         <p style="text-align:center; font-size:1.06em; color: #444;">
