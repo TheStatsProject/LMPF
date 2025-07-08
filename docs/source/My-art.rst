@@ -668,7 +668,7 @@ Interactive Visualizations
         <h2 style="text-align:center; margin-top: 0;">Mexican-born Employed by Industry (2022)</h2>
         <div style="position: relative; width: 100%; height: 0; padding-bottom: 85%; min-height: 1200px; max-width: 700px;">
             <iframe 
-                src="_static/employed_by_industry_native_2022_polar.html.html"
+                src="_static/employed_by_industry_native_2022_polar.html"
                 title="Mexican-born Employed by Industry 2022"
                 style="
                     position: absolute;
