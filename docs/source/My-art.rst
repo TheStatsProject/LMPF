@@ -432,6 +432,35 @@ Another element to check is the contribution of unauthorized workers to the coun
 
 Something interesting first hand that we can highlight is that the 3 industries where natives are employed the most is other services except public administration is the industry where native citizens are most concentrated with a concentration of 12.9% of the total native employed population followed by the information sector with 8.9% and Transportation and warehousing, and utilitiesindustry with 8.6% which shows that the services sector, as well as information development and mobility are the sixth where there is a greater native participation while for foreign born the main industry where the majority of the employed population participates is manufacturing with a participation of 15.4%, construction with 12.3% and Professional, scientific, and management, and administrative and waste management services with 9.6%, interesting results since it is normally thought that the foreign born population is dedicated only to the agricultural and construction sectors, however the agricultural sector (8.7%) is the fourth activity where more are employed, a fact that eliminates the myth that their main activity is the primary sector. Below is the distribution of native workers across sectors of the economy:
 
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 700px; margin: auto; margin-bottom: 32px;">
+        <h2 style="text-align:center; margin-top: 0;">Mexican-born Employed by Industry (2022)</h2>
+        <iframe 
+            src="_static/employed_by_industry_native_2022_polar.html"
+            title="Mexican-born Employed by Industry 2022"
+            style="
+                width: 100%;
+                height: 600px;
+                border: none;
+                display: block;
+                background: #fff;
+                box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+                max-width: 700px;
+            "
+            allowfullscreen
+            loading="lazy">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/employed_by_industry_native_2022_polar.html">this link</a>.
+        </iframe>
+        <p style="text-align:center; font-size:1.06em; color: #444;">
+            <b>Key Takeaway:</b><br>
+            Highlights the concentration of native workers across U.S. industries in 2022.
+        </p>
+    </div>
+
+
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
