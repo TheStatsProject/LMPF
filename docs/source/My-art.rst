@@ -674,7 +674,7 @@ Interactive Visualizations
                     position: absolute;
                     top: 0; left: 0; width: 120%; height: 200%;
                     border: none; display: block; background: #fff;
-                    min-height: 600px; max-width: 700px;
+                    min-height: 1200px; max-width: 700px;
                 "
                 allowfullscreen
                 loading="lazy">
