@@ -559,11 +559,11 @@ This is a displayed equation:
 
 .. raw:: html
 
-    <div style="width: 100%; max-width: 800px; margin: auto; margin-bottom: 32px;">
+    <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
         <h2 style="text-align:center; margin-top: 0;">Native Employed by Industry (2022)</h2>
         <div style="position: relative; width: 100%; padding-bottom: 62.5%; min-height: 340px; height: 0;">
             <iframe 
-                src="_static/employed_by_industry_native_2022_pie.html"
+                src="_static/employed_by_industry_native_2022_polar.html"
                 title="Native Employed by Industry 2022"
                 style="
                     position: absolute;
@@ -575,7 +575,7 @@ This is a displayed equation:
                 allowfullscreen
                 loading="lazy">
                 Your browser does not support iframes. Please view the visualization directly at
-                <a href="_static/employed_by_industry_native_2022_pie.html">this link</a>.
+                <a href="_static/employed_by_industry_native_2022_polar.html">this link</a>.
             </iframe>
         </div>
         <p style="text-align:center; font-size:1.06em; color: #444;">
