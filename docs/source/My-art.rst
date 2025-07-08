@@ -672,7 +672,7 @@ Interactive Visualizations
                 title="Mexican-born Employed by Industry 2022"
                 style="
                     position: absolute;
-                    top: 0; left: 0; width: 100%; height: 100%;
+                    top: 0; left: 0; width: 50%; height: 50%;
                     border: none; display: block; background: #fff;
                     min-height: 600px; max-width: 700px;
                 "
