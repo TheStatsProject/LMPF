@@ -491,7 +491,7 @@ Based on the distribution resulting from population data and estimates of foreig
 
     <div style="width: 100%; max-width: min(100vw, 800px); margin: auto; margin-bottom: 32px;">
         <h2 style="text-align:center; margin-top: 0;">Native Employed by Industry (2022)</h2>
-        <iframe src="_static/employed_by_industry_native_2022_pie.html"
+        <iframe src="_static/employed_by_industry_native_2022_polar.html"
                 title="Native Employed by Industry 2022"
                 style="width: 100%; min-width: 320px; height: 60vw; max-height: 560px; min-height: 360px; aspect-ratio: 16/10; border: none; display: block;">
             Your browser does not support iframes. Please view the visualization directly at
@@ -507,7 +507,7 @@ Based on the distribution resulting from population data and estimates of foreig
 
     <div style="width: 100%; max-width: min(100vw, 800px); margin: auto; margin-bottom: 32px;">
         <h2 style="text-align:center; margin-top: 0;">Mexican-born Employed by Industry (2022)</h2>
-        <iframe src="_static/employed_by_industry_mexico_2022_pie.html"
+        <iframe src="_static/employed_by_industry_mexico_2022_polar.html"
                 title="Mexican-born Employed by Industry 2022"
                 style="width: 100%; min-width: 320px; height: 60vw; max-height: 560px; min-height: 360px; aspect-ratio: 16/10; border: none; display: block;">
             Your browser does not support iframes. Please view the visualization directly at
@@ -672,7 +672,7 @@ Interactive Visualizations
                 title="Mexican-born Employed by Industry 2022"
                 style="
                     position: absolute;
-                    top: 0; left: 0; width: 60%; height: 60%;
+                    top: 0; left: 0; width: 100%; height: 150%;
                     border: none; display: block; background: #fff;
                     min-height: 900px; max-width: 700px;
                 "
