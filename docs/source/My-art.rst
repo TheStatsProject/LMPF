@@ -684,7 +684,35 @@ Interactive Visualizations
         </div>
         <p style="text-align:center; font-size:1.06em; color: #444;">
             <b>Key Takeaway:</b><br>
-            Highlights the concentration of Mexican-born workers across U.S. industries in 2022.
+            Highlights the concentration of native workers across U.S. industries in 2022.
+        </p>
+    </div>
+
+
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 700px; margin: auto; margin-bottom: 32px;">
+        <h2 style="text-align:center; margin-top: 0;">Mexican-born Employed by Industry (2022)</h2>
+        <iframe 
+            src="_static/employed_by_industry_native_2022_polar.html"
+            title="Mexican-born Employed by Industry 2022"
+            style="
+                width: 100%;
+                height: 900px;
+                border: none;
+                display: block;
+                background: #fff;
+                box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+            "
+            allowfullscreen
+            loading="lazy">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/employed_by_industry_native_2022_polar.html">this link</a>.
+        </iframe>
+        <p style="text-align:center; font-size:1.06em; color: #444;">
+            <b>Key Takeaway:</b><br>
+            Highlights the concentration of native workers across U.S. industries in 2022.
         </p>
     </div>
 
