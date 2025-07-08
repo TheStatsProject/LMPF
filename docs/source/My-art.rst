@@ -588,15 +588,15 @@ This is a displayed equation:
 
     <div style="width: 100%; max-width: 800px; margin: auto; margin-bottom: 32px;">
         <h2 style="text-align:center; margin-top: 0;">Native Employed by Industry (2022)</h2>
-        <div style="position: relative; width: 100%; aspect-ratio: 16/10; min-height: 400px;">
+        <div style="position: relative; width: 100%; aspect-ratio: 10/10; min-height: 400px;">
             <iframe 
                 src="_static/employed_by_industry_native_2022_polar.html"
                 title="Native Employed by Industry 2022"
                 style="
                     position: absolute;
                     inset: 0;
-                    width: 80%;
-                    height: 80%;
+                    width: 100%;
+                    height: 100%;
                     border: none;
                     display: block;
                     min-height: 400px;
@@ -672,7 +672,7 @@ Interactive Visualizations
                 title="Mexican-born Employed by Industry 2022"
                 style="
                     position: absolute;
-                    top: 0; left: 0; width: 50%; height: 50%;
+                    top: 0; left: 0; width: 120%; height: 120%;
                     border: none; display: block; background: #fff;
                     min-height: 600px; max-width: 700px;
                 "
