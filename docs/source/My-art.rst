@@ -663,14 +663,14 @@ Interactive Visualizations
 
 .. raw:: html
 
-    <div style="width: 100%; max-width: 700px; margin: auto; margin-bottom: 32px;">
+    <div style="width: 100%; max-width: 750px; margin: auto; margin-bottom: 32px;">
         <h2 style="text-align:center; margin-top: 0;">Mexican-born Employed by Industry (2022)</h2>
         <iframe 
             src="_static/employed_by_industry_native_2022_polar.html"
             title="Mexican-born Employed by Industry 2022"
             style="
                 width: 100%;
-                height: 900px;
+                height: 850px;
                 border: none;
                 display: block;
                 background: #fff;
