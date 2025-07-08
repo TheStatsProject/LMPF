@@ -732,28 +732,28 @@ Take Action
 
 .. raw:: html
 
-    <div style="width: 100%; max-width: 350px; margin: auto; margin-bottom: 32px;">
+    <div style="width: 100%; max-width: 700px; margin: auto; margin-bottom: 32px;">
         <h2 style="text-align:center; margin-top: 0; font-size:1.1em;">Mexican-born Employed by Industry (2022)</h2>
         <iframe 
-            src="_static/employed_by_industry_native_2022_polar.html"
+            src="_static/employed_by_industry_mexico_2022_polar_scaled.html"
             title="Mexican-born Employed by Industry 2022"
             style="
                 width: 100%;
-                height: 300px;
+                height: 600px;
                 border: none;
                 display: block;
                 background: #fff;
                 box-shadow: 0 4px 16px rgba(0,0,0,0.07);
-                max-width: 350px;
+                max-width: 700px;
             "
             allowfullscreen
             loading="lazy">
             Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/employed_by_industry_native_2022_polar.html">this link</a>.
+            <a href="_static/employed_by_industry_mexico_2022_polar_scaled.html">this link</a>.
         </iframe>
         <p style="text-align:center; font-size:.93em; color: #444;">
             <b>Key Takeaway:</b><br>
-            Highlights the concentration of native workers across U.S. industries in 2022.
+            Highlights the concentration of Mexican-born workers across U.S. industries in 2022.
         </p>
     </div>
 
