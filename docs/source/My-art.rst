@@ -588,15 +588,15 @@ This is a displayed equation:
 
     <div style="width: 100%; max-width: 800px; margin: auto; margin-bottom: 32px;">
         <h2 style="text-align:center; margin-top: 0;">Native Employed by Industry (2022)</h2>
-        <div style="position: relative; width: 100%; aspect-ratio: 5/10; min-height: 400px;">
+        <div style="position: relative; width: 80%; aspect-ratio: 2/10; min-height: 400px;">
             <iframe 
                 src="_static/employed_by_industry_native_2022_polar.html"
                 title="Native Employed by Industry 2022"
                 style="
                     position: absolute;
                     inset: 0;
-                    width: 60%;
-                    height: 60%;
+                    width: 100%;
+                    height: 150%;
                     border: none;
                     display: block;
                     min-height: 400px;
