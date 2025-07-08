@@ -668,7 +668,7 @@ Interactive Visualizations
         <h2 style="text-align:center; margin-top: 0;">Mexican-born Employed by Industry (2022)</h2>
         <div style="position: relative; width: 100%; height: 0; padding-bottom: 85%; min-height: 600px; max-width: 700px;">
             <iframe 
-                src="_static/employed_by_industry_mexico_2022_pie.html"
+                src="_static/employed_by_industry_mexico_2022_polar.html"
                 title="Mexican-born Employed by Industry 2022"
                 style="
                     position: absolute;
@@ -679,7 +679,7 @@ Interactive Visualizations
                 allowfullscreen
                 loading="lazy">
                 Your browser does not support iframes. Please view the visualization directly at
-                <a href="_static/employed_by_industry_mexico_2022_pie.html">this link</a>.
+                <a href="_static/employed_by_industry_mexico_2022_polar.html">this link</a>.
             </iframe>
         </div>
         <p style="text-align:center; font-size:1.06em; color: #444;">
