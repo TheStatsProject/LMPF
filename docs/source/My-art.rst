@@ -496,7 +496,7 @@ Based on the distribution resulting from population data and estimates of foreig
 
     <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
         <h2 style="text-align:center; margin-top: 0;">Unauthorized Mexican-born Employed by Industry (2022)</h2>
-        <div style="position: relative; width: 100%; padding-bottom: 62.5%; min-height: 340px; height: 0;">
+        <div style="position: relative; width: 100%; padding-bottom: 70.5%; min-height: 340px; height: 0;">
             <iframe 
                 src="_static/employed_by_industry_mexico_unauthorized_2022_polar.html"
                 title="Unauthorized Mexican-born Employed by Industry 2022"
