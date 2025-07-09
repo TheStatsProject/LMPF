@@ -749,6 +749,89 @@ Take Action
         </p>
     </div>
 
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
+        <h2 style="text-align:center; margin-top: 0;">Native Employed by Industry (2022)</h2>
+        <div style="position: relative; width: 100%; padding-bottom: 62.5%; min-height: 340px; height: 0;">
+            <iframe 
+                src="_static/employed_by_industry_native_2022_polar.html"
+                title="Native Employed by Industry 2022"
+                style="
+                    position: absolute;
+                    top: 0; left: 0;
+                    width: 100%; height: 100%;
+                    border: none;
+                    display: block;
+                "
+                allowfullscreen
+                loading="lazy">
+                Your browser does not support iframes. Please view the visualization directly at
+                <a href="_static/employed_by_industry_native_2022_polar.html">this link</a>.
+            </iframe>
+        </div>
+        <p style="text-align:center; font-size:1.06em; color: #444;">
+            <b>Key Takeaway:</b><br>
+            The distribution of native-born employment across industries in 2022.
+        </p>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
+        <h2 style="text-align:center; margin-top: 0;">Mexican-born Employed by Industry (2022)</h2>
+        <div style="position: relative; width: 100%; padding-bottom: 62.5%; min-height: 340px; height: 0;">
+            <iframe 
+                src="_static/employed_by_industry_mexico_2022_polar.html"
+                title="Mexican-born Employed by Industry 2022"
+                style="
+                    position: absolute;
+                    top: 0; left: 0;
+                    width: 100%; height: 100%;
+                    border: none;
+                    display: block;
+                "
+                allowfullscreen
+                loading="lazy">
+                Your browser does not support iframes. Please view the visualization directly at
+                <a href="_static/employed_by_industry_mexico_2022_polar.html">this link</a>.
+            </iframe>
+        </div>
+        <p style="text-align:center; font-size:1.06em; color: #444;">
+            <b>Key Takeaway:</b><br>
+            The distribution of Mexican-born employment across industries in 2022.
+        </p>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
+        <h2 style="text-align:center; margin-top: 0;">Unauthorized Mexican-born Employed by Industry (2022)</h2>
+        <div style="position: relative; width: 100%; padding-bottom: 62.5%; min-height: 340px; height: 0;">
+            <iframe 
+                src="_static/employed_by_industry_mexico_unauthorized_2022_polar.html"
+                title="Unauthorized Mexican-born Employed by Industry 2022"
+                style="
+                    position: absolute;
+                    top: 0; left: 0;
+                    width: 100%; height: 100%;
+                    border: none;
+                    display: block;
+                "
+                allowfullscreen
+                loading="lazy">
+                Your browser does not support iframes. Please view the visualization directly at
+                <a href="_static/employed_by_industry_mexico_unauthorized_2022_polar.html">this link</a>.
+            </iframe>
+        </div>
+        <p style="text-align:center; font-size:1.06em; color: #444;">
+            <b>Key Takeaway:</b><br>
+            The distribution of unauthorized Mexican-born employment across industries in 2022.
+        </p>
+    </div>
+
+
 ---
 
 *All charts are live embeds—hover, zoom, and explore the data yourself!*.
