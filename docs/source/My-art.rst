@@ -465,7 +465,6 @@ Something interesting first hand that we can highlight is that the 3 industries 
 Based on the distribution resulting from population data and estimates of foreigners born from Mexico, and unauthorized immigrants from Mexico, we have obtained the following results.
 
 
-
 .. raw:: html
 
     <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
@@ -477,7 +476,7 @@ Based on the distribution resulting from population data and estimates of foreig
                 style="
                     position: absolute;
                     top: 0; left: 0;
-                    width: 100%; height: 100%;
+                    width: 120%; height: 120%;
                     border: none;
                     display: block;
                 "
