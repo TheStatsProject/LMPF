@@ -515,241 +515,6 @@ Based on the distribution resulting from population data and estimates of foreig
     </div>
 
 
-
-.. raw:: html
-
-    <div style="width: 100%; max-width: min(100vw, 800px); margin: auto; margin-bottom: 32px;">
-        <h2 style="text-align:center; margin-top: 0;">Native Employed by Industry (2022)</h2>
-        <iframe src="_static/employed_by_industry_native_2022_polar.html"
-                title="Native Employed by Industry 2022"
-                style="width: 100%; min-width: 320px; height: 60vw; max-height: 560px; min-height: 360px; aspect-ratio: 16/10; border: none; display: block;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/employed_by_industry_native_2022_pie.html">this link</a>.
-        </iframe>
-        <p style="text-align:center; font-size:1.06em; color: #444;">
-            <b>Key Takeaway:</b><br>
-            The distribution of native-born employment across industries in 2022.
-        </p>
-    </div>
-
-.. raw:: html
-
-    <div style="width: 100%; max-width: min(100vw, 800px); margin: auto; margin-bottom: 32px;">
-        <h2 style="text-align:center; margin-top: 0;">Mexican-born Employed by Industry (2022)</h2>
-        <iframe src="_static/employed_by_industry_mexico_2022_polar.html"
-                title="Mexican-born Employed by Industry 2022"
-                style="width: 100%; min-width: 320px; height: 60vw; max-height: 560px; min-height: 360px; aspect-ratio: 16/10; border: none; display: block;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/employed_by_industry_mexico_2022_pie.html">this link</a>.
-        </iframe>
-        <p style="text-align:center; font-size:1.06em; color: #444;">
-            <b>Key Takeaway:</b><br>
-            Highlights the concentration of Mexican-born workers across U.S. industries in 2022.
-        </p>
-    </div>
-
-.. raw:: html
-
-    <div style="width: 100%; max-width: min(100vw, 800px); margin: auto; margin-bottom: 32px;">
-        <h2 style="text-align:center; margin-top: 0;">Unauthorized Mexican Employed by Industry (2022)</h2>
-        <iframe src="_static/employed_by_industry_mexico_unauthorized_2022_pie.html"
-                title="Unauthorized Mexican Employed by Industry 2022"
-                style="width: 100%; min-width: 320px; height: 60vw; max-height: 560px; min-height: 360px; aspect-ratio: 16/10; border: none; display: block;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/employed_by_industry_mexico_unauthorized_2022_pie.html">this link</a>.
-        </iframe>
-        <p style="text-align:center; font-size:1.06em; color: #444;">
-            <b>Key Takeaway:</b><br>
-            Visualizes the occupational distribution of unauthorized Mexican immigrants in the U.S. workforce for 2022.
-        </p>
-    </div>
-
-.. raw:: html
-
-    <div style="width: 100%; max-width: min(100vw, 900px); margin: auto; margin-bottom: 32px;">
-        <h2 style="text-align:center; margin-top: 0;">Industry Distribution by Origin Group (2022)</h2>
-        <iframe src="_static/industry_distribution_by_origin_2022.html"
-                title="Industry Distribution by Origin Group 2022"
-                style="width: 100%; min-width: 320px; height: 65vw; max-height: 620px; min-height: 380px; aspect-ratio: 16/11; border: none; display: block;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/industry_distribution_by_origin_2022.html">this link</a>.
-        </iframe>
-        <p style="text-align:center; font-size:1.06em; color: #444;">
-            <b>Key Takeaway:</b><br>
-            Compares the industry employment distributions of native-born, Mexican-born, and unauthorized Mexican workers in 2022.
-        </p>
-    </div>
-
-This is a displayed equation:
-
-.. math::
-
- \frac{a}{b} 
-
-.. raw:: html
-
-    <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
-        <h2 style="text-align:center; margin-top: 0;">Native Employed by Industry (2022)</h2>
-        <div style="position: relative; width: 100%; padding-bottom: 62.5%; min-height: 340px; height: 0;">
-            <iframe 
-                src="_static/employed_by_industry_native_2022_polar.html"
-                title="Native Employed by Industry 2022"
-                style="
-                    position: absolute;
-                    top: 0; left: 0;
-                    width: 100%; height: 100%;
-                    border: none;
-                    display: block;
-                "
-                allowfullscreen
-                loading="lazy">
-                Your browser does not support iframes. Please view the visualization directly at
-                <a href="_static/employed_by_industry_native_2022_polar.html">this link</a>.
-            </iframe>
-        </div>
-        <p style="text-align:center; font-size:1.06em; color: #444;">
-            <b>Key Takeaway:</b><br>
-            The distribution of native-born employment across industries in 2022.
-        </p>
-    </div>
-
-Interactive Visualizations
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-1. **Bar Chart: Top 10 Migrant Groups by GDP Contribution**
-
-.. container:: dual-layout
-
-   .. raw:: html
-
-      <div style="display: flex;">
-          <div style="width: 50%; padding-right: 10px;">
-              <iframe src="_static/bar_2024.html" width="100%" height="400" style="border: none;">
-                  Your browser does not support iframes. Please view the visualization directly at
-                  <a href="_static/bar_2024.html">this link</a>.
-              </iframe>
-          </div>
-          <div style="width: 50%; padding-left: 10px;">
-              <p>
-                  This bar chart highlights the top 10 migrant groups contributing to the U.S. GDP. 
-                  Mexican and Indian-born workers lead the list, reflecting their strong labor force 
-                  participation in key economic sectors. Hover over the bars to see detailed values.
-              </p>
-          </div>
-      </div>
-
-2. **Pie Chart: GDP Share by Migrant Cohort**
-
-.. container:: dual-layout
-
-   .. raw:: html
-
-      <div style="display: flex;">
-          <div style="width: 50%; padding-right: 10px;">
-              <iframe src="_static/pie_2024.html" width="100%" height="400" style="border: none;">
-                  Your browser does not support iframes. Please view the visualization directly at
-                  <a href="_static/pie_2024.html">this link</a>.
-              </iframe>
-          </div>
-          <div style="width: 50%; padding-left: 10px;">
-              <p>
-                  This pie chart illustrates the GDP share contributed by different migrant cohorts. 
-                  It provides an at-a-glance understanding of how various groups impact the economy. 
-                  Click on the chart segments to drill down into specific data points.
-              </p>
-          </div>
-      </div>
-
-
-.. raw:: html
-
-    <div style="width: 100%; max-width: 750px; margin: auto; margin-bottom: 32px;">
-        <h2 style="text-align:center; margin-top: 0;">Mexican-born Employed by Industry (2022)</h2>
-        <iframe 
-            src="_static/employed_by_industry_mexico_2022_polar_scaled.html"
-            title="Mexican-born Employed by Industry 2022"
-            style="
-                width: 100%;
-                height: 850px;
-                border: none;
-                display: block;
-                background: #fff;
-                box-shadow: 0 4px 16px rgba(0,0,0,0.07);
-            "
-            allowfullscreen
-            loading="lazy">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/employed_by_industry_mexico_2022_polar_scaled.html">this link</a>.
-        </iframe>
-        <p style="text-align:center; font-size:1.06em; color: #444;">
-            <b>Key Takeaway:</b><br>
-            Highlights the concentration of native workers across U.S. industries in 2022.
-        </p>
-    </div>
-
----
-
-
-*All charts are live embeds—hover, zoom, and explore the data yourself!*
-
-
-Take Action
-~~~~~~~~~~~
-
-- **Policy Recommendations**: Invest in sectors with high migrant labor participation (e.g., healthcare, construction).
-- **Investor Opportunities**: Develop bilingual consumer platforms to capture market share.
-- **Future Research**: Extend analysis to other demographic groups and forecast long-term trends.
-
-
-.. raw:: html
-
-    <div style="width: 100%; max-width: 900px; margin: auto; margin-bottom: 32px;">
-        <h2 style="text-align:center; margin-top: 0;">Industry Distribution: Mexican-born (2022)</h2>
-        <iframe src="_static/employed_by_industry_mexico_2022_polar.html"
-                title="Industry Distribution: Mexican-born 2022"
-                style="width: 100%; height: 540px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/employed_by_industry_mexico_2022_polar.html">this link</a>.
-        </iframe>
-        <p style="text-align:center; font-size:1.06em; color: #444;">
-            <b>Key Takeaway:</b><br>
-            Shows the employment distribution of Mexican-born workers across industries in 2022.
-        </p>
-    </div>
-
-.. raw:: html
-
-    <div style="width: 100%; max-width: 900px; margin: auto; margin-bottom: 32px;">
-        <h2 style="text-align:center; margin-top: 0;">Industry Distribution: Mexican-born Unauthorized (2022)</h2>
-        <iframe src="_static/employed_by_industry_mexico_unauthorized_2022_polar.html"
-                title="Industry Distribution: Mexican-born Unauthorized 2022"
-                style="width: 100%; height: 540px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/employed_by_industry_mexico_unauthorized_2022_polar.html">this link</a>.
-        </iframe>
-        <p style="text-align:center; font-size:1.06em; color: #444;">
-            <b>Key Takeaway:</b><br>
-            Shows the industry employment distribution for unauthorized Mexican-born workers in 2022.
-        </p>
-    </div>
-
-.. raw:: html
-
-    <div style="width: 100%; max-width: 900px; margin: auto; margin-bottom: 32px;">
-        <h2 style="text-align:center; margin-top: 0;">Industry Distribution: Native-born (2022)</h2>
-        <iframe src="_static/employed_by_industry_native_2022_polar.html"
-                title="Industry Distribution: Native-born 2022"
-                style="width: 100%; height: 540px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/employed_by_industry_native_2022_polar.html">this link</a>.
-        </iframe>
-        <p style="text-align:center; font-size:1.06em; color: #444;">
-            <b>Key Takeaway:</b><br>
-            Shows the employment distribution of native-born workers across industries in 2022.
-        </p>
-    </div>
-
-
 .. raw:: html
 
     <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
@@ -830,6 +595,76 @@ Take Action
             The distribution of unauthorized Mexican-born employment across industries in 2022.
         </p>
     </div>
+
+
+This is a displayed equation:
+
+.. math::
+
+ \frac{a}{b} 
+
+
+Interactive Visualizations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. **Bar Chart: Top 10 Migrant Groups by GDP Contribution**
+
+.. container:: dual-layout
+
+   .. raw:: html
+
+      <div style="display: flex;">
+          <div style="width: 50%; padding-right: 10px;">
+              <iframe src="_static/bar_2024.html" width="100%" height="400" style="border: none;">
+                  Your browser does not support iframes. Please view the visualization directly at
+                  <a href="_static/bar_2024.html">this link</a>.
+              </iframe>
+          </div>
+          <div style="width: 50%; padding-left: 10px;">
+              <p>
+                  This bar chart highlights the top 10 migrant groups contributing to the U.S. GDP. 
+                  Mexican and Indian-born workers lead the list, reflecting their strong labor force 
+                  participation in key economic sectors. Hover over the bars to see detailed values.
+              </p>
+          </div>
+      </div>
+
+2. **Pie Chart: GDP Share by Migrant Cohort**
+
+.. container:: dual-layout
+
+   .. raw:: html
+
+      <div style="display: flex;">
+          <div style="width: 50%; padding-right: 10px;">
+              <iframe src="_static/pie_2024.html" width="100%" height="400" style="border: none;">
+                  Your browser does not support iframes. Please view the visualization directly at
+                  <a href="_static/pie_2024.html">this link</a>.
+              </iframe>
+          </div>
+          <div style="width: 50%; padding-left: 10px;">
+              <p>
+                  This pie chart illustrates the GDP share contributed by different migrant cohorts. 
+                  It provides an at-a-glance understanding of how various groups impact the economy. 
+                  Click on the chart segments to drill down into specific data points.
+              </p>
+          </div>
+      </div>
+
+
+
+---
+
+
+*All charts are live embeds—hover, zoom, and explore the data yourself!*
+
+
+Take Action
+~~~~~~~~~~~
+
+- **Policy Recommendations**: Invest in sectors with high migrant labor participation (e.g., healthcare, construction).
+- **Investor Opportunities**: Develop bilingual consumer platforms to capture market share.
+- **Future Research**: Extend analysis to other demographic groups and forecast long-term trends.
 
 
 ---
