@@ -701,6 +701,54 @@ Take Action
 - **Future Research**: Extend analysis to other demographic groups and forecast long-term trends.
 
 
+.. raw:: html
+
+    <div style="width: 100%; max-width: 900px; margin: auto; margin-bottom: 32px;">
+        <h2 style="text-align:center; margin-top: 0;">Industry Distribution: Mexican-born (2022)</h2>
+        <iframe src="_static/employed_by_industry_mexico_2022_polar.html"
+                title="Industry Distribution: Mexican-born 2022"
+                style="width: 100%; height: 540px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/employed_by_industry_mexico_2022_polar.html">this link</a>.
+        </iframe>
+        <p style="text-align:center; font-size:1.06em; color: #444;">
+            <b>Key Takeaway:</b><br>
+            Shows the employment distribution of Mexican-born workers across industries in 2022.
+        </p>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 900px; margin: auto; margin-bottom: 32px;">
+        <h2 style="text-align:center; margin-top: 0;">Industry Distribution: Mexican-born Unauthorized (2022)</h2>
+        <iframe src="_static/employed_by_industry_mexico_unauthorized_2022_polar.html"
+                title="Industry Distribution: Mexican-born Unauthorized 2022"
+                style="width: 100%; height: 540px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/employed_by_industry_mexico_unauthorized_2022_polar.html">this link</a>.
+        </iframe>
+        <p style="text-align:center; font-size:1.06em; color: #444;">
+            <b>Key Takeaway:</b><br>
+            Shows the industry employment distribution for unauthorized Mexican-born workers in 2022.
+        </p>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 900px; margin: auto; margin-bottom: 32px;">
+        <h2 style="text-align:center; margin-top: 0;">Industry Distribution: Native-born (2022)</h2>
+        <iframe src="_static/employed_by_industry_native_2022_polar.html"
+                title="Industry Distribution: Native-born 2022"
+                style="width: 100%; height: 540px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/employed_by_industry_native_2022_polar.html">this link</a>.
+        </iframe>
+        <p style="text-align:center; font-size:1.06em; color: #444;">
+            <b>Key Takeaway:</b><br>
+            Shows the employment distribution of native-born workers across industries in 2022.
+        </p>
+    </div>
+
 ---
 
 *All charts are live embeds—hover, zoom, and explore the data yourself!*.
