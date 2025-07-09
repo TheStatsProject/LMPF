@@ -708,7 +708,7 @@ Interactive Visualizations
             allowfullscreen
             loading="lazy">
             Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/employed_by_industry_mexico_2022_polar_scaled.html.html">this link</a>.
+            <a href="_static/employed_by_industry_mexico_2022_polar_scaled.html">this link</a>.
         </iframe>
         <p style="text-align:center; font-size:1.06em; color: #444;">
             <b>Key Takeaway:</b><br>
