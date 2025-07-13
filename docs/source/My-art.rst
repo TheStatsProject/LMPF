@@ -430,9 +430,7 @@ Another element to check is the contribution of unauthorized workers to the coun
     </div>
 
 
-Something interesting first hand that we can highlight is that the 3 industries where natives are employed the most is other services except public administration is the industry where native citizens are most concentrated with a concentration of 12.9% of the total native employed population followed by the information sector with 8.9% and Transportation and warehousing, and utilitiesindustry with 8.6% which shows that the services sector, as well as information development and mobility are the sixth where there is a greater native participation while for foreign born the main industry where the majority of the employed population participates is manufacturing with a participation of 15.4%, construction with 12.3% and Professional, scientific, and management, and administrative and waste management services with 9.6%, interesting results since it is normally thought that the foreign born population is dedicated only to the agricultural and construction sectors, however the agricultural sector (8.7%) is the fourth activity where more are employed, a fact that eliminates the myth that their main activity is the primary sector. Below is the distribution of native workers across sectors of the economy:
-
-
+Something interesting to note is that the three industries where Native Americans are most heavily employed are services, except for public administration. This represents 12.9% of the total Native American population, followed by the information sector with 8.9% and the transportation and warehousing services sector with 8.6%, showing that services and computer development have the greatest share.
 
 .. raw:: html
 
@@ -461,9 +459,9 @@ Something interesting first hand that we can highlight is that the 3 industries 
         </p>
     </div>
 
+As well as services, information development and mobility are the sectors where there is the greatest native participation. Based on the available data on the distribution of the employed population by industry in the United States, based on the resulting distribution from population data and estimates of foreigners born in Mexico and unauthorized immigrants from Mexico, we have obtained the following results:
 
-Based on the distribution resulting from population data and estimates of foreigners born from Mexico, and unauthorized immigrants from Mexico, we have obtained the following results.
-
+Distribution of the foreign-born population of Mexican citizens employed in the USA by industry:
 
 .. raw:: html
 
@@ -492,6 +490,10 @@ Based on the distribution resulting from population data and estimates of foreig
         </p>
     </div>
 
+Distribution of the unauthorized population of Mexican citizens employed in the USA by industry:
+
+
+
 .. raw:: html
 
     <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
@@ -518,6 +520,21 @@ Based on the distribution resulting from population data and estimates of foreig
             The distribution of unauthorized Mexican-born employment across industries in 2022.
         </p>
     </div>
+
+As can be seen in the chart for both groups, the main industry where the majority of the employed population participates is manufacturing with a share of 15.4%, construction with 12.3%, and professionals in science, management, and administrative and waste management services with 9.6%.
+
+****Interesting results, since it is normally thought that the foreign-born population is dedicated solely to agricultural construction; however, the agricultural sector (8.7%) is the fourth largest activity. These results do not support what Mexican authorities have said about the distribution of immigrant labor and undocumented immigrants in the United States. **** Again, we address the inconsistency of the Mexican government's information. ****
+
+
+
+
+
+
+
+Based on the distribution resulting from population data and estimates of foreigners born from Mexico, and unauthorized immigrants from Mexico, we have obtained the following results.
+
+
+
 
 
 This is a displayed equation:
