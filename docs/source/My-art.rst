@@ -523,17 +523,21 @@ Distribution of the unauthorized population of Mexican citizens employed in the 
 
 As can be seen in the chart for both groups, the main industry where the majority of the employed population participates is manufacturing with a share of 15.4%, construction with 12.3%, and professionals in science, management, and administrative and waste management services with 9.6%.
 
-****Interesting results, since it is normally thought that the foreign-born population is dedicated solely to agricultural construction; however, the agricultural sector (8.7%) is the fourth largest activity. These results do not support what Mexican authorities have said about the distribution of immigrant labor and undocumented immigrants in the United States. **** Again, we address the inconsistency of the Mexican government's information. ****
+****Interesting results, since it is normally thought that the foreign-born population is dedicated solely to agricultural construction; however, the agricultural sector (8.7%) is the fourth largest activity. These results do not support what Mexican authorities have said about the distribution of immigrant labor and undocumented immigrants in the United States. Again, we address the inconsistency of the Mexican government's information.****
 
 
+Statement 3 . **Security**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ - Immigrants have 60 percent less crime, and the states along the border with Mexico are safer and healthier compared to the northern border of the United States.
+
+****Myths or Reality?****
 
 
+Statement 4. **Invesment and Entrepreneurship**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ - In 2021, one in five immigrants was an entrepreneur, generating $95.6 billion.
 
-
-
-Based on the distribution resulting from population data and estimates of foreigners born from Mexico, and unauthorized immigrants from Mexico, we have obtained the following results.
-
-
+****Myths or Reality?****
 
 
 
