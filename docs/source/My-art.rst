@@ -532,6 +532,13 @@ Statement 3 . **Security**
 
 ****Myths or Reality?****
 
+In order to answer the question of crime, we had to adapt our search to the analysis of cub scouts offered by the best agency, the FBI. For this, we analyzed the violent crimes reported on their website (link). From there, we branched the search by violent crimes and the origin of those who commit them. With these assumptions, we classified violent crimes according to the FBI under the following categories:
+
+- Rape
+- Aggravated Assault
+- Homicide
+- Robbery
+
 
 Statement 4. **Invesment and Entrepreneurship**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
