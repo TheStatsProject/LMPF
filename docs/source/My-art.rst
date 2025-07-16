@@ -676,15 +676,7 @@ The lack of legal documentation creates difficulties in obtaining formal employm
 
 In the case of the Mexican government's claim that 4 out of 5 immigrants are entrepreneurs, reviewing the data provided by US statistics departments also fails to verify this. Estimating this information shows that for every 10 native-born citizens employed in the US, 1 is an entrepreneur; for every 10 foreign-born Mexican citizens, 1 is an entrepreneur; and in the case of unauthorized Mexicans, approximately 2 out of 10 are entrepreneurs.
 
-But it is necessary to answer the last question: is the contribution of self-employed Mexicans $95 billion, as claimed by the Mexican authorities? To do this and as we have done throughout the analysis offered, we will base ourselves on the estimates made previously (See Statements 1,2,3) leaving our case as follows:
-
-
-This is a displayed equation:
-
-.. math::
-
- \frac{a}{b} 
-
+But it is necessary to answer the last question... is the contribution of the Mexican self-employed $95 billion, as claimed by the Mexican authorities? To do this and as we have done throughout the analysis offered we will base ourselves on the estimates made previously (See Statements 1,2,3) leaving our calculation per person self-employed and eye here we must specify that this calculation is still based on the methodology that we have been developing does not take into account elements such as the real heat of the salaries for each sector and neither the estimates based on the profits that these self-employments generate in reality, here we are making an estimate as accurate as possible taking into account the REAL information available, in this case what is said by the Mexican government is not verified since the level of contribution of self-employment is TWO HUNDRED SIXTEEN THOUSAND TWO HUNDRED FORTY-FOUR MILLION THREE HUNDRED NINETY-TWO THOUSAND dollars so it is far from what was argued by the Mexican official media and unfortunately this only politicizes the information which generates divisions and disputes like those seen in the United States and in Mexico in the last days.
 
 ---
 
