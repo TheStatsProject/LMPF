@@ -548,16 +548,21 @@ To identify the Latinos mentioned in the report, each group was categorized as f
 
 Based on the FBI's results for the entire country, we obtained the following interesting conclusions about violent crimes committed in the United States:
 
-- Rape is the second most frequent violent crime in the country, with 205,593 violent crimes, according to statistics provided by the FBI. Of these crimes, 4 out of 10 were committed by non-Hispanic or non-Latino groups. Based on the data regarding this atrocious violent crime, the Latino community has the lowest incidence, with 1 in 10 cases of rape as a violent crime in the US.
-- Aggravated Assault: In this case, something very interesting occurs, as similar patterns also occur here, with 4 out of 10 cases within the country being of non-Hispanic or non-Latino origin.
-- In the case of homicide, it is observed that only 1 in 10 cases is of Latino origin, while 4 in 10 are from non-Hispanic or non-Latino groups.
-- Robbery repeats the same pattern, with approximately 3.9 incidents per ten inhabitants caused by non-Hispanic or non-Latino groups.
+- Rape is the second most frequent violent crime in the country, with 205,593 violent crimes, according to statistics provided by the FBI. Of these crimes, 4 out of 10 were committed by non-Hispanic or non-Latino groups. Based on the data for this atrocious violent crime, the Latino community has the lowest incidence, with 1 in 10 cases of rape as a violent crime in the USA (67,267).
+- Aggravated Assault presents similar patterns in this case, with 4 out of 10 cases generated within the country being of non-Hispanic or non-Latino origin (38,171).
+- In this case, homicide is observed to be of Latino origin (8,576), while 4 out of 10 are from non-Hispanic or non-Latino groups (38,171).
+- Robbery repeats the same pattern, with approximately 3.9 incidents per 10 inhabitants caused by non-Hispanic or non-Latino groups (412,161).
 
 As seen in the following graph, we can analyze in detail the ethnic distribution of violent crimes within the country:
-
 Graph
 
-One of the most controversial and politicized topics of recent decades, and currently in recent months, is the development of drug-related crime. It is precisely here that we add an interesting statistic: drug narcotics violations, in our analysis. Below, we present the interactive map of crime on the border, since the report issued by Mexico speaks of a lower incidence rate of crime in the Latino community, and as we can see, this is true. This applies to drug-narcotics violations, and we obtained the following result:
+One of the most controversial and politicized issues of recent decades, and currently in recent months, is the development of drug-related crime. It is precisely here that we add an interesting statistic to our analysis: Drug Narcotics violations. In the case of drug-narcotics violations, we obtained the following results:
+
+* Result 1
+
+This is revealing because, as in the previous pattern, the incidence of drug-narcotics violations among the Latino community is barely 10%. In the case of the community with the highest incidence of this type of crime, this similarity is not only evident but also reinforced, with 5 out of 10 drug-related crimes being the work of non-Latino, non-Hispanic groups.
+
+This is what happens in the United States… but what is happening within the country? … specifically in the border states? Below is the interactive map of crime on the border, since the report issued by Mexico speaks of a lower incidence rate of crime among the Latino community, and as we can see, this is graphically true.
 
 Statement 4. **Invesment and Entrepreneurship**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
