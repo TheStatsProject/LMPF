@@ -541,18 +541,20 @@ In order to answer the question of crime, we had to adapt our search to the anal
 
 To identify the Latinos mentioned in the report, each group was categorized as follows:
 
-1) Not Hispanic or Latino
-2) Not Specified
-3) Unknown
-4) Hispanic or Latino
+- Not Hispanic or Latino
+- Not Specified
+- Unknown
+- Hispanic or Latino
 
 Based on the FBI's results for the entire country, we obtained the following interesting conclusions about violent crimes committed in the United States:
 
 - Rape is the second most frequent violent crime in the country, with 205,593 violent crimes, according to statistics provided by the FBI. Of these crimes, 4 out of 10 were committed by non-Hispanic or non-Latino groups. Based on the data regarding this atrocious violent crime, the Latino community has the lowest incidence, with 1 in 10 cases of rape as a violent crime in the US.
-- Aggravated Assault: In this case, something very interesting occurs, as similar patterns also occur here, with 4 out of 10 cases within the country being of non-Hispanic or non-Latino origin. - In this case, homicide is observed to be of Latino origin, while 4 out of 10 are from non-Hispanic or non-Latino groups.
+- Aggravated Assault: In this case, something very interesting occurs, as similar patterns also occur here, with 4 out of 10 cases within the country being of non-Hispanic or non-Latino origin.
+- In the case of homicide, it is observed that only 1 in 10 cases is of Latino origin, while 4 in 10 are from non-Hispanic or non-Latino groups.
 - Robbery repeats the same pattern, with approximately 3.9 incidents per ten inhabitants caused by non-Hispanic or non-Latino groups.
 
 As seen in the following graph, we can analyze in detail the ethnic distribution of violent crimes within the country:
+
 Graph
 
 One of the most controversial and politicized topics of recent decades, and currently in recent months, is the development of drug-related crime. It is precisely here that we add an interesting statistic: drug narcotics violations, in our analysis. Below, we present the interactive map of crime on the border, since the report issued by Mexico speaks of a lower incidence rate of crime in the Latino community, and as we can see, this is true. This applies to drug-narcotics violations, and we obtained the following result:
