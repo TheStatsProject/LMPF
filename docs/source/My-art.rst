@@ -561,11 +561,11 @@ As seen in the following graph, we can analyze in detail the ethnic distribution
         <h3 style="text-align:center; margin-bottom:0.5em;">
             Offender Ethnicity Profile per Crime
         </h3>
-        <iframe src="_static/offender_ethnicity_per_crime_beautifulll.html"
+        <iframe src="_static/offender_ethnicity_per_crime_beautifulll_small.html"
                 title="Offender Ethnicity Profile per Crime"
                 style="width: 100%; height: 500px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/offender_ethnicity_per_crime_beautifulll.html">this link</a>.
+            <a href="_static/offender_ethnicity_per_crime_beautifulll_small.html">this link</a>.
         </iframe>
     </div>
 
