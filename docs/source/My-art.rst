@@ -554,15 +554,68 @@ Based on the FBI's results for the entire country, we obtained the following int
 - Robbery repeats the same pattern, with approximately 3.9 incidents per 10 inhabitants caused by non-Hispanic or non-Latino groups (412,161).
 
 As seen in the following graph, we can analyze in detail the ethnic distribution of violent crimes within the country:
-Graph
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <h3 style="text-align:center; margin-bottom:0.5em;">
+            Offender Ethnicity Profile per Crime
+        </h3>
+        <iframe src="_static/offender_ethnicity_per_crime_beautifulll.html"
+                title="Offender Ethnicity Profile per Crime"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/offender_ethnicity_per_crime_beautifulll.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*Most crimes are committed by people identified as Not Hispanic or Latino, but the data also shows a significant number of 'Not Specified' and 'Unknown' offenders across all major crime types.*
 
 One of the most controversial and politicized issues of recent decades, and currently in recent months, is the development of drug-related crime. It is precisely here that we add an interesting statistic to our analysis: Drug Narcotics violations. In the case of drug-narcotics violations, we obtained the following results:
 
 * Result 1
 
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <h3 style="text-align:center; margin-bottom:0.5em;">
+            Offender Ethnicity Profile for Drug/Narcotic Violations
+        </h3>
+        <iframe src="_static/offender_ethnicity_per_crime_beautifuldrug.html"
+                title="Offender Ethnicity Profile for Drug/Narcotic Violations"
+                style="width: 100%; height: 500px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/offender_ethnicity_per_crime_beautifuldrug.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*Drug/Narcotic Violations have the highest proportion of Not Hispanic or Latino offenders, but also a notable number of 'Not Specified' and 'Unknown' cases.*
+
+
 This is revealing because, as in the previous pattern, the incidence of drug-narcotics violations among the Latino community is barely 10%. In the case of the community with the highest incidence of this type of crime, this similarity is not only evident but also reinforced, with 5 out of 10 drug-related crimes being the work of non-Latino, non-Hispanic groups.
 
 This is what happens in the United States… but what is happening within the country? … specifically in the border states? Below is the interactive map of crime on the border, since the report issued by Mexico speaks of a lower incidence rate of crime among the Latino community, and as we can see, this is graphically true.
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <h3 style="text-align:center; margin-bottom:0.5em;">
+            Border States Crime Summary (Map)
+        </h3>
+        <iframe src="_static/us_highlighted_map_border_states.html"
+                title="Border States Crime Summary (Map)"
+                style="width: 100%; height: 520px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/us_highlighted_map_border_states.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*Crime patterns and offender ethnicities vary widely across U.S. border states, with some states showing notably higher rates for certain crimes or groups.*
+
+
 
 Statement 4. **Invesment and Entrepreneurship**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
