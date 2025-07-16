@@ -698,7 +698,7 @@ Interactive Visualizations
 
 .. raw:: html
 
-    <div style="width: 100%; max-width: 640px; margin: auto;">
+    <div style="width: 90%; max-width: 640px; margin: auto;">
         <h3 style="text-align:center; margin-bottom:0.5em; font-size:1.1em;">
             Offender Ethnicity Profile for Drug/Narcotic Violations
         </h3>
@@ -715,7 +715,7 @@ Interactive Visualizations
 
 .. raw:: html
 
-    <div style="width: 100%; max-width: 640px; margin: auto;">
+    <div style="width: 60%; max-width: 640px; margin: auto;">
         <h3 style="text-align:center; margin-bottom:0.5em; font-size:1.1em;">
             Border States Crime Summary (Map)
         </h3>
