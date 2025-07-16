@@ -631,7 +631,7 @@ Polar Bar Charts: Self-Employed by Industry, 2022
     <div style="width: 100%; max-width: 800px; margin: auto;">
         <iframe src="_static/polar_native_min.html"
                 title="Polar Chart: Native Self-Employed by Industry"
-                style="width: 100%; height: 520px; border: none;">
+                style="width: 100%; height: 400px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
             <a href="_static/polar_native_min.html">this link</a>.
         </iframe>
@@ -642,7 +642,7 @@ Polar Bar Charts: Self-Employed by Industry, 2022
     <div style="width: 100%; max-width: 800px; margin: auto;">
         <iframe src="_static/polar_mexico_min.html"
                 title="Polar Chart: Mexico-born Self-Employed by Industry"
-                style="width: 100%; height: 520px; border: none;">
+                style="width: 100%; height: 400px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
             <a href="_static/polar_mexico_min.html">this link</a>.
         </iframe>
@@ -653,7 +653,7 @@ Polar Bar Charts: Self-Employed by Industry, 2022
     <div style="width: 100%; max-width: 800px; margin: auto;">
         <iframe src="_static/polar_mexico_unauthorized_min.html"
                 title="Polar Chart: Unauthorized Mexican Self-Employed by Industry"
-                style="width: 100%; height: 520px; border: none;">
+                style="width: 100%; height: 400px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
             <a href="_static/polar_mexico_unauthorized_min.html">this link</a>.
         </iframe>
