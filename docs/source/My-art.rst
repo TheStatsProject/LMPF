@@ -615,6 +615,7 @@ This is what happens in the United States… but what is happening within the co
 **Key Takeaway:**  
 *Crime patterns and offender ethnicities vary widely across U.S. border states, with some states showing notably higher rates for certain crimes or groups.*
 
+At first hand we can see that the usual violent crimes on both borders are assaults and robberies, however, **the issue that infers us in the map is the drug narcotic violations and as you can see on the northern border the incidence is much lower (530,888) crimes related to drug narcotics violations much less than on the southern border (826,866) which again dismisses the vision of the Mexican government**, because even though the northern border of the USA has a greater distance, weather conditions and controls play an important role in the number of crimes of this nature, however **it is also important to highlight here that in most border states, only in New Mexico is where there is evidence that the majority group related to drug narcotic violations is of Latino origin, however in all other border states the Latino group does not appear as the main group, dismissing another deep-rooted idea about the Latino community and drugs.**
 
 
 Statement 4. **Invesment and Entrepreneurship**
@@ -623,8 +624,8 @@ Statement 4. **Invesment and Entrepreneurship**
 
 ****Myths or Reality?****
 
-Polar Bar Charts: Self-Employed by Industry, 2022
-=================================================
+Answering this question requires taking statistics from the U.S. Census Bureau on self-employment. According to these statistics, there are 17,296,359 native-born citizens who are self-employed through offering their services or creating their own businesses, 960,131 citizens born in Mexico who also participate in the economy through entrepreneurship, and in the case of the migrant community, a total of 528,072.
+
 
 .. raw:: html
 
@@ -637,6 +638,12 @@ Polar Bar Charts: Self-Employed by Industry, 2022
         </iframe>
     </div>
 
+**Key Takeaway:**  
+*This chart shows the distribution of self-employed Native workers across industries in 2022.*
+
+
+Generally speaking, 10% of native-born citizens are self-employed, while 14.6% of those born in Mexico are self-employed. In the case of the undocumented Mexican community, this represents 17.3%, and for the native-born community, it is 9.6%. It is interesting to note that the undocumented group is the most self-employed.
+
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
@@ -647,6 +654,11 @@ Polar Bar Charts: Self-Employed by Industry, 2022
             <a href="_static/polar_mexico_min.html">this link</a>.
         </iframe>
     </div>
+
+**Key Takeaway:**  
+*This chart shows the distribution of self-employed Mexico-born workers across industries in 2022.*
+
+The lack of legal documentation creates difficulties in obtaining formal employment. However, they turn to self-employment. In a land of opportunity and a system designed for economic growth through individual productivity, it is possible to prosper even without documentation, and this is worth highlighting because it is clear evidence that strong and autonomous institutions and the preservation of justice define a country's economic conditions.
 
 .. raw:: html
 
@@ -660,7 +672,12 @@ Polar Bar Charts: Self-Employed by Industry, 2022
     </div>
 
 **Key Takeaway:**  
-*These polar bar charts show the distribution of self-employed workers across industries for Natives, Mexico-born, and Unauthorized Mexicans in 2022. Each visual allows for a direct comparison of occupational patterns among these groups.*
+*This chart shows the distribution of self-employed Unauthorized Mexican workers across industries in 2022.*
+
+In the case of the Mexican government's claim that 4 out of 5 immigrants are entrepreneurs, reviewing the data provided by US statistics departments also fails to verify this. Estimating this information shows that for every 10 native-born citizens employed in the US, 1 is an entrepreneur; for every 10 foreign-born Mexican citizens, 1 is an entrepreneur; and in the case of unauthorized Mexicans, approximately 2 out of 10 are entrepreneurs.
+
+But it is necessary to answer the last question: is the contribution of self-employed Mexicans $95 billion, as claimed by the Mexican authorities? To do this and as we have done throughout the analysis offered, we will base ourselves on the estimates made previously (See Statements 1,2,3) leaving our case as follows:
+
 
 This is a displayed equation:
 
