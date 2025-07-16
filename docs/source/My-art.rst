@@ -623,7 +623,44 @@ Statement 4. **Invesment and Entrepreneurship**
 
 ****Myths or Reality?****
 
+Polar Bar Charts: Self-Employed by Industry, 2022
+=================================================
 
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/polar_native_min.html"
+                title="Polar Chart: Native Self-Employed by Industry"
+                style="width: 100%; height: 520px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/polar_native_min.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/polar_mexico_min.html"
+                title="Polar Chart: Mexico-born Self-Employed by Industry"
+                style="width: 100%; height: 520px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/polar_mexico_min.html">this link</a>.
+        </iframe>
+    </div>
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <iframe src="_static/polar_mexico_unauthorized_min.html"
+                title="Polar Chart: Unauthorized Mexican Self-Employed by Industry"
+                style="width: 100%; height: 520px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/polar_mexico_unauthorized_min.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*These polar bar charts show the distribution of self-employed workers across industries for Natives, Mexico-born, and Unauthorized Mexicans in 2022. Each visual allows for a direct comparison of occupational patterns among these groups.*
 
 This is a displayed equation:
 
