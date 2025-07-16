@@ -716,56 +716,6 @@ Interactive Visualizations
           </div>
       </div>
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 640px; margin: auto;">
-        <h3 style="text-align:center; margin-bottom:0.5em; font-size:1.1em;">
-            Offender Ethnicity Profile per Crime
-        </h3>
-        <iframe src="_static/offender_ethnicity_per_crime_beautifulll.html"
-                title="Offender Ethnicity Profile per Crime"
-                style="width: 100%; height: 400px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/offender_ethnicity_per_crime_beautifulll.html">this link</a>.
-        </iframe>
-    </div>
-
-**Key Takeaway:**  
-*Most crimes are committed by people identified as Not Hispanic or Latino, but the data also shows a significant number of 'Not Specified' and 'Unknown' offenders across all major crime types.*
-
-.. raw:: html
-
-    <div style="width: 150%; max-width: 640px; margin: auto;">
-        <h3 style="text-align:center; margin-bottom:0.5em; font-size:1.1em;">
-            Offender Ethnicity Profile for Drug/Narcotic Violations
-        </h3>
-        <iframe src="_static/offender_ethnicity_per_crime_beautifuldrug.html"
-                title="Offender Ethnicity Profile for Drug/Narcotic Violations"
-                style="width: 100%; height: 400px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/offender_ethnicity_per_crime_beautifuldrug.html">this link</a>.
-        </iframe>
-    </div>
-
-**Key Takeaway:**  
-*Drug/Narcotic Violations have the highest proportion of Not Hispanic or Latino offenders, but also a notable number of 'Not Specified' and 'Unknown' cases.*
-
-.. raw:: html
-
-    <div style="width: 120%; max-width: 640px; margin: auto;">
-        <h3 style="text-align:center; margin-bottom:0.5em; font-size:1.1em;">
-            Border States Crime Summary (Map)
-        </h3>
-        <iframe src="_static/us_highlighted_map_border_states.html"
-                title="Border States Crime Summary (Map)"
-                style="width: 100%; height: 416px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/us_highlighted_map_border_states.html">this link</a>.
-        </iframe>
-    </div>
-
-**Key Takeaway:**  
-*Crime patterns and offender ethnicities vary widely across U.S. border states, with some states showing notably higher rates for certain crimes or groups.*
 
 ---
 
