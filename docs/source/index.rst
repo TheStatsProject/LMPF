@@ -143,3 +143,18 @@ LMPF is a powerful tool for understanding the economic role of migration in the 
             for new users
         </span>
     </div>
+
+.. raw:: html
+
+    <div style="margin:2em 0; text-align:center;">
+        <a href="/server/templates/login.html"
+           style="background: #28a745; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin-right:1em;">
+            Get Access
+        </a>
+        <span style="font-size:1em; color:#d32f2f; margin-left:1em;">
+            <a href="/server/templates/register.html" style="color:#d32f2f; text-decoration:underline; font-weight:bold;">
+                Subscribe
+            </a>
+            for new users
+        </span>
+    </div>
