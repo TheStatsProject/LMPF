@@ -1,39 +1,66 @@
-from fastapi import FastAPI, Request, Form, Depends, status
-from fastapi.responses import RedirectResponse, HTMLResponse, FileResponse
+import os
+from fastapi import FastAPI, Request, Form, status
+from fastapi.responses import RedirectResponse, HTMLResponse, FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from passlib.context import CryptContext
 from pymongo import MongoClient
+from pymongo.errors import ConnectionFailure
 from starlette.middleware.sessions import SessionMiddleware
-import os
 
-# MongoDB config
-MONGO_URL = "mongodb://localhost:27017"
-client = MongoClient(MONGO_URL)
-db = client["yourdbname"]
+# --- Configuration ---
+
+MONGO_URL = os.environ.get(
+    "MONGO_URL",
+    "mongodb://localhost:27017"  # fallback to local if not set
+)
+SECRET_KEY = os.environ.get(
+    "SESSION_SECRET_KEY",
+    "change-this-secret-key"  # You must override this in production!
+)
+DB_NAME = os.environ.get("MONGO_DB_NAME", "lmpf_docs")
+DOCS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../docs/build/html"))
+
+# --- MongoDB Connection ---
+
+try:
+    client = MongoClient(MONGO_URL, serverSelectionTimeoutMS=5000)
+    # Will raise if cannot connect
+    client.server_info()
+except ConnectionFailure as e:
+    raise RuntimeError(f"Cannot connect to MongoDB: {e}")
+
+db = client[DB_NAME]
 users_col = db["users"]
 
-# Password hashing
+# --- Password Hashing ---
+
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
-# FastAPI setup
+# --- FastAPI App ---
+
 app = FastAPI()
-app.add_middleware(SessionMiddleware, secret_key="your-secret-key")
-templates = Jinja2Templates(directory="templates")
+app.add_middleware(SessionMiddleware, secret_key=SECRET_KEY)
+templates = Jinja2Templates(directory=os.path.join(os.path.dirname(__file__), "templates"))
 
-DOCS_DIR = os.path.abspath("../docs/_build/html")  # adjust path if needed
+# --- Utilities ---
 
-def get_user(username):
+def get_user(username: str):
     return users_col.find_one({"username": username})
 
-def verify_password(plain, hashed):
+def verify_password(plain: str, hashed: str):
     return pwd_context.verify(plain, hashed)
 
-def hash_password(password):
+def hash_password(password: str):
     return pwd_context.hash(password)
 
 def is_authenticated(request: Request):
+    return bool(request.session.get("user"))
+
+def get_authenticated_username(request: Request):
     return request.session.get("user")
+
+# --- Routes ---
 
 @app.get("/register", response_class=HTMLResponse)
 def register_form(request: Request):
@@ -43,6 +70,8 @@ def register_form(request: Request):
 def register(request: Request, username: str = Form(...), password: str = Form(...)):
     if get_user(username):
         return HTMLResponse("Username already taken.", status_code=400)
+    if len(password) < 8:
+        return HTMLResponse("Password must be at least 8 characters.", status_code=400)
     users_col.insert_one({
         "username": username,
         "password": hash_password(password)
@@ -56,17 +85,23 @@ def login_form(request: Request):
 @app.post("/login")
 def login(request: Request, username: str = Form(...), password: str = Form(...)):
     user = get_user(username)
-    if user and verify_password(password, user["password"]):
-        request.session["user"] = username
-        return RedirectResponse("/docs/", status_code=302)
-    return HTMLResponse("Invalid credentials", status_code=401)
+    if not user or not verify_password(password, user["password"]):
+        return HTMLResponse("Invalid credentials.", status_code=401)
+    request.session["user"] = username
+    return RedirectResponse("/docs/", status_code=302)
 
 @app.get("/logout")
 def logout(request: Request):
     request.session.pop("user", None)
     return RedirectResponse("/login", status_code=302)
 
-# Serve docs only to authenticated users
+@app.get("/profile", response_class=HTMLResponse)
+def profile(request: Request):
+    user = get_authenticated_username(request)
+    if not user:
+        return RedirectResponse("/login")
+    return templates.TemplateResponse("profile.html", {"request": request, "username": user})
+
 @app.get("/docs/{path:path}", response_class=HTMLResponse)
 def serve_docs(request: Request, path: str = ""):
     if not is_authenticated(request):
@@ -74,10 +109,9 @@ def serve_docs(request: Request, path: str = ""):
     file_path = os.path.join(DOCS_DIR, path or "index.html")
     if not os.path.isfile(file_path):
         return HTMLResponse("Not found", status_code=404)
-    # serve as static file
     return FileResponse(file_path)
 
-# Static assets (if Sphinx puts them in _static)
+# Serve Sphinx static assets
 app.mount("/docs/_static", StaticFiles(directory=os.path.join(DOCS_DIR, "_static")), name="static")
 
 @app.get("/", response_class=HTMLResponse)
@@ -85,3 +119,11 @@ def root(request: Request):
     if is_authenticated(request):
         return RedirectResponse("/docs/")
     return RedirectResponse("/login")
+
+@app.get("/health")
+def health():
+    try:
+        client.admin.command("ping")
+        return JSONResponse({"status": "ok"})
+    except Exception as e:
+        return JSONResponse({"status": "error", "detail": str(e)}, status_code=503)
