@@ -4,3 +4,10 @@ sphinxcontrib-images
 sphinxcontrib-mermaid
 sphinx_design
 sphinx_copybutton
+
+fastapi
+uvicorn
+jinja2
+pymongo
+passlib[bcrypt]
+python-multipart
