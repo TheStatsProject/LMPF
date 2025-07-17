@@ -17,6 +17,10 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinxcontrib.images',
+    'sphinxcontrib.mermaid',
+    'sphinx_design',
+    'sphinx_copybutton',
 ]
 
 intersphinx_mapping = {
@@ -62,3 +66,7 @@ html_favicon = "_static/favicon.ico"
 html_logo = "_static/logo.png"
 html_static_path = ['_static']
 html_favicon = "_static/favicon.ico"
+
+#extensions
+
+
