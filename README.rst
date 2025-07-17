@@ -34,3 +34,37 @@ To set up this project locally, follow these steps:
    ```bash
    git clone https://github.com/TheStatsProject/finance-models-docs.git
    cd finance-models-docs
+   ```
+
+2. Install documentation dependencies:
+   ```bash
+   pip install sphinx sphinx_rtd_theme sphinxcontrib-images sphinxcontrib-mermaid sphinx_design sphinx_copybutton
+   ```
+   
+   Or install from the requirements file:
+   ```bash
+   pip install -r docs/requirements.txt
+   ```
+
+3. Build the documentation:
+   ```bash
+   cd docs
+   make html
+   ```
+
+4. View the documentation by opening `docs/build/html/index.html` in your browser.
+
+---
+
+## Documentation Development
+
+The documentation is built using Sphinx with several extensions for enhanced functionality:
+
+- **sphinx**: Core documentation framework
+- **sphinx_rtd_theme**: Read the Docs theme
+- **sphinxcontrib-images**: Enhanced image handling
+- **sphinxcontrib-mermaid**: Mermaid diagram support
+- **sphinx_design**: Bootstrap components for Sphinx
+- **sphinx_copybutton**: Copy button for code blocks
+
+To contribute to the documentation, make sure you have the required dependencies installed as shown in the Getting Started section above.
