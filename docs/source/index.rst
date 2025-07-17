@@ -3,148 +3,137 @@ LMPF: Labor Market and Population Forecasting
 
 .. raw:: html
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>LMPF: Labor Market and Population Forecasting</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body { font-family: 'Segoe UI',Arial,sans-serif; margin: 0; background: #f9f9f9; color: #222; }
-        header { background: #003366; color: #fff; padding: 2em 1em 1em 1em; text-align: center; }
-        nav { background: #f1f1f1; padding: 1em; text-align: center; }
-        nav a { margin: 0 1em; color: #003366; text-decoration: none; font-weight: 500; }
-        nav a:hover { text-decoration: underline; }
-        main { max-width: 900px; margin: 2em auto; background: #fff; padding: 2em 2em 1.5em 2em; border-radius: 12px; box-shadow: 0 2px 12px #0001; }
-        h1, h2, h3 { color: #003366; }
-        .visual { margin: 2em 0; text-align: center; }
-        footer { text-align: center; color: #777; font-size: 0.97em; margin: 2em 0 0 0; }
-        .key-feature { background: #e9f2fb; border-left: 4px solid #003366; margin: 1.2em 0; padding: 1em 1em 1em 1.5em; border-radius: 5px;}
-        .cta { margin: 2em 0; text-align: center;}
-        .cta a { background: #003366; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.1em; }
-        .cta a:hover { background: #00509e; }
-    </style>
-</head>
-<body>
-<header>
-    <h1>LMPF: Labor Market and Population Forecasting</h1>
-    <p style="font-size:1.2em; max-width:670px; margin: 0 auto;">
-        Analyze the impact of foreign-born populations on the U.S. economy by integrating demographic and economic data. 
-        LMPF provides interactive analytics and visualizations for labor force participation and GDP contributions.
-    </p>
-</header>
-<nav>
-    <a href="#about">About</a>
-    <a href="#features">Features</a>
-    <a href="#visuals">Sample Visuals</a>
-    <a href="#quickstart">Getting Started</a>
-    <a href="#api">API</a>
-    <a href="https://github.com/TheStatsProject/LMPF" target="_blank">GitHub</a>
-</nav>
-<main>
-    <section id="about">
-        <h2>About the Project</h2>
-        <p>
-            <b>LMPF</b> (Labor Market and Population Forecasting) is a Python-based toolkit for analyzing labor market participation and GDP contributions by native and foreign-born populations in the United States. 
-            It integrates datasets from the U.S. Census Bureau and the Federal Reserve Economic Data (FRED) to provide robust analytics and visualizations. The project empowers researchers, policymakers, and data scientists to understand and forecast the economic impact of migration.
+    <header style="background: #003366; color: #fff; padding: 2em 1em 1em 1em; text-align: center; border-radius: 10px 10px 0 0;">
+        <h1>LMPF: Labor Market and Population Forecasting</h1>
+        <p style="font-size:1.2em; max-width:670px; margin: 0 auto;">
+            Analyze the impact of foreign-born populations on the U.S. economy by integrating demographic and economic data. 
+            LMPF provides interactive analytics and visualizations for labor force participation and GDP contributions.
         </p>
-    </section>
-    
-    <section id="features">
-        <h2>Key Features</h2>
-        <div class="key-feature">
-            <b>Data Integration:</b>
-            <ul>
-                <li>Fetches demographic data from the U.S. Census Bureau's American Community Survey (ACS).</li>
-                <li>Retrieves economic series from the FRED API.</li>
-            </ul>
-        </div>
-        <div class="key-feature">
-            <b>Labor Market and GDP Analysis:</b>
-            <ul>
-                <li>Estimates labor force participation for native and foreign-born populations.</li>
-                <li>Projects GDP contributions using workforce and economic growth data.</li>
-            </ul>
-        </div>
-        <div class="key-feature">
-            <b>Interactive Visualizations:</b>
-            <ul>
-                <li>Bar charts, pie charts, and polar plots powered by Plotly.</li>
-                <li>Compare GDP contribution by migrant groups and visualize employment by industry.</li>
-            </ul>
-        </div>
-        <div class="key-feature">
-            <b>Extensible Python Code:</b>
-            <ul>
-                <li>Core analysis provided as a Python script.</li>
-                <li>Easy to adapt for custom research or additional data sources.</li>
-            </ul>
-        </div>
-    </section>
+    </header>
+    <nav style="background: #f1f1f1; padding: 1em; text-align: center;">
+        <a href="#about" style="margin: 0 1em; color: #003366; text-decoration: none; font-weight: 500;">About</a>
+        <a href="#features" style="margin: 0 1em; color: #003366; text-decoration: none; font-weight: 500;">Features</a>
+        <a href="#visuals" style="margin: 0 1em; color: #003366; text-decoration: none; font-weight: 500;">Sample Visuals</a>
+        <a href="#quickstart" style="margin: 0 1em; color: #003366; text-decoration: none; font-weight: 500;">Getting Started</a>
+        <a href="#api" style="margin: 0 1em; color: #003366; text-decoration: none; font-weight: 500;">API</a>
+        <a href="https://github.com/TheStatsProject/LMPF" target="_blank" style="margin: 0 1em; color: #003366; text-decoration: none; font-weight: 500;">GitHub</a>
+    </nav>
 
-    <section id="visuals">
-        <h2>Sample Visualizations</h2>
-        <div class="visual">
-            <iframe src="_static/bar_2024.html" title="Top 10 Foreign-Born GDP Contribution" width="80%" height="420" style="border:none;"></iframe>
-            <p style="font-size:0.97em; color: #444;">Top 10 Foreign-Born Groups by GDP Contribution (2024)</p>
-        </div>
-        <div class="visual">
-            <iframe src="_static/pie_2024.html" title="GDP Share by Foreign-Born Cohort" width="70%" height="400" style="border:none;"></iframe>
-            <p style="font-size:0.97em; color: #444;">GDP Share by Foreign-Born Cohort (2024)</p>
-        </div>
-        <div class="visual">
-            <iframe src="_static/gdp_history.html" title="U.S. GDP Over Time" width="80%" height="340" style="border:none;"></iframe>
-            <p style="font-size:0.97em; color: #444;">U.S. GDP, 1947–Present (FRED)</p>
-        </div>
-        <div class="visual">
-            <iframe src="_static/employed_by_industry_native_2022_polar.html" title="Native Employed by Industry (2022)" width="80%" height="400" style="border:none;"></iframe>
-            <p style="font-size:0.97em; color: #444;">Native Employed by Industry (2022)</p>
-        </div>
-    </section>
+.. _about:
 
-    <section id="quickstart">
-        <h2>Getting Started</h2>
-        <ol>
-            <li>Clone the repository:<br>
-                <code>git clone https://github.com/TheStatsProject/LMPF.git</code>
-            </li>
-            <li>Install dependencies:<br>
-                <code>pip install requests pandas fredapi plotly</code>
-            </li>
-            <li>Set your API keys in the analysis script:
-                <ul>
-                    <li>CENSUS_KEY = 'your_census_api_key_here'</li>
-                    <li>FRED_KEY = 'your_fred_api_key_here'</li>
-                </ul>
-            </li>
-            <li>Run the main analysis script:
-                <code>python lmpf_analysis.py</code>
-            </li>
-        </ol>
-    </section>
+About the Project
+-----------------
 
-    <section id="api">
-        <h2>API & Documentation</h2>
+**LMPF** (Labor Market and Population Forecasting) is a Python-based toolkit for analyzing labor market participation and GDP contributions by native and foreign-born populations in the United States. 
+It integrates datasets from the U.S. Census Bureau and the Federal Reserve Economic Data (FRED) to provide robust analytics and visualizations. The project empowers researchers, policymakers, and data scientists to understand and forecast the economic impact of migration.
+
+.. _features:
+
+Key Features
+------------
+
+.. raw:: html
+
+    <div style="background: #e9f2fb; border-left: 4px solid #003366; margin: 1.2em 0; padding: 1em 1em 1em 1.5em; border-radius: 5px;">
+        <b>Data Integration:</b>
         <ul>
-            <li><a href="api.html">API Reference</a> (autosummary)</li>
-            <li><a href="My-art.html">Full Analysis Report</a></li>
-            <li><a href="My-art3.html">Repository Overview</a></li>
+            <li>Fetches demographic data from the U.S. Census Bureau's American Community Survey (ACS).</li>
+            <li>Retrieves economic series from the FRED API.</li>
         </ul>
-    </section>
-
-    <section id="conclusion">
-        <h2>Conclusion</h2>
-        <p>
-            LMPF is a powerful tool for understanding the economic role of migration in the United States. The repository’s code and visualizations are designed for both rapid exploration and deep analysis. Future releases aim to expand the dataset coverage and analytical features.
-        </p>
-    </section>
-    
-    <div class="cta">
-        <a href="https://github.com/TheStatsProject/LMPF" target="_blank">View on GitHub</a>
     </div>
-</main>
-<footer>
-    &copy; 2025 TheStatsProject — LMPF | <a href="https://github.com/TheStatsProject/LMPF" style="color:#003366;">GitHub</a>
-</footer>
-</body>
-</html>
+    <div style="background: #e9f2fb; border-left: 4px solid #003366; margin: 1.2em 0; padding: 1em 1em 1em 1.5em; border-radius: 5px;">
+        <b>Labor Market and GDP Analysis:</b>
+        <ul>
+            <li>Estimates labor force participation for native and foreign-born populations.</li>
+            <li>Projects GDP contributions using workforce and economic growth data.</li>
+        </ul>
+    </div>
+    <div style="background: #e9f2fb; border-left: 4px solid #003366; margin: 1.2em 0; padding: 1em 1em 1em 1.5em; border-radius: 5px;">
+        <b>Interactive Visualizations:</b>
+        <ul>
+            <li>Bar charts, pie charts, and polar plots powered by Plotly.</li>
+            <li>Compare GDP contribution by migrant groups and visualize employment by industry.</li>
+        </ul>
+    </div>
+    <div style="background: #e9f2fb; border-left: 4px solid #003366; margin: 1.2em 0; padding: 1em 1em 1em 1.5em; border-radius: 5px;">
+        <b>Extensible Python Code:</b>
+        <ul>
+            <li>Core analysis provided as a Python script.</li>
+            <li>Easy to adapt for custom research or additional data sources.</li>
+        </ul>
+    </div>
+
+.. _visuals:
+
+Sample Visualizations
+---------------------
+
+.. raw:: html
+
+    <div style="margin: 2em 0; text-align: center;">
+        <iframe src="_static/bar_2024.html" title="Top 10 Foreign-Born GDP Contribution" width="80%" height="420" style="border:none;"></iframe>
+        <p style="font-size:0.97em; color: #444;">Top 10 Foreign-Born Groups by GDP Contribution (2024)</p>
+    </div>
+    <div style="margin: 2em 0; text-align: center;">
+        <iframe src="_static/pie_2024.html" title="GDP Share by Foreign-Born Cohort" width="70%" height="400" style="border:none;"></iframe>
+        <p style="font-size:0.97em; color: #444;">GDP Share by Foreign-Born Cohort (2024)</p>
+    </div>
+    <div style="margin: 2em 0; text-align: center;">
+        <iframe src="_static/gdp_history.html" title="U.S. GDP Over Time" width="80%" height="340" style="border:none;"></iframe>
+        <p style="font-size:0.97em; color: #444;">U.S. GDP, 1947–Present (FRED)</p>
+    </div>
+    <div style="margin: 2em 0; text-align: center;">
+        <iframe src="_static/employed_by_industry_native_2022_polar.html" title="Native Employed by Industry (2022)" width="80%" height="400" style="border:none;"></iframe>
+        <p style="font-size:0.97em; color: #444;">Native Employed by Industry (2022)</p>
+    </div>
+
+.. _quickstart:
+
+Getting Started
+---------------
+
+#. Clone the repository:
+   
+   .. code-block:: bash
+
+      git clone https://github.com/TheStatsProject/LMPF.git
+
+#. Install dependencies:
+
+   .. code-block:: bash
+
+      pip install requests pandas fredapi plotly
+
+#. Set your API keys in the analysis script:
+
+   - ``CENSUS_KEY = 'your_census_api_key_here'``
+   - ``FRED_KEY = 'your_fred_api_key_here'``
+
+#. Run the main analysis script:
+
+   .. code-block:: bash
+
+      python lmpf_analysis.py
+
+.. _api:
+
+API & Documentation
+-------------------
+
+- `API Reference <api.html>`__ (autosummary)
+- `Full Analysis Report <My-art.html>`__
+- `Repository Overview <My-art3.html>`__
+
+Conclusion
+----------
+
+LMPF is a powerful tool for understanding the economic role of migration in the United States. The repository’s code and visualizations are designed for both rapid exploration and deep analysis. Future releases aim to expand the dataset coverage and analytical features.
+
+.. raw:: html
+
+    <div style="margin:2em 0; text-align:center;">
+        <a href="https://github.com/TheStatsProject/LMPF" target="_blank" style="background: #003366; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.1em;">View on GitHub</a>
+    </div>
+    <footer style="text-align: center; color: #777; font-size: 0.97em; margin: 2em 0 0 0;">
+        &copy; 2025 TheStatsProject — LMPF | <a href="https://github.com/TheStatsProject/LMPF" style="color:#003366;">GitHub</a>
+    </footer>
