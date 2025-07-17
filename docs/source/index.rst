@@ -132,7 +132,10 @@ LMPF is a powerful tool for understanding the economic role of migration in the 
 .. raw:: html
 
     <div style="margin:2em 0; text-align:center;">
-        <a href="https://github.com/TheStatsProject/LMPF" target="_blank" style="background: #003366; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.1em;">View on GitHub</a>
+        <a href="/login" style="background: #28a745; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin-right:1em;">Get Access</a>
+        <span style="font-size:1em; color:#003366; margin-left:1em;">
+            <a href="/register" style="color:#003366; text-decoration:underline;">Subscribe</a> for new users
+        </span>
     </div>
     <footer style="text-align: center; color: #777; font-size: 0.97em; margin: 2em 0 0 0;">
         &copy; 2025 TheStatsProject — LMPF | <a href="https://github.com/TheStatsProject/LMPF" style="color:#003366;">GitHub</a>
