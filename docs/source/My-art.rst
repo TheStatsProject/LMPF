@@ -731,6 +731,4 @@ Planes y Precios
       **Soporte prioritario**  
       **5000 $/mes o más**
 
-... (continúa tu documento)
-
 *All charts are live embeds—hover, zoom, and explore the data yourself!*.
