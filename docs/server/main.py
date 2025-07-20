@@ -12,7 +12,7 @@ from starlette.middleware.sessions import SessionMiddleware
 
 MONGO_URL = os.environ.get(
     "MONGO_URL",
-    "mongodb://localhost:27017"  # fallback to local if not set
+    "mongodb+srv://digroom:<db_password>@cluster0.i5s27i0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  # fallback to local if not set
 )
 SECRET_KEY = os.environ.get(
     "SESSION_SECRET_KEY",
