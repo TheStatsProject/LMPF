@@ -208,3 +208,54 @@ To create a new account, go to:
 :fa:`user-plus` **[Register Here](https://lmpf-app.fly.dev/register)**
 
 Already have an account? Go to [Login](login.html).
+
+
+.. raw:: html
+
+    <div style="margin:2em 0; text-align:center;">
+        <a href="https://lmpf-app.fly.dev/login"
+           style="background: #28a745; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin-right:1em;">
+            Get Access
+        </a>
+        <span style="font-size:1em; color:#d32f2f; margin-left:1em;">
+            <a href="https://lmpf-app.fly.dev/register" style="color:#d32f2f; text-decoration:underline; font-weight:bold;">
+                Subscribe
+            </a>
+            for new users
+        </span>
+    </div>
+
+.. raw:: html
+
+    <div style="margin:2em 0; text-align:center;">
+        <a href="https://lmpf-app.fly.dev/login"
+           style="background: #28a745; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin-right:1em;">
+            Get Access
+        </a>
+        <span style="font-size:1em; color:#d32f2f; margin-left:1em;">
+            <a href="https://lmpf-app.fly.dev/register" style="color:#d32f2f; text-decoration:underline; font-weight:bold;">
+                Subscribe
+            </a>
+            for new users
+        </span>
+    </div>
+
+
+Subscribe / Register
+====================
+
+To create a new account, go to:
+
+:fa:`user-plus` **[Register Here](https://lmpf-app.fly.dev/register)**
+
+Already have an account? Go to [Login](https://lmpf-app.fly.dev/login).
+
+
+Login
+=====
+
+To access the secured documentation and tools, please use the official application:
+
+:fa:`sign-in` **[Go to Login Page](https://lmpf-app.fly.dev/login)**
+
+If you do not have an account, please [Subscribe here](https://lmpf-app.fly.dev/register).
