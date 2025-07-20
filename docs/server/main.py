@@ -16,7 +16,7 @@ MONGO_URL = os.environ.get(
 )
 SECRET_KEY = os.environ.get(
     "SESSION_SECRET_KEY",
-    "change-this-secret-key"  # You must override this in production!
+    "a3f8e1c4b2d9e8d6c7f3e9a1b0d7c5e2f4d3b1a9c8e7d6f5b4c3a2d1f0e9c8b7"  # You must override this in production!
 )
 DB_NAME = os.environ.get("MONGO_DB_NAME", "lmpf_docs")
 DOCS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../docs/build/html"))
