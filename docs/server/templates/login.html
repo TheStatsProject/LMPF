@@ -2,40 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>LMPF - Login</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login | LMPF Project</title>
     <style>
-        body { font-family: 'Segoe UI',Arial,sans-serif; background: #f0f4f8; margin: 0; }
-        .container { max-width: 380px; margin: 5em auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 12px #0001; padding: 2em; }
-        h2 { text-align: center; color: #003366; }
-        label { display: block; margin-top: 1.2em; font-weight: 500; }
-        input[type="text"], input[type="password"] {
-            width: 100%; padding: 0.7em; margin-top: 0.3em; border: 1px solid #b0bfdc; border-radius: 4px; font-size: 1em;
-        }
-        button {
-            width: 100%; margin-top: 2em; padding: 0.9em 0; background: #28a745; color: #fff; border: none; border-radius: 4px; font-size: 1.1em; font-weight: bold;
-            cursor: pointer; transition: background 0.2s;
-        }
-        button:hover { background: #218838; }
-        .register-link {
-            display: block; text-align: center; margin-top: 1.8em; color: #d32f2f; font-weight: bold;
-        }
-        .register-link:hover { text-decoration: underline; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #f7f8fc; }
+        .container { max-width: 400px; padding: 2rem; margin: 2rem auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #0002;}
+        h2 { text-align: center; color: #333; }
+        .error { color: #d32f2f; margin-bottom: 1em; text-align: center; }
+        label { display: block; margin-top: 1em; }
+        input[type="text"], input[type="password"] { width: 100%; padding: 0.7em; margin-top: 0.3em; border-radius: 4px; border: 1px solid #ccc;}
+        button { width: 100%; padding: 0.8em; margin-top: 1em; background: #28a745; color: #fff; border: none; border-radius: 4px; font-size: 1em; cursor: pointer;}
+        .link { display: block; margin-top: 1em; text-align: center; color: #0077cc; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h2>Login to LMPF</h2>
-        <form method="post" autocomplete="on">
+        <h2>Login</h2>
+        {% if error %}
+            <div class="error">{{ error }}</div>
+        {% endif %}
+        <form method="post">
             <label for="username">Username</label>
-            <input type="text" name="username" id="username" required autofocus>
+            <input name="username" id="username" type="text" required autocomplete="username">
 
             <label for="password">Password</label>
-            <input type="password" name="password" id="password" required>
+            <input name="password" id="password" type="password" required autocomplete="current-password">
 
             <button type="submit">Login</button>
         </form>
-        <a href="/register" class="register-link">Subscribe (Register)</a>
+        <a class="link" href="/register">Need an account? Register</a>
     </div>
 </body>
 </html>
