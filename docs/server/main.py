@@ -1,5 +1,5 @@
 import os
-from fastapi import FastAPI, Request, Form, status
+from fastapi import FastAPI, Request, Form
 from fastapi.responses import RedirectResponse, HTMLResponse, FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
@@ -12,20 +12,19 @@ from starlette.middleware.sessions import SessionMiddleware
 
 MONGO_URL = os.environ.get(
     "MONGO_URL",
-    "mongodb+srv://digroom:<db_password>@cluster0.i5s27i0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  # fallback to local if not set
+    "mongodb+srv://digroom:<db_password>@cluster0.i5s27i0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 )
 SECRET_KEY = os.environ.get(
     "SESSION_SECRET_KEY",
-    "a3f8e1c4b2d9e8d6c7f3e9a1b0d7c5e2f4d3b1a9c8e7d6f5b4c3a2d1f0e9c8b7"  # You must override this in production!
+    "a3f8e1c4b2d9e8d6c7f3e9a1b0d7c5e2f4d3b1a9c8e7d6f5b4c3a2d1f0e9c8b7"
 )
 DB_NAME = os.environ.get("MONGO_DB_NAME", "lmpf_docs")
-DOCS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../docs/build/html"))
+DOCS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../build/html"))
 
 # --- MongoDB Connection ---
 
 try:
     client = MongoClient(MONGO_URL, serverSelectionTimeoutMS=5000)
-    # Will raise if cannot connect
     client.server_info()
 except ConnectionFailure as e:
     raise RuntimeError(f"Cannot connect to MongoDB: {e}")
