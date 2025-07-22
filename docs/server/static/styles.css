@@ -1,0 +1,157 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f8fafc;
+    margin: 0;
+    color: #222;
+}
+
+header {
+    background: #003366;
+    color: #fff;
+    padding: 2em 1em 1em 1em;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+nav {
+    background: #f1f1f1;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 2em;
+    border-radius: 0 0 10px 10px;
+}
+
+nav a {
+    margin: 0 1em;
+    color: #003366;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #0070f3;
+    text-decoration: underline;
+}
+
+.login-container,
+.register-container,
+.profile-container {
+    max-width: 440px;
+    margin: 3em auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px #00336622;
+    padding: 2em;
+}
+
+h2 {
+    color: #003366;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.error {
+    color: #d32f2f;
+    background: #ffeaea;
+    border: 1px solid #d32f2f;
+    border-radius: 4px;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+    color: #003366;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.7em;
+    margin-top: 0.3em;
+    border: 1px solid #b3c2dd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+    transition: border 0.2s;
+}
+
+input:focus {
+    border: 1.5px solid #0070f3;
+    outline: none;
+}
+
+.actions {
+    text-align: center;
+    margin-top: 2em;
+}
+
+button,
+.actions a,
+.profile-container a {
+    display: inline-block;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 0.7em 2em;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0.5em 0.2em;
+    font-weight: 500;
+    transition: background 0.2s, color 0.2s;
+}
+
+button[type="submit"] {
+    background: #0070f3;
+}
+
+button:hover,
+.actions a:hover,
+.profile-container a:hover {
+    background: #003366;
+    color: #fff;
+}
+
+.profile-container a {
+    background: #d32f2f;
+}
+
+.profile-container a:hover {
+    background: #a40000;
+}
+
+a {
+    color: #0070f3;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #28a745;
+}
+
+.info {
+    margin: 1em 0;
+    color: #222;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+@media (max-width: 600px) {
+    .login-container,
+    .register-container,
+    .profile-container {
+        padding: 1em;
+        max-width: 98vw;
+    }
+    header, nav {
+        border-radius: 0;
+        padding: 1em;
+    }
+}
