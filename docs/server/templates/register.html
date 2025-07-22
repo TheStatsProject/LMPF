@@ -2,40 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>LMPF - Register</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LMPF Register</title>
+    <link rel="stylesheet" href="/static/styles.css">
     <style>
-        body { font-family: 'Segoe UI',Arial,sans-serif; background: #f0f4f8; margin: 0; }
-        .container { max-width: 400px; margin: 5em auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 12px #0001; padding: 2em; }
-        h2 { text-align: center; color: #d32f2f; }
-        label { display: block; margin-top: 1.2em; font-weight: 500; }
-        input[type="text"], input[type="password"] {
-            width: 100%; padding: 0.7em; margin-top: 0.3em; border: 1px solid #b0bfdc; border-radius: 4px; font-size: 1em;
-        }
-        button {
-            width: 100%; margin-top: 2em; padding: 0.9em 0; background: #d32f2f; color: #fff; border: none; border-radius: 4px; font-size: 1.1em; font-weight: bold;
-            cursor: pointer; transition: background 0.2s;
-        }
-        button:hover { background: #b71c1c; }
-        .login-link {
-            display: block; text-align: center; margin-top: 1.8em; color: #003366; font-weight: bold;
-        }
-        .login-link:hover { text-decoration: underline; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8fafc; }
+        .register-container { max-width: 440px; margin: 3em auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 12px #00336622; padding: 2em; }
+        h2 { color: #003366; text-align: center; margin-bottom: 1em; }
+        .error { color: #d32f2f; margin-bottom: 1em; text-align: center; }
+        label { display: block; margin-top: 1em; color: #003366; }
+        input { width: 100%; padding: 0.7em; margin-top: 0.3em; border: 1px solid #b3c2dd; border-radius: 4px; }
+        .actions { text-align: center; margin-top: 2em; }
+        button { background: #0070f3; color: #fff; border: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1em; cursor: pointer; }
+        a { color: #28a745; font-weight: bold; text-decoration: underline; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h2>Register for LMPF</h2>
-        <form method="post" autocomplete="on">
+    <div class="register-container">
+        <h2>Create Your Account</h2>
+        {% if error %}
+            <div class="error">{{ error }}</div>
+        {% endif %}
+        <form method="post" action="/register">
             <label for="username">Username</label>
-            <input type="text" name="username" id="username" required autofocus>
-
-            <label for="password">Password (min 8 chars)</label>
-            <input type="password" name="password" id="password" required minlength="8">
-
-            <button type="submit">Register</button>
+            <input type="text" name="username" id="username" required autocomplete="username">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required autocomplete="new-password">
+            <label for="confirm_password">Confirm Password</label>
+            <input type="password" name="confirm_password" id="confirm_password" required autocomplete="new-password">
+            <div class="actions">
+                <button type="submit">Register</button>
+            </div>
         </form>
-        <a href="/login" class="login-link">Already have an account? Login</a>
+        <div class="actions">
+            <a href="/login">Already have an account? Login</a>
+        </div>
     </div>
 </body>
 </html>
