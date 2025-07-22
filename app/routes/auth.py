@@ -59,3 +59,7 @@ def twofa_verify(request: Request, code: str = Form(...)):
         return templates.TemplateResponse("2fa.html", {"request": request, "error": "Invalid 2FA code."})
     return RedirectResponse("/login", status_code=302)
     
+@router.get("/logout")
+def logout(request: Request):
+    request.session.clear()
+    return RedirectResponse("/login", status_code=302)
