@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Payment Instructions</title>
+</head>
+<body>
+    <h2>Payment Instructions</h2>
+    <p>Pay with Bitcoin to address: <b>bc1q8r5n4mgnweusdfu8m20etfu996r75jrfuf2jmv</b></p>
+    <p>Trust Wallet link: <a href="https://link.trustwallet.com/send?address=bc1q8r5n4mgnweusdfu8m20etfu996r75jrfuf2jmv&asset=c0" target="_blank">Trust Wallet</a></p>
+    <p>PayPal: <b>your-paypal@example.com</b></p>
+    <form method="post" action="/payment">
+        <label>Payment Method</label>
+        <select name="method">
+            <option value="btc">Bitcoin</option>
+            <option value="paypal">PayPal</option>
+        </select>
+        <label>Transaction Details (hash or ID)</label>
+        <input type="text" name="details" required>
+        <button type="submit">Submit Payment</button>
+    </form>
+</body>
+</html>
