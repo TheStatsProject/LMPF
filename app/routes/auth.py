@@ -44,3 +44,18 @@ def profile(request: Request):
     if not username:
         return RedirectResponse("/login", status_code=302)
     return templates.TemplateResponse("profile.html", {"request": request, "username": username})
+
+@router.get("/2fa", response_class=HTMLResponse)
+def twofa_form(request: Request):
+    return templates.TemplateResponse("2fa.html", {"request": request})
+
+@router.post("/2fa")
+def twofa_verify(request: Request, code: str = Form(...)):
+    user = get_user(request.session["user"])
+    if user and user["2fa_enabled"]:
+        if verify_totp(user["2fa_secret"], code):
+            request.session["2fa_verified"] = True
+            return RedirectResponse("/profile", status_code=302)
+        return templates.TemplateResponse("2fa.html", {"request": request, "error": "Invalid 2FA code."})
+    return RedirectResponse("/login", status_code=302)
+    
