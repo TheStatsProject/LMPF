@@ -24,3 +24,8 @@ def subscribe(request: Request, plan: str = Form(...), payment_method: str = For
         "payment_method": payment_method,
         "payment_details": payment_details
     })
+@router.get("/api/subscription_status")
+def subscription_status(request: Request):
+    username = request.session.get("user")
+    sub = subs_col.find_one({"username": username})
+    return {"status": sub["payment_status"] if sub else "none"}
