@@ -134,6 +134,17 @@ Secure docs and analytics require a site account.
 Conclusion
 ----------
 
+.. raw:: html
+
+    <div style="margin:2em 0; text-align:center;">
+        <a href="https://lmpf-backend.onrender.com/login" style="background: #28a745; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin-right:1em;">
+            Login
+        </a>
+        <a href="https://lmpf-backend.onrender.com/register" style="background: #0070f3; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin-left:1em;">
+            Register
+        </a>
+    </div>
+
 LMPF empowers exploration and forecasting of the economic role of migration in the U.S.  
 The toolkit and visualizations support both quick insights and deep dives.  
 Stay tuned for expanded datasets and features.
