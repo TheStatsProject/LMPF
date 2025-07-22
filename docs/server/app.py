@@ -5,45 +5,34 @@ from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from passlib.context import CryptContext
-from pymongo import MongoClient
+from pymongo import MongoClient, errors
 from starlette.middleware.sessions import SessionMiddleware
-
-
-
-app = FastAPI()
-
-# Connect to MongoDB (replace with your credentials/connection string)
-MONGO_URL = "mongodb+srv://digroom:<db_password>@cluster0.i5s27i0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-client = MongoClient(MONGO_URL)
-db = client["mydb"]  # Use your database name
-collection = db["mycollection"]  # Use your collection name
-
-@app.get("/items")
-def get_items():
-    # Get all documents in the collection
-    items = list(collection.find({}, {"_id": 0}))  # Exclude MongoDB's _id field
-    return items
-
 
 # --- Config ---
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://digroom:<db_password>@cluster0.i5s27i0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 SECRET_KEY = os.environ.get("SESSION_SECRET_KEY") or secrets.token_urlsafe(32)
 DB_NAME = os.environ.get("MONGO_DB_NAME", "lmpf_docs")
 
-client = MongoClient(MONGO_URL, serverSelectionTimeoutMS=5000)
-db = client[DB_NAME]
-users_col = db["users"]
-users_col.create_index("username", unique=True)
+# --- MongoDB Connection ---
+try:
+    client = MongoClient(MONGO_URL, serverSelectionTimeoutMS=5000)
+    db = client[DB_NAME]
+    users_col = db["users"]
+    users_col.create_index("username", unique=True)
+except errors.ConnectionFailure:
+    raise RuntimeError("Cannot connect to MongoDB. Check connection string and network.")
+
+# --- Password Hashing ---
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
+# --- FastAPI App ---
 app = FastAPI()
 app.add_middleware(SessionMiddleware, secret_key=SECRET_KEY)
 
-# Mount static files
+# --- Static & Templates ---
 STATIC_PATH = os.path.join(os.path.dirname(__file__), "static")
-app.mount("/static", StaticFiles(directory=STATIC_PATH), name="static")
-
 TEMPLATES_PATH = os.path.join(os.path.dirname(__file__), "templates")
+app.mount("/static", StaticFiles(directory=STATIC_PATH), name="static")
 templates = Jinja2Templates(directory=TEMPLATES_PATH)
 
 # --- Utilities ---
@@ -60,6 +49,11 @@ def get_authenticated_username(request: Request):
     return request.session.get("user")
 
 # --- Routes ---
+@app.get("/", response_class=HTMLResponse)
+def home(request: Request):
+    user = get_authenticated_username(request)
+    return templates.TemplateResponse("login.html" if not user else "profile.html", {"request": request, "username": user})
+
 @app.get("/login", response_class=HTMLResponse)
 def login_form(request: Request):
     return templates.TemplateResponse("login.html", {"request": request})
@@ -70,7 +64,7 @@ def login(request: Request, username: str = Form(...), password: str = Form(...)
     if not user or not verify_password(password, user["password"]):
         return templates.TemplateResponse("login.html", {"request": request, "error": "Invalid credentials."})
     request.session["user"] = username
-    return RedirectResponse("/", status_code=302)
+    return RedirectResponse("/profile", status_code=302)
 
 @app.get("/register", response_class=HTMLResponse)
 def register_form(request: Request):
