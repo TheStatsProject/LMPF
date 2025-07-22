@@ -5,7 +5,8 @@ from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from passlib.context import CryptContext
-from pymongo import MongoClient, errors
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
 from starlette.middleware.sessions import SessionMiddleware
 
 # --- Config ---
@@ -13,29 +14,28 @@ MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://digroom:<db_password>@clu
 SECRET_KEY = os.environ.get("SESSION_SECRET_KEY") or secrets.token_urlsafe(32)
 DB_NAME = os.environ.get("MONGO_DB_NAME", "lmpf_docs")
 
-# --- MongoDB Connection ---
+# --- MongoDB Connection with Server API ---
+client = MongoClient(MONGO_URL, server_api=ServerApi('1'))
 try:
-    client = MongoClient(MONGO_URL, serverSelectionTimeoutMS=5000)
-    db = client[DB_NAME]
-    users_col = db["users"]
-    users_col.create_index("username", unique=True)
-except errors.ConnectionFailure:
-    raise RuntimeError("Cannot connect to MongoDB. Check connection string and network.")
+    client.admin.command('ping')
+    print("Pinged your deployment. You successfully connected to MongoDB!")
+except Exception as e:
+    print("MongoDB connection error:", e)
 
-# --- Password Hashing ---
+db = client[DB_NAME]
+users_col = db["users"]
+users_col.create_index("username", unique=True)
+
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
-# --- FastAPI App ---
 app = FastAPI()
 app.add_middleware(SessionMiddleware, secret_key=SECRET_KEY)
 
-# --- Static & Templates ---
 STATIC_PATH = os.path.join(os.path.dirname(__file__), "static")
-TEMPLATES_PATH = os.path.join(os.path.dirname(__file__), "templates")
 app.mount("/static", StaticFiles(directory=STATIC_PATH), name="static")
+TEMPLATES_PATH = os.path.join(os.path.dirname(__file__), "templates")
 templates = Jinja2Templates(directory=TEMPLATES_PATH)
 
-# --- Utilities ---
 def get_user(username: str):
     return users_col.find_one({"username": username})
 
@@ -48,7 +48,6 @@ def hash_password(password: str):
 def get_authenticated_username(request: Request):
     return request.session.get("user")
 
-# --- Routes ---
 @app.get("/", response_class=HTMLResponse)
 def home(request: Request):
     user = get_authenticated_username(request)
