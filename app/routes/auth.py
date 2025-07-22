@@ -63,3 +63,12 @@ def twofa_verify(request: Request, code: str = Form(...)):
 def logout(request: Request):
     request.session.clear()
     return RedirectResponse("/login", status_code=302)
+
+@router.get("/reset", response_class=HTMLResponse)
+def reset_form(request: Request):
+    return templates.TemplateResponse("reset.html", {"request": request})
+
+@router.post("/reset")
+def reset_password(request: Request, email: str = Form(...), code: str = Form(...), new_password: str = Form(...)):
+    # Verify code sent via email, then update password
+    ...
