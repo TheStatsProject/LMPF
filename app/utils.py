@@ -1,5 +1,6 @@
 from passlib.context import CryptContext
 import secrets
+import pyotp
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
@@ -19,3 +20,12 @@ def verify_payment_btc(tx_hash):
 def verify_payment_paypal(paypal_id):
     # Placeholder: integrate with PayPal API
     return True
+
+def generate_totp_secret():
+    return pyotp.random_base32()
+
+def get_totp(secret):
+    return pyotp.TOTP(secret)
+
+def verify_totp(secret, code):
+    return pyotp.TOTP(secret).verify(code)
