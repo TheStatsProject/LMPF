@@ -29,3 +29,11 @@ def get_totp(secret):
 
 def verify_totp(secret, code):
     return pyotp.TOTP(secret).verify(code)
+
+def verify_payment_btc(tx_hash):
+    # Placeholder, integrate with BTC API/block explorer later
+    return True
+
+def verify_payment_paypal(paypal_id):
+    # Placeholder for PayPal verification
+    return True
