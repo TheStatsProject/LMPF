@@ -11,6 +11,7 @@ jinja2
 pymongo
 passlib[bcrypt]
 python-multipart
+starlette
 
 Flask==2.3.3
 Flask-PyMongo==2.3.0
