@@ -8,6 +8,23 @@ from passlib.context import CryptContext
 from pymongo import MongoClient
 from starlette.middleware.sessions import SessionMiddleware
 
+
+
+app = FastAPI()
+
+# Connect to MongoDB (replace with your credentials/connection string)
+MONGO_URL = "mongodb+srv://digroom:<db_password>@cluster0.i5s27i0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+client = MongoClient(MONGO_URL)
+db = client["mydb"]  # Use your database name
+collection = db["mycollection"]  # Use your collection name
+
+@app.get("/items")
+def get_items():
+    # Get all documents in the collection
+    items = list(collection.find({}, {"_id": 0}))  # Exclude MongoDB's _id field
+    return items
+
+
 # --- Config ---
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://digroom:<db_password>@cluster0.i5s27i0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 SECRET_KEY = os.environ.get("SESSION_SECRET_KEY") or secrets.token_urlsafe(32)
