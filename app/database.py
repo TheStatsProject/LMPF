@@ -13,4 +13,3 @@ users_col = db["users"]
 users_col = db["users"]
 subs_col = db["subscriptions"]
 payments_col = db["payments"]
-
