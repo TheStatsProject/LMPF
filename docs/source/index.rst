@@ -22,13 +22,12 @@ Features
 .. raw:: html
 
     <div style="margin:2em 0; text-align:center;">
-        <a href="/register" style="background: #0070f3; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em;">Register</a>
-        <a href="/login" style="background: #28a745; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em;">Login</a>
-        <a href="/2fa" style="background: #ff9800; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em;">2FA</a>
-        <a href="/profile" style="background: #003366; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em;">Profile</a>
-        <a href="/subscribe" style="background: #9c27b0; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em;">Subscribe</a>
-        <a href="/payment" style="background: #2196f3; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em;">Payment</a>
-        <a href="/reset" style="background: #d32f2f; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em;">Password Reset</a>
+        <a href="/templates/register.html" target="_blank" style="background: #0070f3; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em;">Register Form (HTML)</a>
+        <a href="/templates/login.html" target="_blank" style="background: #28a745; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em;">Login Form (HTML)</a>
+        <a href="/templates/subscribe.html" target="_blank" style="background: #9c27b0; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em;">Subscribe Form (HTML)</a>
+        <a href="/login" style="background: #28a745; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em;">Live Login</a>
+        <a href="/register" style="background: #0070f3; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em;">Live Register</a>
+        <a href="/subscribe" style="background: #9c27b0; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em;">Live Subscribe</a>
     </div>
 
 How It Works
