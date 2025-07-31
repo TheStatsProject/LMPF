@@ -11,34 +11,39 @@ Analyze labor force, GDP impact, and manage your secure subscription and payment
 Features
 --------
 
-- **Register:** Create a secure account
-- **Login:** Access your dashboard and analysis tools
-- **2FA (Two-Factor Authentication):** Enhance account security
-- **Profile:** Manage your account and subscriptions
-- **Subscribe:** Choose and purchase a subscription plan
-- **Payment (BTC/PayPal):** Pay for your subscription using cryptocurrency or PayPal
-- **Password Reset:** Recover your account securely
+- **Register:** Create a secure account with field-level validation and password strength checking.
+- **Login:** Access your dashboard and analysis tools. Detailed error feedback for login attempts.
+- **2FA (Two-Factor Authentication):** Enhance account security with time-based codes.
+- **Profile:** Manage your account, payment status, and subscriptions.
+- **Subscribe:** Choose and purchase a subscription plan. Receive instant feedback on errors and success.
+- **Payment (BTC/PayPal):** Pay for your subscription using cryptocurrency or PayPal with transaction verification.
+- **Password Reset:** Recover your account securely via email verification.
+
+Quick Access to Forms
+---------------------
+
+Jump directly to core workflow templates for testing and development:
 
 .. raw:: html
 
     <div style="margin:2em 0; text-align:center;">
-        <a href="/templates/register.html" target="_blank" style="background: #0070f3; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em;">Register Form (HTML)</a>
-        <a href="/templates/login.html" target="_blank" style="background: #28a745; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em;">Login Form (HTML)</a>
-        <a href="/templates/subscribe.html" target="_blank" style="background: #9c27b0; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em;">Subscribe Form (HTML)</a>
-        <a href="/login" style="background: #28a745; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em;">Live Login</a>
-        <a href="/register" style="background: #0070f3; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em;">Live Register</a>
-        <a href="/subscribe" style="background: #9c27b0; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em;">Live Subscribe</a>
+        <button onclick="window.open('/static/templates/register.html', '_blank')" style="background: #0070f3; color: #fff; border: none; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em; cursor: pointer;">Register Form (HTML)</button>
+        <button onclick="window.open('/static/templates/login.html', '_blank')" style="background: #28a745; color: #fff; border: none; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em; cursor: pointer;">Login Form (HTML)</button>
+        <button onclick="window.open('/static/templates/subscribe.html', '_blank')" style="background: #9c27b0; color: #fff; border: none; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em; cursor: pointer;">Subscribe Form (HTML)</button>
+        <a href="/login" style="background: #28a745; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em; display:inline-block;">Live Login</a>
+        <a href="/register" style="background: #0070f3; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em; display:inline-block;">Live Register</a>
+        <a href="/subscribe" style="background: #9c27b0; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em; display:inline-block;">Live Subscribe</a>
     </div>
 
 How It Works
 ------------
 
-1. **Register** with your email and password.
-2. **Login** to your dashboard.
-3. **Enable 2FA** for added security.
-4. **Subscribe** to a plan and proceed to payment.
-5. **Pay** using BTC or PayPal.
-6. **Access premium analytics and forecasting tools.**
+1. **Register** with your email and password. Receive instant field-level error feedback if the username is taken or the password is weak.
+2. **Login** to your dashboard with detailed error messages for unsuccessful attempts.
+3. **Enable 2FA** for added security. Scan a QR code or enter your secret to use time-based codes.
+4. **Subscribe** to a plan and receive clear feedback on your subscription and payment details.
+5. **Pay** using BTC or PayPal, with support for transaction verification and error reporting.
+6. **Access premium analytics and forecasting tools immediately after successful payment.
 
 API Docs
 --------
