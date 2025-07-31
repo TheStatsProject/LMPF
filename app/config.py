@@ -1,30 +1,37 @@
-from dotenv import load_dotenv
 import os
+from dotenv import load_dotenv
 
-# Automatically load .env file at startup
+# Load environment variables from .env file
 load_dotenv()
 
+# MongoDB configuration
 MONGODB_URI = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
-DATABASE_NAME = os.getenv("DATABASE_NAME", "lmpf_db")
+MONGO_URL = os.getenv("MONGO_URL", MONGODB_URI)
+DB_NAME = os.getenv("MONGO_DB_NAME", "LMBD")  # Default and aligns with database.py
 
-# Config values with defaults and error handling
-SECRET_KEY = os.environ.get("SESSION_SECRET_KEY")
+# Application secret key (required)
+SECRET_KEY = os.getenv("SESSION_SECRET_KEY")
 if not SECRET_KEY:
-    raise ValueError("SESSION_SECRET_KEY not set in environment variables.")
+    raise ValueError("SESSION_SECRET_KEY not set in environment variables or .env file.")
 
-MONGO_URL = os.environ.get("MONGO_URL")
-if not MONGO_URL:
-    raise ValueError("MONGO_URL not set in environment variables.")
+# Email and SMS API keys (optional, but log if missing)
+EMAIL_API_KEY = os.getenv("EMAIL_API_KEY")
+SMS_API_KEY = os.getenv("SMS_API_KEY")
 
-DB_NAME = os.environ.get("MONGO_DB_NAME", "lmpf_docs")
+if not EMAIL_API_KEY:
+    print("[config.py] Warning: EMAIL_API_KEY not set.")
+if not SMS_API_KEY:
+    print("[config.py] Warning: SMS_API_KEY not set.")
 
-EMAIL_API_KEY = os.environ.get("EMAIL_API_KEY", "")
-SMS_API_KEY = os.environ.get("SMS_API_KEY", "")
+# Payment and crypto API keys (optional)
+PAYPAL_CLIENT_ID = os.getenv("PAYPAL_CLIENT_ID")
+PAYPAL_SECRET = os.getenv("PAYPAL_SECRET")
+BTC_API_KEY = os.getenv("BTC_API_KEY")
 
-# Additional config options for extensibility
-PAYPAL_CLIENT_ID = os.environ.get("PAYPAL_CLIENT_ID", "")
-PAYPAL_SECRET = os.environ.get("PAYPAL_SECRET", "")
-BTC_API_KEY = os.environ.get("BTC_API_KEY", "")
-
-# Example: Use this config in other modules
+# Example usage comment
 # from app.config import SECRET_KEY, MONGO_URL, DB_NAME, EMAIL_API_KEY, SMS_API_KEY, PAYPAL_CLIENT_ID, PAYPAL_SECRET, BTC_API_KEY
+
+# Optionally: Add a function to get MongoDB client, for easy importing
+def get_mongo_client():
+    from pymongo import MongoClient
+    return MongoClient(MONGO_URL)
