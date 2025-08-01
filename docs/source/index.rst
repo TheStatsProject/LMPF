@@ -27,15 +27,14 @@ Quick Access to Forms
 Jump directly to core workflow templates for testing and development:
 
 .. raw:: html
-
-    <div style="margin:2em 0; text-align:center;">
-        <button onclick="window.open('docs/server/templates/register.html', '_blank')" style="background: #0070f3; color: #fff; border: none; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em; cursor: pointer;">Register Form (HTML)</button>
-        <button onclick="window.open('docs/server/templates/login.html', '_blank')" style="background: #28a745; color: #fff; border: none; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em; cursor: pointer;">Login Form (HTML)</button>
-        <button onclick="window.open('docs/server/templates/subscribe.html', '_blank')" style="background: #9c27b0; color: #fff; border: none; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em; cursor: pointer;">Subscribe Form (HTML)</button>
-        <a href="/login" style="background: #28a745; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em; display:inline-block;">Live Login</a>
-        <a href="/register" style="background: #0070f3; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em; display:inline-block;">Live Register</a>
-        <a href="/subscribe" style="background: #9c27b0; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em; display:inline-block;">Live Subscribe</a>
-    </div>
+<div style="margin:2em 0; text-align:center;">
+    <button onclick="window.open('https://lmpf-production-a44c.up.railway.app/register', '_blank')" style="background: #0070f3; color: #fff; border: none; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em; cursor: pointer;">Register Form (Live)</button>
+    <button onclick="window.open('https://lmpf-production-a44c.up.railway.app/login', '_blank')" style="background: #28a745; color: #fff; border: none; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em; cursor: pointer;">Login Form (Live)</button>
+    <button onclick="window.open('https://lmpf-production-a44c.up.railway.app/subscribe', '_blank')" style="background: #9c27b0; color: #fff; border: none; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em; cursor: pointer;">Subscribe Form (Live)</button>
+    <a href="https://lmpf-production-a44c.up.railway.app/login" style="background: #28a745; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em; display:inline-block;">Live Login</a>
+    <a href="https://lmpf-production-a44c.up.railway.app/register" style="background: #0070f3; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em; display:inline-block;">Live Register</a>
+    <a href="https://lmpf-production-a44c.up.railway.app/subscribe" style="background: #9c27b0; color: #fff; text-decoration: none; padding: 0.7em 2em; border-radius: 4px; font-size: 1.08em; margin: 0 1em; display:inline-block;">Live Subscribe</a>
+</div>
 
 How It Works
 ------------
