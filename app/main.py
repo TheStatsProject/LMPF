@@ -10,6 +10,9 @@ app.include_router(auth.router)
 app.include_router(subscription.router)
 app.include_router(payment.router)
 
+# Add this for template rendering:
+templates = Jinja2Templates(directory="app/templates")
+
 from fastapi import FastAPI
 from .database import db
 
