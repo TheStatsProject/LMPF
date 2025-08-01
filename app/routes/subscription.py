@@ -5,7 +5,7 @@ from fastapi.templating import Jinja2Templates
 import os
 
 router = APIRouter()
-templates = Jinja2Templates(directory=os.path.join(os.path.dirname(__file__), "../../docs/server/templates"))
+templates = Jinja2Templates(directory="app/templates")
 
 @router.get("/subscribe", response_class=HTMLResponse)
 def subscribe_form(request: Request):
