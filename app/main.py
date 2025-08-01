@@ -3,6 +3,15 @@ from starlette.middleware.sessions import SessionMiddleware
 from app.config import SECRET_KEY
 from app.routes import auth, subscription, payment
 
+
+from fastapi import FastAPI
+from starlette.middleware.sessions import SessionMiddleware
+from fastapi.templating import Jinja2Templates
+from fastapi import Request
+
+from app.config import SECRET_KEY
+from app.routes import auth, subscription, payment
+
 app = FastAPI()
 app.add_middleware(SessionMiddleware, secret_key=SECRET_KEY)
 
@@ -21,3 +30,5 @@ from .database import db
 async def ping():
     stats = await db.stats.find_one({})
     return stats or {"message": "Connected!"}
+
+
