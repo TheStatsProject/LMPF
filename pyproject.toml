@@ -25,3 +25,6 @@ requires-python = ">=3.8"
 Homepage = "https://github.com/TheStatsProject/TheStatsProject-LMPF"
 Documentation = "https://thestatsproject.github.io/TheStatsProject-LMPF/"
 Repository = "https://github.com/TheStatsProject/TheStatsProject-LMPF"
+
+[tool.flit.module]
+name = "app"
