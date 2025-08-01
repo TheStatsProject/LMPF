@@ -2,13 +2,14 @@
 requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
-[project]
-name = "the-truth-project"
-authors = [
-    { name = "TheOs", email = "theos@tutamail.com" }
-]
-dynamic = ["version", "description"]
-dependencies = [
+[tool.flit.metadata]
+module = "app"
+author = "TheOs"
+author-email = "theos@tutamail.com"
+home-page = "https://github.com/TheStatsProject/TheStatsProject-LMPF"
+requires-python = ">=3.8"
+description-file = "README.rst"
+requires = [
     "fastapi>=0.110.0",
     "uvicorn[standard]>=0.27.1",
     "pymongo>=4.7.0",
@@ -19,9 +20,3 @@ dependencies = [
     "sphinx>=7.2.0",
     "jinja2>=3.1.0"
 ]
-requires-python = ">=3.8"
-
-[project.urls]
-Homepage = "https://github.com/TheStatsProject/TheStatsProject-LMPF"
-Documentation = "https://thestatsproject.github.io/TheStatsProject-LMPF/"
-Repository = "https://github.com/TheStatsProject/TheStatsProject-LMPF"
