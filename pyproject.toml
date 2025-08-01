@@ -2,32 +2,27 @@
 requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
-[project]
-name = "the-truth-project"  # Valid Python package name: lowercase, dashes, no spaces
-authors = [
-    { name = "TheOs", email = "theos@tutamail.com" }
-]
-dynamic = ["version", "description"]
-
-# Dependencies for FastAPI app and MongoDB integration on Railway
-dependencies = [
+[tool.flit.metadata]
+module = "app"
+author = "TheOs"
+author-email = "theos@tutamail.com"
+home-page = "https://github.com/TheStatsProject/TheStatsProject-LMPF"
+requires-python = ">=3.8"
+classifiers = ["License :: OSI Approved :: MIT License"]
+description-file = "README.md"
+requires = [
     "fastapi>=0.110.0",
     "uvicorn[standard]>=0.27.1",
     "pymongo>=4.7.0",
-    "python-dotenv>=1.0.0",     # Optional: for .env config
-    "passlib[bcrypt]>=1.7.4",   # Optional: for password hashing
-    "pyjwt>=2.8.0",             # Optional: for JWT tokens
-    "email-validator>=2.1.0",   # Optional: for email validation
-    "sphinx>=7.2.0",            # Optional: for docs if needed
-    "jinja2>=3.1.0"             # Optional: for template rendering
+    "python-dotenv>=1.0.0",
+    "passlib[bcrypt]>=1.7.4",
+    "pyjwt>=2.8.0",
+    "email-validator>=2.1.0",
+    "sphinx>=7.2.0",
+    "jinja2>=3.1.0"
 ]
 
-requires-python = ">=3.8"
-
-[project.urls]
-Homepage = "https://github.com/TheStatsProject/TheStatsProject-LMPF"
+[tool.flit.metadata.urls]
+Home = "https://github.com/TheStatsProject/TheStatsProject-LMPF"
 Documentation = "https://thestatsproject.github.io/TheStatsProject-LMPF/"
 Repository = "https://github.com/TheStatsProject/TheStatsProject-LMPF"
-
-[tool.flit.metadata]
-name = "app"  # The main Python module/package (adjust if needed)
