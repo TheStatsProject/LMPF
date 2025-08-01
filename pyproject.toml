@@ -29,5 +29,5 @@ Homepage = "https://github.com/TheStatsProject/TheStatsProject-LMPF"
 Documentation = "https://thestatsproject.github.io/TheStatsProject-LMPF/"
 Repository = "https://github.com/TheStatsProject/TheStatsProject-LMPF"
 
-[tool.flit.module]
+[tool.flit.metadata]
 name = "app"  # The main Python module/package (adjust if needed)
