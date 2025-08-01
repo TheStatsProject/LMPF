@@ -3,6 +3,7 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "The Truth Project"
+name = "the-truth-project"   # Fixed: lowercase, no spaces or special chars
 authors = [{name = "TheOs", email = "theos@tutamail.com"}]
 dynamic = ["version", "description"]
+
