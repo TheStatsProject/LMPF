@@ -4,10 +4,13 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "the-truth-project"
+dynamic = ["version", "description"]
 authors = [
     { name = "TheOs", email = "theos@tutamail.com" }
 ]
-dynamic = ["version", "description"]
+readme = "README.rst"
+license = { text = "MIT" }
+keywords = ["fastapi", "subscription", "payments", "mongodb", "web"]
 dependencies = [
     "fastapi>=0.110.0",
     "uvicorn[standard]>=0.27.1",
@@ -28,4 +31,4 @@ Documentation = "https://thestatsproject.github.io/TheStatsProject-LMPF/"
 Repository = "https://github.com/TheStatsProject/TheStatsProject-LMPF"
 
 [tool.flit.module]
-name = "main"
+name = "app"
