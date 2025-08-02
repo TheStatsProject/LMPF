@@ -8,7 +8,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 
-# Install system build dependencies and clean up apt artifacts
+# Install system build dependencies and clean up
 RUN apt-get update \
   && apt-get install -y --no-install-recommends build-essential \
   && rm -rf /var/lib/apt/lists/*
@@ -16,10 +16,10 @@ RUN apt-get update \
 # Copy only necessary files for the main app
 COPY ./app ./app
 COPY pyproject.toml .
-COPY README.md .
+COPY README.rst .
 
-# Diagnostics: show files for debugging (optional, remove if you like)
-RUN echo "--- ROOT DIR ---" && ls -l /app && echo "--- APP DIR ---" && ls -l /app/app
+# Diagnostics: show files for debugging (optional)
+RUN ls -l /app && ls -l /app/app && cat /app/pyproject.toml
 
 # Install pip and flit
 RUN python -m pip install --no-cache-dir --upgrade pip flit
@@ -29,4 +29,4 @@ RUN FLIT_ROOT_INSTALL=1 flit install --deps production --symlink
 
 EXPOSE 8000
 
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]
