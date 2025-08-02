@@ -1,5 +1,5 @@
 WORKDIR /app
-COPY app/ ./
+COPY app/ ./app/
 COPY pyproject.toml .
 COPY README.rst .
 RUN ls -l /app
