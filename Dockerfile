@@ -5,6 +5,7 @@ COPY README.rst .
 RUN ls -l /app
 RUN ls -l /app/app
 RUN cat /app/app/__init__.py
+RUN FLIT_ROOT_INSTALL=1 flit install --deps production --symlink || (echo "------ FLIT INSTALL LOG ------" && cat /root/.cache/pip/log/debug.log && false)
 RUN python -m pip install --no-cache-dir --upgrade pip flit
 RUN FLIT_ROOT_INSTALL=1 flit install --deps production --symlink
 EXPOSE 8080
