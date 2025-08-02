@@ -1,7 +1,3 @@
-[build-system]
-requires = ["flit_core >=3.2,<4"]
-build-backend = "flit_core.buildapi"
-
 [project]
 name = "the-truth-project"
 version = "0.1.0"
@@ -18,11 +14,6 @@ dependencies = [
     "pymongo>=4.7.0"
 ]
 requires-python = ">=3.8"
-
-[project.urls]
-Homepage = "https://github.com/TheStatsProject/TheStatsProject-LMPF"
-Repository = "https://github.com/TheStatsProject/TheStatsProject-LMPF"
-Documentation = "https://thestatsproject.github.io/TheStatsProject-LMPF/"
 
 [tool.flit.module]
 name = "app"
