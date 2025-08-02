@@ -4,6 +4,7 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "the-truth-project"
+version = "0.1.0"
 description = "Labor Market and Population Forecasting Toolkit"
 authors = [
     { name = "TheOs", email = "theos@tutamail.com" }
