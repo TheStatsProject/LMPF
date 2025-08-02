@@ -6,6 +6,9 @@ RUN apt-get update && apt-get install -y build-essential && rm -rf /var/lib/apt/
 
 COPY . /app
 
+RUN ls -l /app
+RUN cat /app/pyproject.toml
+
 RUN pip install --no-cache-dir --upgrade pip flit
 
 RUN FLIT_ROOT_INSTALL=1 flit install --deps production --symlink
