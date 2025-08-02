@@ -3,7 +3,8 @@ COPY app/ ./app/
 COPY pyproject.toml .
 COPY README.rst .
 RUN ls -l /app
-RUN cat /app/__init__.py
+RUN ls -l /app/app
+RUN cat /app/app/__init__.py
 RUN python -m pip install --no-cache-dir --upgrade pip flit
 RUN FLIT_ROOT_INSTALL=1 flit install --deps production --symlink
 EXPOSE 8080
