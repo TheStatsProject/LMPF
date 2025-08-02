@@ -22,4 +22,4 @@ RUN FLIT_ROOT_INSTALL=1 flit install --deps production --symlink
 
 EXPOSE 8000
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
