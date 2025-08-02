@@ -4,31 +4,25 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "the-truth-project"
-dynamic = ["version", "description"]
+version = "0.1.0"
+description = "Labor Market and Population Forecasting Toolkit"
 authors = [
     { name = "TheOs", email = "theos@tutamail.com" }
 ]
 readme = "README.rst"
 license = { text = "MIT" }
-keywords = ["fastapi", "subscription", "payments", "mongodb", "web"]
+keywords = ["fastapi", "mongodb", "web"]
 dependencies = [
     "fastapi>=0.110.0",
     "uvicorn[standard]>=0.27.1",
-    "pymongo>=4.7.0",
-    "python-dotenv>=1.0.0",
-    "passlib[bcrypt]>=1.7.4",
-    "pyjwt>=2.8.0",
-    "email-validator>=2.1.0",
-    "jinja2>=3.1.0",
-    "python-multipart>=0.0.7",
-    "starlette>=0.36.3"
+    "pymongo>=4.7.0"
 ]
 requires-python = ">=3.8"
 
 [project.urls]
 Homepage = "https://github.com/TheStatsProject/TheStatsProject-LMPF"
-Documentation = "https://thestatsproject.github.io/TheStatsProject-LMPF/"
 Repository = "https://github.com/TheStatsProject/TheStatsProject-LMPF"
+Documentation = "https://thestatsproject.github.io/TheStatsProject-LMPF/"
 
 [tool.flit.module]
 name = "app"
