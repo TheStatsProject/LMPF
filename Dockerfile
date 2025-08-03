@@ -2,7 +2,8 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-COPY railway.toml .
+COPY pyproject.toml .          # <-- This is required!
+COPY railway.toml .            # <-- Only needed for Railway, not for Flit
 COPY README.rst .
 COPY app/ ./app/
 
@@ -15,7 +16,6 @@ RUN echo "---- /app/app/__init__.py ----" && cat /app/app/__init__.py
 RUN echo "---- /app/pyproject.toml ----" && cat /app/pyproject.toml
 RUN echo "---- /app/README.rst ----" && cat /app/README.rst
 
-# This will show logs if Flit fails
 RUN FLIT_ROOT_INSTALL=1 flit install --deps production --symlink || (echo "------ FLIT INSTALL ERROR ------" && false)
 
 EXPOSE 8080
