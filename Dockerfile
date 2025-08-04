@@ -11,7 +11,7 @@ COPY app/ ./app/
 # Install pip and flit
 RUN python -m pip install --no-cache-dir --upgrade pip flit
 
-# Optional: show what got copied (for debugging, comment out in production)
+# Optional: debug what was copied (uncomment if troubleshooting)
 # RUN echo "---- /app ----" && ls -l /app
 # RUN echo "---- /app/app ----" && ls -l /app/app
 # RUN echo "---- /app/app/__init__.py ----" && cat /app/app/__init__.py
@@ -19,7 +19,7 @@ RUN python -m pip install --no-cache-dir --upgrade pip flit
 # RUN echo "---- /app/README.rst ----" && cat /app/README.rst
 
 # Install project dependencies into the image
-RUN FLIT_ROOT_INSTALL=1 flit install --deps production --symlink || (echo "------ FLIT INSTALL ERROR ------" && false)
+RUN FLIT_ROOT_INSTALL=1 flit install --deps production --symlink
 
 # ---- Production stage ----
 FROM python:3.12-slim
