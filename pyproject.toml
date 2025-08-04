@@ -9,7 +9,7 @@ description = "Labor Market and Population Forecasting Toolkit"
 authors = [
     { name = "TheOs", email = "theos@tutamail.com" }
 ]
-readme = "README.rst"
+readme = "README.md"
 license = { text = "MIT" }
 keywords = ["fastapi", "mongodb", "web"]
 dependencies = [
