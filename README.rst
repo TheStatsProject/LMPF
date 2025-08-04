@@ -1,5 +1,5 @@
 Finance Models Documentation
-============================
+================================
 
 Welcome to the **Finance Models** project! This repository contains articles and models focused on macroeconomic and financial analysis. The documentation is built using MkDocs with the Material theme and hosted on GitHub Pages.
 
