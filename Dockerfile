@@ -5,7 +5,7 @@ WORKDIR /app
 
 # Copy metadata and app code
 COPY pyproject.toml .
-COPY README.rst .
+COPY README.md .
 COPY app/ ./app/
 
 # Install pip and flit
@@ -35,7 +35,7 @@ COPY app/ ./app/
 
 # Copy entrypoint files
 COPY --from=build /app/pyproject.toml .
-COPY --from=build /app/README.rst .
+COPY --from=build /app/README.md .
 
 EXPOSE 8080
 
