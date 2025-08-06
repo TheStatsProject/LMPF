@@ -2,16 +2,22 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-# Copy requirements and install Python dependencies
-COPY app/requirements.txt ./
-RUN pip install --no-cache-dir --upgrade pip \
- && pip install --no-cache-dir -r requirements.txt
+# Install system dependencies (curl for healthcheck)
+RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
 
-# Copy the rest of your FastAPI application code
+# Copy only pyproject.toml first to leverage Docker cache for dependencies
+COPY app/pyproject.toml ./
+
+# Upgrade pip, install Flit, and install only production dependencies
+RUN pip install --no-cache-dir --upgrade pip && pip install flit && flit install --deps production
+
+# Copy the rest of the application code
 COPY app/ ./app/
 
-# Expose the correct port for Railway
+# Expose the port expected by Railway
 EXPOSE 8080
 
-# Start FastAPI app with Uvicorn, pointing to 'app.main:app' (app/main.py)
+
+
+# Start FastAPI app with Uvicorn
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]
