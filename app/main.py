@@ -1,24 +1,28 @@
 from fastapi import FastAPI
-from starlette.middleware.sessions import SessionMiddleware
-from fastapi.templating import Jinja2Templates
-from fastapi.staticfiles import StaticFiles
-from app.config import SECRET_KEY
-from app.routes import auth, subscription, payment
-from app.database import db
+from fastapi.responses import RedirectResponse
+import pymongo
+import os
 
-app = FastAPI()
-app.add_middleware(SessionMiddleware, secret_key=SECRET_KEY)
-app.include_router(auth.router, prefix="/api/auth")
-app.include_router(subscription.router, prefix="/api/subscription")
-app.include_router(payment.router, prefix="/api/payment")
+app = FastAPI(
+    title="The Truth Project",
+    description="Labor Market and Population Forecasting Toolkit",
+    version="0.1.0"
+)
 
-# Serve built docs (index.html generated from index.rst) at root
-app.mount("/", StaticFiles(directory="docs", html=True), name="docs")
+# MongoDB connection (set MONGODB_URI in Railway variables)
+client = pymongo.MongoClient(os.environ.get("MONGODB_URI"))
+db = client["yourdbname"]  # Change to your actual db name
 
-# Templates for server-side rendering, if needed
-templates = Jinja2Templates(directory="app/templates")
+@app.get("/", include_in_schema=False)
+async def root():
+    """Redirects root to the docs index."""
+    return RedirectResponse(url="/docs/source/index.rst")
 
-@app.get("/ping")
-async def ping():
-    stats = await db.stats.find_one({})
-    return stats or {"message": "Connected!"}
+@app.get("/api/items")
+async def api_items():
+    """API endpoint for items in the MongoDB collection (returns JSON)."""
+    items = list(db["yourcollection"].find())  # Change to your actual collection
+    # Convert ObjectId to string for JSON serializability
+    for item in items:
+        item["_id"] = str(item["_id"])
+    return {"items": items}
