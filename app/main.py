@@ -1,7 +1,6 @@
-from fastapi import FastAPI
-from fastapi.responses import RedirectResponse
-import pymongo
-import os
+from fastapi import FastAPI, Form
+from fastapi.responses import RedirectResponse, HTMLResponse
+from app.database import users_col, subs_col  # Import from your central config
 
 app = FastAPI(
     title="Labor Market & Population Forecaster",
@@ -9,26 +8,9 @@ app = FastAPI(
     version="0.1.0"
 )
 
-# MongoDB connection (set MONGODB_URI in Railway variables)
-client = pymongo.MongoClient(os.environ.get("MONGODB_URI"))
-db = client["LMBD"]  # Change to your actual db name
-
 @app.get("/", include_in_schema=False)
 async def root():
-    """Redirects root to the docs index."""
-    return RedirectResponse(url="/docs/source/index.rst")
-
-@app.get("/api/market-items")
-async def get_market_items():
-    """Returns labor market items from the MongoDB collection."""
-    items = list(db["yourcollection"].find())  # Change to your actual collection
-    for item in items:
-        item["_id"] = str(item["_id"])
-    return {"items": items}
-
-@app.get("/", include_in_schema=False)
-async def root():
-    return RedirectResponse(url="/docs/source/index.rst")
+    return RedirectResponse(url="/docs")
 
 @app.get("/register", response_class=HTMLResponse, include_in_schema=False)
 async def register_form():
@@ -44,7 +26,6 @@ async def register_form():
 
 @app.post("/register", response_class=HTMLResponse, include_in_schema=False)
 async def register_submit(username: str = Form(...), email: str = Form(...), password: str = Form(...)):
-    # Basic insert, add validation/security in production!
     users_col.insert_one({"username": username, "email": email, "password": password})
     return f"<h2>Welcome, {username}! Registration successful.</h2>"
 
@@ -84,5 +65,3 @@ async def subscribe_form():
 async def subscribe_submit(email: str = Form(...), plan: str = Form(...)):
     subs_col.insert_one({"email": email, "plan": plan})
     return f"<h2>Subscription successful for {email} on the {plan} plan.</h2>"
-async def subscribe():
-    return "<h1>Subscribe Page (TODO: Implement subscription form)</h1>"
