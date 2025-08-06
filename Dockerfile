@@ -19,9 +19,6 @@ COPY app/ ./
 # Expose the port expected by Railway or your PaaS
 EXPOSE 8080
 
-# Optional: Healthcheck (requires you to implement `/health` in FastAPI)
-HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
-  CMD curl -f http://localhost:8080/health || exit 1
 
 # Start FastAPI app with Uvicorn
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
