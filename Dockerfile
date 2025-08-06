@@ -1,29 +1,16 @@
-# Stage 1: Build React frontend
-FROM node:20-alpine as frontend
-
-WORKDIR /frontend
-COPY frontend/package.json frontend/package-lock.json ./
-RUN npm install
-COPY frontend/ ./
-RUN npm run build
-
-# Stage 2: Build Python backend
-FROM python:3.12-slim as backend
-
-WORKDIR /app
-COPY app/requirements.txt ./
-RUN pip install --no-cache-dir --upgrade pip
-RUN pip install --no-cache-dir -r requirements.txt
-COPY app/ ./
-
-# Stage 3: Final image
 FROM python:3.12-slim
 
 WORKDIR /app
-COPY --from=backend /app /app
-COPY --from=frontend /frontend/build /app/static
+
+# Install dependencies
+COPY app/requirements.txt ./
+RUN pip install --no-cache-dir --upgrade pip \
+ && pip install --no-cache-dir -r requirements.txt
+
+# Copy application code
+COPY app/ ./
 
 EXPOSE 8000
 
-# Adjust the entrypoint if your main FastAPI app isn't main:app
+# Start FastAPI (adjust main:app if needed)
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
