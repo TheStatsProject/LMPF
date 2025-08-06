@@ -1,72 +1,79 @@
-The Truth Project: Labor Market and Population Forecasting Toolkit
-=================================================================
+Finance Models Documentation
+===========================
 
-**The Truth Project** is an open-source toolkit designed for labor market and population forecasting.  
-This project is built using 100% Python (FastAPI + MongoDB) and is ready for deployment on Railway with seamless GitHub integration.
+Welcome to the **Finance Models** project! This repository contains articles and models focused on macroeconomic and financial analysis. The documentation is built using MkDocs with the Material theme and hosted on GitHub Pages.
 
-Features
---------
+Planes y Precios
+----------------
 
-- FastAPI backend for high-performance APIs
-- MongoDB integration for scalable data storage
-- 100% Python stack (no Node/React)
-- Ready-to-deploy with Docker and Railway
-- Easy connection to GitHub for CI/CD
+**Viral Starter**
 
-Project Links
--------------
+- Acceso a un panel de control de análisis básico
+- Informe mensual de tendencias
+- Acceso al foro de la comunidad
+- 99 $/mes
 
-- Live Documentation: https://TheStatsProject.github.io/finance-models-docs/
-- Project Repository: https://github.com/TheStatsProject/LMPF
+**Influencer/Agency Pro**
+
+- Todo lo de Starter
+- 2 paneles personalizados con IA
+- Consulta trimestral
+- Informe personalizado de redes sociales
+- 999 $/mes
+
+**Enterprise/Investor Elite**
+
+- Todo lo de Pro
+- Paneles e informes ilimitados
+- Científico de datos dedicado
+- API para integraciones
+- Soporte prioritario
+- 5000 $/mes o más
+
+Table of Contents
+-----------------
+
+- `About the Project <#about-the-project>`__
+- `Getting Started <#getting-started>`__
+- `Documentation Structure <#documentation-structure>`__
+- `Deployment Process <#deployment-process>`__
+- `Contributing <#contributing>`__
+- `License <#license>`__
+- `Contact <#contact>`__
+
+About the Project
+-----------------
+
+**Finance Models** aims to provide in-depth articles and models to support macroeconomic and financial analysis. The documentation covers topics such as:
+
+- Model introductions
+- Advanced usage guides
+- Blog-style articles
+- Tutorials for getting started
+
+Visit the live documentation: https://TheStatsProject.github.io/finance-models-docs/
 
 Getting Started
 ---------------
 
-1. **Clone the repository:**
+To set up this project locally, follow these steps:
 
-   ::
+1. Clone the repository::
 
-     git clone https://github.com/TheStatsProject/LMPF.git
-     cd LMPF
+      git clone https://github.com/TheStatsProject/finance-models-docs.git
+      cd finance-models-docs
 
-2. **Configure environment variables:**
+2. # (Continue with your setup instructions as before)
 
-   Set your MongoDB URI in your Railway or local environment as ``MONGODB_URI``.
+Documentation Structure
+-----------------------
 
-3. **Build and run with Docker:**
+(Add your documentation structure here.)
 
-   ::
+Deployment Process
+------------------
 
-     docker build -t the-truth-project .
-     docker run -d -p 8000:8000 -e MONGODB_URI="your_mongo_uri" the-truth-project
-
-4. **Or run locally:**
-
-   ::
-
-     pip install -r app/requirements.txt
-     export MONGODB_URI="your_mongo_uri"
-     uvicorn app.main:app --reload
-
-API Documentation
------------------
-
-Once running, access:
-
-- Swagger UI: http://localhost:8000/docs
-- ReDoc: http://localhost:8000/redoc
-
-Project Structure
------------------
-
-::
-
-  LMPF/
-  ├── app/
-  │   ├── main.py
-  │   └── requirements.txt
-  ├── Dockerfile
-  └── README.rst
+(Add your deployment instructions here.)
 
 Contributing
 ------------
@@ -77,3 +84,8 @@ License
 -------
 
 MIT License. See ``LICENSE`` for details.
+
+Contact
+-------
+
+For questions, please open an issue or contact the maintainer.
