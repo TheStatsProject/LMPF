@@ -25,3 +25,19 @@ async def get_market_items():
     for item in items:
         item["_id"] = str(item["_id"])
     return {"items": items}
+
+@app.get("/", include_in_schema=False)
+async def root():
+    return RedirectResponse(url="/docs/source/index.rst")
+
+@app.get("/register", response_class=HTMLResponse, include_in_schema=False)
+async def register():
+    return "<h1>Register Page (TODO: Implement registration form)</h1>"
+
+@app.get("/login", response_class=HTMLResponse, include_in_schema=False)
+async def login():
+    return "<h1>Login Page (TODO: Implement login form)</h1>"
+
+@app.get("/subscribe", response_class=HTMLResponse, include_in_schema=False)
+async def subscribe():
+    return "<h1>Subscribe Page (TODO: Implement subscription form)</h1>"
