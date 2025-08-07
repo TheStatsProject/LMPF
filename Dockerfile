@@ -8,11 +8,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends curl && rm -rf 
 # Copy only pyproject.toml for dependency caching
 COPY pyproject.toml ./
 
-# Install Flit and your production dependencies
-RUN pip install --no-cache-dir --upgrade pip && \
-    pip install flit && \
-    flit install --deps production
-
 # Copy the backend code (everything from app/) into the container workdir
 COPY app/ ./
 
