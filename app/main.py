@@ -1,115 +1,103 @@
-from fastapi import FastAPI, Form, Request
-from fastapi.responses import RedirectResponse, HTMLResponse
+from fastapi import FastAPI, Request
+from fastapi.responses import RedirectResponse, HTMLResponse, FileResponse
 from fastapi.templating import Jinja2Templates
-from app.database import users_col, subs_col
-from app.utils import hash_password, verify_password
-
-app = FastAPI(
-    title="Labor Market & Population Forecaster",
-    description="API Toolkit for Labor Market and Population Forecasting.",
-    version="0.1.0"
-)
-
-templates = Jinja2Templates(directory="app/templates")
-
-@app.get("/", include_in_schema=False)
-async def root():
-    return RedirectResponse(url="/docs")
-
-@app.get("/register", response_class=HTMLResponse, include_in_schema=False)
-async def register_form(request: Request):
-    return templates.TemplateResponse("register.html", {"request": request, "error": None})
-
-@app.post("/register", response_class=HTMLResponse, include_in_schema=False)
-async def register_submit(
-    request: Request,
-    username: str = Form(...),
-    password: str = Form(...),
-    confirm_password: str = Form(...)
-):
-    error = None
-    if users_col.find_one({"username": username}):
-        error = "Username already exists. Please choose another."
-    elif len(password) < 8:
-        error = "Password must be at least 8 characters."
-    elif password != confirm_password:
-        error = "Passwords do not match."
-    if error:
-        return templates.TemplateResponse("register.html", {"request": request, "error": error})
-    hashed_pw = hash_password(password)
-    users_col.insert_one({"username": username, "password": hashed_pw})
-    return RedirectResponse("/login", status_code=302)
-
-@app.get("/login", response_class=HTMLResponse, include_in_schema=False)
-async def login_form(request: Request):
-    return templates.TemplateResponse("login.html", {"request": request, "error": None})
-
-@app.post("/login", response_class=HTMLResponse, include_in_schema=False)
-async def login_submit(request: Request, username: str = Form(...), password: str = Form(...)):
-    user = users_col.find_one({"username": username})
-    error = None
-    if not user:
-        error = "User not found."
-    elif not verify_password(password, user["password"]):
-        error = "Invalid password."
-    if error:
-        return templates.TemplateResponse("login.html", {"request": request, "error": error})
-    # Could set session here if you add session middleware later
-    return templates.TemplateResponse("profile.html", {"request": request, "username": username, "payment_status": user.get("payment_status")})
-
-@app.get("/subscribe", response_class=HTMLResponse, include_in_schema=False)
-async def subscribe_form(request: Request):
-    return templates.TemplateResponse("subscribe.html", {"request": request})
-
-@app.post("/subscribe", response_class=HTMLResponse, include_in_schema=False)
-async def subscribe_submit(
-    request: Request,
-    plan: str = Form(...),
-    payment_method: str = Form(...),
-    payment_details: str = Form(...)
-):
-    # You could check for duplicate subscriptions if you wish
-    subs_col.insert_one({
-        "plan": plan,
-        "payment_method": payment_method,
-        "payment_details": payment_details
-    })
-    return templates.TemplateResponse("payment.html", {"request": request})
-
-# Add other routes (profile, payment, etc.) as needed!
-
-from fastapi import FastAPI
 from starlette.middleware.sessions import SessionMiddleware
+from fastapi.staticfiles import StaticFiles
+import os
+
 from app.config import SECRET_KEY
 from app.routes import auth, subscription, payment
-# new articles router
 from app.routes.articles import router as articles_router
-from fastapi.staticfiles import StaticFiles
-from fastapi.responses import RedirectResponse, HTMLResponse
-from fastapi.templating import Jinja2Templates
-from fastapi import Request
 
+# Create app
 app = FastAPI(
     title="Labor Market & Population Forecaster",
     description="API Toolkit for Labor Market and Population Forecasting.",
-    version="0.1.0"
+    version="0.1.0",
 )
 
-# Session middleware (SESSION_SECRET_KEY must be set in .env)
-app.add_middleware(SessionMiddleware, secret_key=SECRET_KEY)
+# Session middleware — make sure SESSION_SECRET_KEY is set in .env
+# Configure secure options (https_only True recommended in production)
+app.add_middleware(
+    SessionMiddleware,
+    secret_key=SECRET_KEY,
+    session_cookie="lmpf_session",
+    max_age=60 * 60 * 24 * 30,  # 30 days
+    https_only=False,  # set to True in production
+    same_site="lax",
+)
 
-# Include routers
+# Mount static folders (templates will reference files under /static if needed)
+# Ensure these directories exist in your repo: app/static and docs/build/html (if you pre-build Sphinx)
+app.mount("/static", StaticFiles(directory=os.path.join(os.path.dirname(__file__), "static")), name="static")
+
+# Optional: if you build Sphinx locally and want to serve pre-built HTML
+# mount the built docs directory at /prebuilt-docs (do not expose in production without careful checks)
+prebuilt_docs_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "docs", "build", "html"))
+if os.path.isdir(prebuilt_docs_path):
+    app.mount("/prebuilt-docs", StaticFiles(directory=prebuilt_docs_path), name="prebuilt-docs")
+
+# Register routers (auth must be included so login/register routes use sessions)
 app.include_router(auth.router, prefix="")
 app.include_router(subscription.router, prefix="")
 app.include_router(payment.router, prefix="")
 app.include_router(articles_router, prefix="")
 
-templates = Jinja2Templates(directory="app/templates")
+# Templates
+templates = Jinja2Templates(directory=os.path.join(os.path.dirname(__file__), "templates"))
 
 @app.get("/", include_in_schema=False)
 async def root():
-    # Provide a lightweight index / link to docs or articles
+    """
+    Root landing: redirect to RTD-style docs (/docs) or to a lightweight index.
+    Change to a custom index if you prefer.
+    """
     return RedirectResponse(url="/docs")
 
-# Keep existing register/login/register routes defined in auth/main; if you used previous
-# main handlers remove duplicates to avoid conflicts.
+# Small convenience route: serve a pre-built Sphinx article behind the same session+subscription checks.
+# This is optional; you can rely on the articles router that converts .rst -> HTML on the fly.
+from app.database import users_col, subs_col
+from fastapi import Depends
+from typing import Optional
+from fastapi.responses import Response
+
+def _user_from_session(request: Request) -> Optional[str]:
+    return request.session.get("user")
+
+def _user_is_subscribed(username: Optional[str]) -> bool:
+    if not username:
+        return False
+    sub = subs_col.find_one({"username": username})
+    if sub and sub.get("payment_status") == "completed":
+        return True
+    u = users_col.find_one({"username": username})
+    if u and u.get("payment_status") == "completed":
+        return True
+    return False
+
+@app.get("/prebuilt-article/{slug}", response_class=Response, include_in_schema=False)
+async def prebuilt_article(request: Request, slug: str):
+    """
+    Serve docs/build/html/en/latest/<slug>.html behind login & subscription.
+    Useful if your .rst depend on Sphinx processing / extensions.
+    """
+    username = _user_from_session(request)
+    if not username:
+        return RedirectResponse("/login", status_code=302)
+    if not _user_is_subscribed(username):
+        return RedirectResponse("/subscribe", status_code=302)
+
+    # Map slug to filename variants and check existence
+    candidates = [
+        f"{slug}.html",
+        f"{slug.lower()}.html",
+        f"{slug.replace('-', '_')}.html",
+        f"{slug.replace('-', '')}.html",
+    ]
+    base = os.path.join(prebuilt_docs_path, "en", "latest") if os.path.isdir(os.path.join(prebuilt_docs_path, "en", "latest")) else prebuilt_docs_path
+    for candidate in candidates:
+        path = os.path.join(base, candidate)
+        if os.path.isfile(path):
+            return FileResponse(path, media_type="text/html")
+
+    return Response(status_code=404, content=f"Prebuilt article '{slug}' not found.")
