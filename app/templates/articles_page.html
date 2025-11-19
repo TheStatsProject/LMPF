@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ title }} — The Truth Project</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+      /* Minimal styling so the article looks decent without additional CSS */
+      body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height:1.6; margin: 1.25rem; }
+      header nav { margin-bottom: 1rem; }
+      .article-wrapper { max-width: 900px; margin: 0 auto; }
+      .article-meta { margin-bottom: 1rem; color: #444; font-size: 0.95rem; }
+      .article-content img { max-width: 100%; height: auto; }
+      .subscription-warning { background: #fffbe6; border: 1px solid #f0e68c; padding: 0.5rem; border-radius: 6px; margin-bottom: 1rem;}
+    </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/">Home</a> |
+      <a href="/profile">Profile</a> |
+      <a href="/logout">Logout</a>
+    </nav>
+  </header>
+
+  <main class="article-wrapper">
+    <div class="article-meta">
+      {% if username %}Signed in as <strong>{{ username }}</strong>.{% endif %}
+    </div>
+
+    <article class="article-content">
+      {{ content | safe }}
+    </article>
+  </main>
+</body>
+</html>
