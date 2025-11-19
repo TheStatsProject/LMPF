@@ -1,0 +1,33 @@
+{%- extends "!layout.html" -%}
+
+{%- block extrahead -%}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ pathto('_static/subscribe.css', 1) }}">
+{%- endblock -%}
+
+{%- block body -%}
+  {{ super() }}
+
+  <!-- Subscription modal -->
+  <div id="subscribe-modal" class="subscribe-modal" role="dialog" aria-labelledby="subscribe-title" aria-modal="true" hidden>
+    <div class="subscribe-modal__backdrop"></div>
+    <div class="subscribe-modal__panel" role="document">
+      <button id="subscribe-close" class="subscribe-modal__close" aria-label="Close">×</button>
+      <h2 id="subscribe-title">Enjoying this article?</h2>
+      <p>Get updates by email — we’ll send new articles and important updates.</p>
+
+      <!-- REPLACE this form with your Mailchimp/ConvertKit embed snippet -->
+      <form id="subscribe-form" class="subscribe-form" action="https://your-mail-service-post-url" method="post" target="_blank" novalidate>
+        <label for="subscribe-email" class="visually-hidden">Email</label>
+        <input id="subscribe-email" name="EMAIL" type="email" placeholder="you@example.com" required>
+        <button type="submit">Subscribe</button>
+      </form>
+
+      <div class="subscribe-note">
+        Or <a id="subscribe-dismiss" href="#">continue to the page</a> without subscribing.
+      </div>
+    </div>
+  </div>
+
+  <script src="{{ pathto('_static/subscribe.js', 1) }}"></script>
+{%- endblock -%}
